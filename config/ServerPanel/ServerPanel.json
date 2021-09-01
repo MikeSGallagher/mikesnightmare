@@ -1,0 +1,44 @@
+{
+    "SERVERNAME": "Welcome on Mike's Nightmare V2 server !! - Hosted By Nitrado",
+    "BUTTON1NAME": "DISCORD",
+    "BUTTON1LINK": "https://discord.gg/rapDA3YgSa",
+    "BUTTON2NAME": "",
+    "BUTTON2LINK": "",
+    "BUTTON3NAME": "",
+    "BUTTON3LINK": "",
+    "BUTTONTAB0NAME": "Welcome",
+    "BUTTONTAB1NAME": "Mods",
+    "BUTTONTAB2NAME": "Admins",
+    "BUTTONTAB3NAME": "Vehicle Keys",
+    "DISPLAYPLAYERINFO": 1,
+    "DISPLAYPLAYERTAB": 1,
+    "sServerTab0": [
+        "Welcome! This is a fun heavlily Modded server.",
+        "The whole concecpt of this server is PVE, (Player",
+		"Versus Enviornment) Lots of Zombies on this server!",
+		"You are also given unlimtied ammo on this server as well.",
+		"",
+		"Traders are located at Green Mountain, Balota Airfield, and",
+		"Kumraya Village.",
+		"",
+		"Please Change your ingame name to other than Survivor thank you."
+    ],
+    "sServerTab1": [
+        "There are so far 60 Mods on this server.",
+		"For More information about a mod, please refer to the mod list when you joined.",
+		"Respectfully look up a mod on Steamworkshop for more detailed info",
+		"about it's functionality. Thank you for playing here today!"
+       
+    ],
+    "sServerTab2": [
+        "SmashFlash - Server Owner",
+		"Viper Vic - Server Admin"
+    ],
+    "sServerTab3": [
+        "NOT ALL VEHILCES COME WIITH A KEY!",
+		"ALL Helicopters and Land Rovers need to have a key purchaed for them",
+		"at the trader. Put the key in your hand walk up to the vehicle and",
+		"assign that key you bought to that vehicle via the popup.",
+		"DON'T LOOSE YOUR KEY! IT WILL NOT BE REPLACED!"
+    ]
+}

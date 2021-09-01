@@ -1,0 +1,16 @@
+{
+    "PlayerID": "76561198410981317",
+    "PlayerName": "Demonik rain",
+    "KRPlayerPoints": -80,
+    "PlayerDeaths": 1,
+    "Stats": [
+        {
+            "Name": "ZombieKill",
+            "Stat": 0
+        },
+        {
+            "Name": "PlayerKill",
+            "Stat": 0
+        }
+    ]
+}

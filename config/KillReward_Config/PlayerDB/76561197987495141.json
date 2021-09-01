@@ -1,0 +1,16 @@
+{
+    "PlayerID": "76561197987495141",
+    "PlayerName": "SmashFlash",
+    "KRPlayerPoints": 6385,
+    "PlayerDeaths": 0,
+    "Stats": [
+        {
+            "Name": "ZombieKill",
+            "Stat": 637
+        },
+        {
+            "Name": "WolfKills",
+            "Stat": 3
+        }
+    ]
+}

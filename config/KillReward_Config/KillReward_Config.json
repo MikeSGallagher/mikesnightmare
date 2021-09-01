@@ -1,0 +1,490 @@
+{
+    "KillRewardBASE": {
+        "ZombieGlobalMessage": 1,
+        "PlayerGlobalMessage": 1,
+        "MessageSystem": 2,
+        "PointLoseByDeath": 500,
+        "PVPVE": 0
+    },
+    "KillRewardNEGATIVE": {
+        "PlayerKillNegativeReward": 0,
+        "PlayerKill": 0,
+        "Pointlose": 100,
+        "LoseMoney": 1000,
+        "PlayerKillNegativeRewardBonusQuantity": 15,
+        "PlayerKillNegativeRewardBonus": [
+            "Animal_UrsusArctos",
+            "Animal_CanisLupus_White",
+            "ZmbF_CitizenANormal_Brown",
+            "ZmbF_CitizenBSkinny",
+            "ZmbF_Clerk_Normal_White",
+            "ZmbF_DoctorSkinny",
+            "ZmbF_JoggerSkinny_Blue",
+            "ZmbF_JournalistNormal_Red",
+            "ZmbF_NurseFat",
+            "ZmbF_ParamedicNormal_Red",
+            "ZmbF_PatientOld",
+            "ZmbF_PoliceWomanNormal",
+            "ZmbF_ShortSkirt_black",
+            "ZmbF_ShortSkirt_red",
+            "ZmbF_ShortSkirt_yellow",
+            "ZmbF_SkaterYoung_Violet",
+            "ZmbM_CitizenASkinny_Red",
+            "ZmbM_CitizenBFat_Blue",
+            "ZmbM_ClerkFat_Brown",
+            "ZmbM_CommercialPilotOld_Olive",
+            "ZmbM_DoctorFat",
+            "ZmbM_JacketNormal_greenchecks",
+            "ZmbM_Jacket_stripes",
+            "ZmbM_JoggerSkinny_Blue",
+            "ZmbM_ParamedicNormal_Red",
+            "ZmbM_PatientSkinny",
+            "ZmbM_PatrolNormal_Autumn",
+            "ZmbM_PolicemanFat",
+            "ZmbM_PolicemanSpecForce",
+            "ZmbM_PrisonerSkinny",
+            "ZmbM_SkaterYoung_Grey"
+        ]
+    },
+    "KillRewardGIFT": {
+        "PlayerGift": 1,
+        "GiftLifetime": 5,
+        "Giftbox": [
+            "GiftBox_Medium_2",
+            "GiftBox_Medium_3"
+        ],
+        "Giftdrink": [
+            "SodaCan_Cola",
+            "SodaCan_Kvass",
+            "SodaCan_Pipsi",
+            "SodaCan_Spite",
+            "Canteen",
+            "WaterBottle"
+        ],
+        "Gifteat": [
+            "BakedBeansCan",
+            "TacticalBaconCan",
+            "Apple",
+            "BoxCerealCrunchin",
+            "CaninaBerry",
+            "Canteen",
+            "GreenBellPepper",
+            "Pear",
+            "Plum",
+            "Potato",
+            "PowderedMilk",
+            "Pumpkin",
+            "Rice",
+            "SambucusBerry",
+            "SpaghettiCan_Opened",
+            "Tomato",
+            "TunaCan_Opened",
+            "Zucchini"
+        ],
+        "Gifttools": [
+            "Battery9V",
+            "CanOpener",
+            "ChernarusMap",
+            "Compass",
+            "Flashlight",
+            "Hacksaw",
+            "Hammer",
+            "Hatchet",
+            "HuntingKnife",
+            "LeatherSewingKit",
+            "Matchbox",
+            "Pickaxe",
+            "Rangefinder",
+            "Roadflare",
+            "Screwdriver",
+            "Whetstone"
+        ],
+        "Giftmedical": [
+            "BandageDressing",
+            "Epinephrine",
+            "Heatpack",
+            "Morphine",
+            "PainkillerTablets",
+            "PurificationTablets",
+            "Rag",
+            "TetracyclineAntibiotics",
+            "VitaminBottle"
+        ]
+    },
+    "KillRewardZOMBIE": {
+        "ZombieKillReward": 1,
+        "ZombieKillPoints": 10,
+        "ZombieKills": [
+            5,
+            15,
+            35,
+            50,
+            75,
+            100
+        ],
+        "ZombieMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "ZombieWeaponBox": [
+            50,
+            75,
+            100
+        ],
+        "ZombieWeaponBoxNumber": [
+            2,
+            2,
+            3
+        ]
+    },
+    "KillRewardPLAYER": {
+        "PlayerKillReward": 1,
+        "PlayerKillPoints": 100,
+        "PlayerKills": [
+            5,
+            15,
+            35,
+            50,
+            75,
+            100
+        ],
+        "PlayerMoney": [
+            500,
+            1500,
+            2500,
+            5000,
+            7500,
+            10000
+        ],
+        "PlayerWeaponBox": [
+            50,
+            75,
+            100
+        ],
+        "PlayerWeaponBoxNumber": [
+            1,
+            2,
+            3
+        ]
+    },
+    "KillRewardHUNTING": {
+        "HuntingReward": 1,
+        "WolfPoints": 5,
+        "WolfKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "WolfMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "BearPoints": 5,
+        "BearKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "BearMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "StagPoints": 5,
+        "StagKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "StagMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "HindPoints": 5,
+        "HindKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "HindMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "RoebuckPoints": 5,
+        "RoebuckKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "RoebuckMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "DoePoints": 5,
+        "DoeKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "DoeMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "Wild_BoarPoints": 5,
+        "Wild_BoarKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "Wild_BoarMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "PigPoints": 5,
+        "PigKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "PigMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "RamPoints": 5,
+        "RamKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "RamMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "EwePoints": 5,
+        "EweKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "EweMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "billy_goatPoints": 5,
+        "billy_goatKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "billy_goatMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "goatPoints": 5,
+        "goatKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "goatMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "BullPoints": 5,
+        "BullKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "BullMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "CowPoints": 5,
+        "CowKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "CowMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "RoosterPoints": 5,
+        "RoosterKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "RoosterMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ],
+        "HenPoints": 5,
+        "HenKills": [
+            5,
+            15,
+            25,
+            50,
+            75,
+            100
+        ],
+        "HenMoney": [
+            50,
+            150,
+            250,
+            500,
+            750,
+            1000
+        ]
+    },
+    "KillRewardSHOOTDISTANCE": {
+        "SHOOTReward": 1,
+        "PlayerSHOOTDISTANCE": 500.0
+    },
+    "KillRewardWEAPONBOX": [
+        {
+            "BoxNumber": 1,
+            "Box": "WoodenCrate",
+            "BoxWeapon": "M4A1",
+            "BoxWeaponBayonet": "",
+            "BoxWeaponButtstock": "M4_MPBttstck_Black",
+            "BoxWeaponHandguard": "M4_RISHndgrd_Black",
+            "BoxWeaponsuppressor": "",
+            "BoxWeaponSight": "ACOGOptic",
+            "BoxWeaponMagazin": "Mag_STANAG_30Rnd",
+            "BoxMagazinQuantity": 5,
+            "BoxBonus": [
+                "WeaponCleaningKit",
+                "WeaponCleaningKit",
+                "WeaponCleaningKit"
+            ]
+        },
+        {
+            "BoxNumber": 2,
+            "Box": "WoodenCrate",
+            "BoxWeapon": "M4A1",
+            "BoxWeaponBayonet": "",
+            "BoxWeaponButtstock": "M4_MPBttstck_Black",
+            "BoxWeaponHandguard": "M4_RISHndgrd_Black",
+            "BoxWeaponsuppressor": "",
+            "BoxWeaponSight": "ACOGOptic",
+            "BoxWeaponMagazin": "Mag_STANAG_30Rnd",
+            "BoxMagazinQuantity": 5,
+            "BoxBonus": [
+                "WeaponCleaningKit",
+                "WeaponCleaningKit",
+                "WeaponCleaningKit"
+            ]
+        }
+    ],
+    "version": 8
+}

@@ -1,0 +1,23 @@
+{
+    "m_ClanID": "6ogYSAZ8IzYavQ9c",
+    "m_OwnersPlainID": "76561197987495141",
+    "m_ClanName": "Admin",
+    "m_Prefix": "Adm",
+    "m_BankAmount": 100000,
+    "m_Members": [
+        {
+            "m_plainID": "76561197987495141",
+            "m_playername": "SmashFlash",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        }
+    ],
+    "m_ClanLogs": [
+        "SmashFlash deposited: 100000"
+    ]
+}
