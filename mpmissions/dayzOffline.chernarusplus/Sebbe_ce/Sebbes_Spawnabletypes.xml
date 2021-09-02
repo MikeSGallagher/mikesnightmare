@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <spawnabletypes>
-	<!-- Machineguns -->
-	
 	<type name="Sebbes_M249">
 		<attachments chance="0.10">
 			<item name="Mag_M249_Box200Rnd" chance="1.00" />
@@ -18,9 +16,6 @@
 			<item name="Sebbes_WaltherMRS_Optic" chance="0.20" />
 		</attachments>
 	</type>
-	
-	<!-- FireArms -->
-	
 	<type name="Sebbes_AlphaAK105">
         <attachments chance="1.00">
             <item name="M4_CQBBttstck" chance="0.20" />
@@ -41,7 +36,6 @@
             <item name="AK_Suppressor" chance="0.50" />
         </attachments>
     </type>
-	
 	<type name="Sebbes_VZ58">
         <attachments chance="0.30">
             <item name="vz58_mag_30rnd" chance="1.00" />
@@ -55,7 +49,6 @@
             <item name="AK_Suppressor" chance="0.50" />
         </attachments>
     </type>
-	
 	<type name="Sebbes_PKP">
         <attachments chance="0.30">
             <item name="Mag_PKM_Box200Rnd" chance="1.00" />
@@ -256,9 +249,6 @@
 			<item name="Mag_RPK74_45Rnd" chance="1" />
 		</attachments>
 	</type>
-	
-	<!-- Pistols -->
-	
 	<type name="Sebbes_M9A3">
 		<attachments chance="0.05">
 			<item name="PistolSuppressor" chance="1.00" />
@@ -283,9 +273,6 @@
 			<item name="Mag_MP433_17Rnd" chance="1.00" />
 		</attachments>
 	</type>
-	
-	<!-- Snipers -->
-	
 	<type name="Sebbes_SR25_Black">
 		<attachments chance="1.00">
 			<item name="Sebbes_SR25_Suppressor_Black" chance="1.00" />
@@ -399,9 +386,6 @@
 			<item name="Mag_SV98_10rnd" chance="1" />
 		</attachments>
 	</type>
-	
-	<!-- Shotguns -->
-	
 	<type name="Sebbes_M590A1">
 		<attachments chance="0.20">
 			<item name="BUISOptic" chance="0.15" />
