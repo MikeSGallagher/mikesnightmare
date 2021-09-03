@@ -13,14 +13,26 @@ void SpawnObject( string type, vector position, vector orientation )
 void main()
 {
 	//INIT WEATHER BEFORE ECONOMY INIT------------------------
-	Weather weather = g_Game.GetWeather();
+    Weather weather = g_Game.GetWeather();
+    weather.MissionWeather(true);
+    weather.GetOvercast().SetLimits(0.2, 0.5);
+    weather.GetRain().SetLimits(0.2, 0.5);
+    weather.GetFog().SetLimits(0.0, 0.25);
 
-	weather.MissionWeather(false);    // false = use weather controller from Weather.c
+    weather.GetOvercast().SetForecastChangeLimits(0.2, 0.5);
+    weather.GetRain().SetForecastChangeLimits(0.2, 0.5);
+    weather.GetFog().SetForecastChangeLimits(0.15, 0.45);
 
-	weather.GetOvercast().Set( Math.RandomFloatInclusive(0.4, 0.6), 1, 0);
-	weather.GetRain().Set( 0, 0, 1);
-	weather.GetFog().Set( Math.RandomFloatInclusive(0.05, 0.1), 1, 0);
+    weather.GetOvercast().SetForecastTimeLimits(1800, 1800);
+    weather.GetRain().SetForecastTimeLimits(600, 600);
+    weather.GetFog().SetForecastTimeLimits(1800, 1800);
 
+    weather.GetOvercast().Set(Math.RandomFloatInclusive(0.5, 1.0), 0, 0);
+    weather.GetRain().Set(Math.RandomFloatInclusive(0.0, 0.2), 0, 0);
+    weather.GetFog().Set(Math.RandomFloatInclusive(0.0, 0.1), 0, 0);
+
+    weather.SetWindMaximumSpeed(40);
+    weather.SetWindFunctionParams(15, 40, 50);
 
 //Custom Spawn Objects
 	SpawnObject("KR_ATMGreen", "3706.7 402.012 5984.86", "90 0 0"); //Green Mountain ATM 1

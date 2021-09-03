@@ -20,6 +20,9 @@
 		"",
 		"Traders are located at Green Mountain, Balota Airfield, and",
 		"Kumraya Village.",
+		"DO NOT PARK IN FRONT OF THE TRADER!",
+		"YOUR VEHICLES WILL BE DELETED IF PARKING CONTINUES THERE",
+		"PARK DOWN THE ROAD AND WALK UP TO THE TRADER PLEASE AND THANK YOU!",
 		"",
 		"Please Change your ingame name to other than Survivor thank you."
     ],
@@ -32,7 +35,8 @@
     ],
     "sServerTab2": [
         "SmashFlash - Server Owner",
-		"Viper Vic - Server Admin"
+		"Viper Vic - Server Admin",
+		"JkRadar - Server Admin"
     ],
     "sServerTab3": [
         "NOT ALL VEHILCES COME WIITH A KEY!",

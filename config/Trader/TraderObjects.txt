@@ -206,6 +206,10 @@
 <ObjectPosition>	3698.21,	402.012,	6003.26
 <ObjectOrientation>	0,			0,			0
 
+<Object>			BarrelHoles_Red			
+<ObjectPosition>	4567.223633, 233.236298, 4526.875488			
+<ObjectOrientation>	0,			0,			0
+					
 // Kumyrna:
 
 <Object> 			SurvivorM_Niki
