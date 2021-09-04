@@ -12,28 +12,7 @@ void SpawnObject( string type, vector position, vector orientation )
 
 void main()
 {
-	//INIT WEATHER BEFORE ECONOMY INIT------------------------
-    Weather weather = g_Game.GetWeather();
-    weather.MissionWeather(true);
-    weather.GetOvercast().SetLimits(0.2, 0.5);
-    weather.GetRain().SetLimits(0.2, 0.5);
-    weather.GetFog().SetLimits(0.0, 0.25);
-
-    weather.GetOvercast().SetForecastChangeLimits(0.2, 0.5);
-    weather.GetRain().SetForecastChangeLimits(0.2, 0.5);
-    weather.GetFog().SetForecastChangeLimits(0.15, 0.45);
-
-    weather.GetOvercast().SetForecastTimeLimits(1800, 1800);
-    weather.GetRain().SetForecastTimeLimits(600, 600);
-    weather.GetFog().SetForecastTimeLimits(1800, 1800);
-
-    weather.GetOvercast().Set(Math.RandomFloatInclusive(0.5, 1.0), 0, 0);
-    weather.GetRain().Set(Math.RandomFloatInclusive(0.0, 0.2), 0, 0);
-    weather.GetFog().Set(Math.RandomFloatInclusive(0.0, 0.1), 0, 0);
-
-    weather.SetWindMaximumSpeed(40);
-    weather.SetWindFunctionParams(15, 40, 50);
-
+	
 //Custom Spawn Objects
 	SpawnObject("KR_ATMGreen", "3706.7 402.012 5984.86", "90 0 0"); //Green Mountain ATM 1
 	SpawnObject("KR_ATMYellow", "3704.7 402.332 6003.1", "275 0 0"); //Green Mountain ATM 2
@@ -44,10 +23,31 @@ void main()
 	Hive ce = CreateHive();
 	if ( ce )
 		ce.InitOffline();
+	
+	//INIT WEATHER AFTER ECONOMY INIT------------------------
+		Weather weather = g_Game.GetWeather();
 
+		weather.MissionWeather(true);    // false = use weather controller from Weather.c
+
+		weather.GetOvercast().SetLimits( 0.0 , 0.9 );
+		weather.GetRain().SetLimits( 0.0 , 0.0 );
+		weather.GetFog().SetLimits( 0.0 , 0.1 );
+	
+		weather.GetOvercast().Set( Math.RandomFloatInclusive(0.02, 0.9), 1, 0);
+		//weather.GetRain().Set( 0, 0, 0);
+		weather.GetRain().Set( Math.RandomFloatInclusive(0.0, 0.1), 1, 0);
+		weather.GetFog().Set( Math.RandomFloatInclusive(0.0, 0.1), 1, 0);
+
+		weather.GetOvercast().SetForecastTimeLimits( 1800 , 1800 );
+		weather.GetRain().SetForecastTimeLimits( 600 , 600 );
+		weather.GetFog().SetForecastTimeLimits( 600 , 600 );
+		
+		weather.SetWindMaximumSpeed( 20 );
+		weather.SetWindFunctionParams( 0, 0, 1 );
+		
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
-	int reset_month = 9, reset_day = 20;
+	int reset_month = 7, reset_day = 20;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
 
 	if ((month == reset_month) && (day < reset_day))
