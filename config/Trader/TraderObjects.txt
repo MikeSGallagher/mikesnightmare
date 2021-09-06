@@ -207,7 +207,7 @@
 <ObjectOrientation>	0,			0,			0
 
 <Object>			BarrelHoles_Red			
-<ObjectPosition>	4567.223633, 233.236298, 4526.875488			
+<ObjectPosition>	4561.182617, 233.048599, 4517.283691			
 <ObjectOrientation>	0,			0,			0
 					
 // Kumyrna:
