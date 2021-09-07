@@ -216,6 +216,7 @@
 		SheepPelt,                                                             *,                   -1,                  2000
 		MouflonPelt,                                                           *,                   -1,                  2500
 		FoxPelt,                                                               *,                   -1,                  5000
+		bearhead_mung,                                                         *,                   -1,                  10000
 	<Category>Money Exchange
 		MoneyRuble1,                                                           1,                   1,                   -1
 		MoneyRuble5,                                                           1,                   5,                   -1
