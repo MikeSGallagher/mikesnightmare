@@ -3,7 +3,7 @@
     "g_BBPDisableCraftVanillaWatchtower": 0,
     "g_BBPRequireLandClaim": 0,
     "g_BBPLandClaimBlockDismantle": 0,
-    "g_BBPLandClaimRadius": 30,
+    "g_BBPLandClaimRadius": 80,
     "g_BBPAdminLandClaimRadius": 100,
     "g_BBPFloatingPlacement": 0,
     "g_BBPAdvanceRotation": 0,

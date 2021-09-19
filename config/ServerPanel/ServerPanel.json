@@ -2,10 +2,10 @@
     "SERVERNAME": "Welcome on Mike's Nightmare V2 server !! - Hosted By Nitrado",
     "BUTTON1NAME": "DISCORD",
     "BUTTON1LINK": "https://discord.gg/rapDA3YgSa",
-    "BUTTON2NAME": "",
-    "BUTTON2LINK": "",
-    "BUTTON3NAME": "",
-    "BUTTON3LINK": "",
+    "BUTTON2NAME": "DONATIONS",
+    "BUTTON2LINK": "https://www.gtxgaming.co.uk/clientarea/index.php?m=public_pay&hash_id=7XNomweMDQ8y",
+    "BUTTON3NAME": "WEBSITE",
+    "BUTTON3LINK": "https://mikenightmare.com",
     "BUTTONTAB0NAME": "Welcome",
     "BUTTONTAB1NAME": "Mods",
     "BUTTONTAB2NAME": "Admins",
@@ -36,7 +36,9 @@
     "sServerTab2": [
         "SmashFlash - Server Owner",
 		"Viper Vic - Server Admin",
-		"JkRadar - Server Admin"
+		"JkRadar - Server Admin",
+		"",
+		"If you like our server please feel free to donate to keep it going"
     ],
     "sServerTab3": [
         "NOT ALL VEHILCES COME WIITH A KEY!",

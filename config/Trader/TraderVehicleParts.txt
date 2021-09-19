@@ -244,516 +244,6 @@
 	Truck_01_WheelDouble
 	Truck_01_WheelDouble
 
-<VehicleParts>Helipolice_SIB4
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBPolice_Door_1_1
-SIBPolice_Door_1_2
-SIBPolice_Door_2_1
-SIBPolice_Door_2_2
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>Helipolice_swat_SIB5
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBPolice_Door_1_1_swat
-SIBPolice_Door_1_2_swat
-SIBPolice_Door_2_1_swat
-SIBPolice_Door_2_2_swat
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>Helipolice_admin
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBPolice_Door_1_1_admin
-SIBPolice_Door_1_2_admin
-SIBPolice_Door_2_1_admin
-SIBPolice_Door_2_2_admin
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>Helipolice_admin_camo
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBPolice_Door_1_1_admin_camo
-SIBPolice_Door_1_2_admin_camo
-SIBPolice_Door_2_1_admin_camo
-SIBPolice_Door_2_2_admin_camo
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>Helipolice_admin_green
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBPolice_Door_1_1_admin_green
-SIBPolice_Door_1_2_admin_green
-SIBPolice_Door_2_1_admin_green
-SIBPolice_Door_2_2_admin_green
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>Helipolice_flames
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBPolice_Door_1_1_flames
-SIBPolice_Door_1_2_flames
-SIBPolice_Door_2_1_flames
-SIBPolice_Door_2_2_flames
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>Helipolice_green
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBPolice_Door_1_1_green
-SIBPolice_Door_1_2_green
-SIBPolice_Door_2_1_green
-SIBPolice_Door_2_2_green
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>Helipolice_raid
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBPolice_Door_1_1_raid
-SIBPolice_Door_1_2_raid
-SIBPolice_Door_2_1_raid
-SIBPolice_Door_2_2_raid
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>Helipolice_urban
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBPolice_Door_1_1_urban
-SIBPolice_Door_1_2_urban
-SIBPolice_Door_2_1_urban
-SIBPolice_Door_2_2_urban
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>Police_BIORust
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-Police_BIORust_Door_1_1_urban
-Police_BIORust_Door_1_2_urban
-Police_BIORust_Door_2_1_urban
-Police_BIORust_Door_2_2_urban
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>HeliSIB_UH1D
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBUH1D_Door_1_1
-SIBUH1D_Door_1_2
-SIBUH1D_Door_2_1
-SIBUH1D_Door_2_2
-SIBUH1D_blade1
-SIBUH1D_blade2
-SIBUH1D_bladem1
-SIBUH1D_bladem2
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>HeliSIB_UH1D_airforce
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBUH1D_Door_1_1_airforce
-SIBUH1D_Door_1_2_airforce
-SIBUH1D_Door_2_1_airforce
-SIBUH1D_Door_2_2_airforce
-SIBUH1D_blade1
-SIBUH1D_blade2
-SIBUH1D_bladem1
-SIBUH1D_bladem2
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>HeliSIB_UH1D_iron
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBUH1D_Door_1_1_iron
-SIBUH1D_Door_1_2_iron
-SIBUH1D_Door_2_1_iron
-SIBUH1D_Door_2_2_iron
-SIBUH1D_blade1
-SIBUH1D_blade2
-SIBUH1D_bladem1
-SIBUH1D_bladem2
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>HeliSIB_UH1D_navy
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBUH1D_Door_1_1_navy
-SIBUH1D_Door_1_2_navy
-SIBUH1D_Door_2_1_navy
-SIBUH1D_Door_2_2_navy
-SIBUH1D_blade1
-SIBUH1D_blade2
-SIBUH1D_bladem1
-SIBUH1D_bladem2
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>HeliSIB_UH1D_camo
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBUH1D_Door_1_1_camo
-SIBUH1D_Door_1_2_camo
-SIBUH1D_Door_2_1_camo
-SIBUH1D_Door_2_2_camo
-SIBUH1D_blade1
-SIBUH1D_blade2
-SIBUH1D_bladem1
-SIBUH1D_bladem2
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>HeliSIB_UH1D_taxi
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBUH1D_Door_1_1_taxi
-SIBUH1D_Door_1_2_taxi
-SIBUH1D_Door_2_1_taxi
-SIBUH1D_Door_2_2_taxi
-SIBUH1D_blade1
-SIBUH1D_blade2
-SIBUH1D_bladem1
-SIBUH1D_bladem2
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>HeliSIB_UH1D_medic
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBUH1D_Door_1_1_medic
-SIBUH1D_Door_1_2_medic
-SIBUH1D_Door_2_1_medic
-SIBUH1D_Door_2_2_medic
-SIBUH1D_blade1
-SIBUH1D_blade2
-SIBUH1D_bladem1
-SIBUH1D_bladem2
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>Heliblack_hawk_SIB
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBblack_hawk_Door_1_1
-SIBblack_hawk_Door_1_2
-SIBblack_hawk_Door_2_1
-SIBblack_hawk_Door_2_2
-SIBblack_hawk_blade1
-SIBblack_hawk_blade2
-SIBblack_hawk_blade3
-SIBblack_hawk_blade4
-SIBblack_hawk_bladem1
-SIBblack_hawk_bladem2
-SIBblack_hawk_bladem3
-SIBblack_hawk_bladem4
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>Heliblack_hawk_SIB_camo
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBblack_hawk_Door_1_1_camo
-SIBblack_hawk_Door_1_2_camo
-SIBblack_hawk_Door_2_1_camo
-SIBblack_hawk_Door_2_2_camo
-SIBblack_hawk_blade1
-SIBblack_hawk_blade2
-SIBblack_hawk_blade3
-SIBblack_hawk_blade4
-SIBblack_hawk_bladem1
-SIBblack_hawk_bladem2
-SIBblack_hawk_bladem3
-SIBblack_hawk_bladem4
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>Heliblack_hawk_SIB_BlueCamo
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBblack_hawk_Door_1_1_BlueCamo
-SIBblack_hawk_Door_1_2_BlueCamo
-SIBblack_hawk_Door_2_1_BlueCamo
-SIBblack_hawk_Door_2_2_BlueCamo
-SIBblack_hawk_blade1
-SIBblack_hawk_blade2
-SIBblack_hawk_blade3
-SIBblack_hawk_blade4
-SIBblack_hawk_bladem1
-SIBblack_hawk_bladem2
-SIBblack_hawk_bladem3
-SIBblack_hawk_bladem4
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>Heliblack_hawk_SIB_camo2
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBblack_hawk_Door_1_1_camo2
-SIBblack_hawk_Door_1_2_camo2
-SIBblack_hawk_Door_2_1_camo2
-SIBblack_hawk_Door_2_2_camo2
-SIBblack_hawk_blade1
-SIBblack_hawk_blade2
-SIBblack_hawk_blade3
-SIBblack_hawk_blade4
-SIBblack_hawk_bladem1
-SIBblack_hawk_bladem2
-SIBblack_hawk_bladem3
-SIBblack_hawk_bladem4
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>Heliblack_hawk_SIB_desert
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-SIBblack_hawk_Door_1_1_desert
-SIBblack_hawk_Door_1_2_desert
-SIBblack_hawk_Door_2_1_desert
-SIBblack_hawk_Door_2_2_desert
-SIBblack_hawk_blade1
-SIBblack_hawk_blade2
-SIBblack_hawk_blade3
-SIBblack_hawk_blade4
-SIBblack_hawk_bladem1
-SIBblack_hawk_bladem2
-SIBblack_hawk_bladem3
-SIBblack_hawk_bladem4
-CarBattery
-HeadlightH7
-HeadlightH7
-
-<VehicleParts>Heli_apache_black
-apache_blade1
-apache_blade2
-apache_blade3
-apache_blade4
-apache_bladem1
-apache_bladem2
-apache_bladem3
-apache_bladem4
-apache_Door_1_1_black
-apache_Door_2_1_black
-CarBattery
-
-<VehicleParts>Heli_apache_camo
-apache_blade1
-apache_blade2
-apache_blade3
-apache_blade4
-apache_bladem1
-apache_bladem2
-apache_bladem3
-apache_bladem4
-apache_Door_1_1_camo
-apache_Door_2_1_camo
-CarBattery
-
-<VehicleParts>Heli_apache_camo_desert
-apache_blade1
-apache_blade2
-apache_blade3
-apache_blade4
-apache_bladem1
-apache_bladem2
-apache_bladem3
-apache_bladem4
-apache_Door_1_1_camo_desert
-apache_Door_2_1_camo_desert
-CarBattery
-
-<VehicleParts>Heli_apache_green
-apache_blade1
-apache_blade2
-apache_blade3
-apache_blade4
-apache_bladem1
-apache_bladem2
-apache_bladem3
-apache_bladem4
-apache_Door_1_1_green
-apache_Door_2_1_green
-CarBattery
-
-<VehicleParts>Heli_chinook_RF
-RFchinook_blade1
-RFchinook_blade2
-RFchinook_blade3
-RFchinook_rear_blade1
-RFchinook_rear_blade2
-RFchinook_rear_blade3
-RFchinook_Door_1_1
-RFchinook_Door_1_2
-RFchinook_Door_2_2
-CarBattery
-
-<VehicleParts>Heli_chinook_RF_black
-RFchinook_blade1
-RFchinook_blade2
-RFchinook_blade3
-RFchinook_rear_blade1
-RFchinook_rear_blade2
-RFchinook_rear_blade3
-RFchinook_Door_1_1_black
-RFchinook_Door_1_2_black
-RFchinook_Door_2_2_black
-CarBattery
-
-<VehicleParts>Heli_chinook_RF_bloody
-RFchinook_blade1
-RFchinook_blade2
-RFchinook_blade3
-RFchinook_rear_blade1
-RFchinook_rear_blade2
-RFchinook_rear_blade3
-RFchinook_Door_1_1_bloody
-RFchinook_Door_1_2_bloody
-RFchinook_Door_2_2_bloody
-CarBattery
-
-<VehicleParts>Heli_chinook_RF_camo
-RFchinook_blade1
-RFchinook_blade2
-RFchinook_blade3
-RFchinook_rear_blade1
-RFchinook_rear_blade2
-RFchinook_rear_blade3
-RFchinook_Door_1_1_camo
-RFchinook_Door_1_2_camo
-RFchinook_Door_2_2_camo
-CarBattery
-
-<VehicleParts>Heli_chinook_RF_civ
-RFchinook_blade1
-RFchinook_blade2
-RFchinook_blade3
-RFchinook_rear_blade1
-RFchinook_rear_blade2
-RFchinook_rear_blade3
-RFchinook_Door_1_1_civ
-RFchinook_Door_1_2_civ
-RFchinook_Door_2_2_civ
-CarBattery
-
-<VehicleParts>Heli_chinook_RF_UK
-RFchinook_blade1
-RFchinook_blade2
-RFchinook_blade3
-RFchinook_rear_blade1
-RFchinook_rear_blade2
-RFchinook_rear_blade3
-RFchinook_Door_1_1_UK
-RFchinook_Door_1_2_UK
-RFchinook_Door_2_2_UK
-CarBattery
-
-<VehicleParts>Heli_chinook_RF_USA
-RFchinook_blade1
-RFchinook_blade2
-RFchinook_blade3
-RFchinook_rear_blade1
-RFchinook_rear_blade2
-RFchinook_rear_blade3
-RFchinook_Door_1_1_USA
-RFchinook_Door_1_2_USA
-RFchinook_Door_2_2_USA
-CarBattery
-
-<VehicleParts>Helilittle_bird_RF
-RFlittle_bird_blade1
-RFlittle_bird_blade2
-RFlittle_bird_blade3
-RFlittle_bird_blade4
-RFlittle_bird_blade5
-RFlittle_bird_bladem1
-RFlittle_bird_bladem3
-CarBattery
-
-<VehicleParts>Helilittle_bird_RF_camo
-RFlittle_bird_blade1
-RFlittle_bird_blade2
-RFlittle_bird_blade3
-RFlittle_bird_blade4
-RFlittle_bird_blade5
-RFlittle_bird_bladem1
-RFlittle_bird_bladem3
-CarBattery
-
 <VehicleParts> rag_hummer_Armored
 	SparkPlug
 	CarBattery
@@ -900,6 +390,315 @@ CarBattery
 	Shovel
 	FirstAidKit
 	CanisterGasoline
+	
+<VehicleParts> rag_landrover_110
+	SparkPlug
+	CarBattery
+	CarRadiator
+	HeadlightH7
+	HeadlightH7
+	rag_landrover_110_driverdoor
+	rag_landrover_110_codriverdoor
+	rag_landrover_110_hood
+	rag_landrover_110_cargo1
+	rag_landrover_110_cargo2
+	rag_landrover_110_cargo3
+	rag_landrover_110_wheel
+	rag_landrover_110_wheel
+	rag_landrover_110_wheel
+	rag_landrover_110_wheel
+	rag_landrover_110_wheel
+	SeaChest
+	WoodenCrate
+	WoodenCrate
+	WoodenCrate
+	CanisterGasoline
+	PersonalRadio
+	
+<VehicleParts> rag_landrover_110_olive
+	SparkPlug
+	CarBattery
+	CarRadiator
+	HeadlightH7
+	HeadlightH7
+	rag_landrover_110_driverdoor_olive
+	rag_landrover_110_codriverdoor_olive
+	rag_landrover_110_hood_olive
+	rag_landrover_110_cargo1_olive
+	rag_landrover_110_cargo2_olive
+	rag_landrover_110_cargo3_olive
+	rag_landrover_110_wheel_olive
+	rag_landrover_110_wheel_olive
+	rag_landrover_110_wheel_olive
+	rag_landrover_110_wheel_olive
+	rag_landrover_110_wheel_olive
+	SeaChest
+	WoodenCrate
+	WoodenCrate
+	WoodenCrate
+	CanisterGasoline
+	PersonalRadio
+	
+<VehicleParts> rag_landrover_110_grey
+	SparkPlug
+	CarBattery
+	CarRadiator
+	HeadlightH7
+	HeadlightH7
+	rag_landrover_110_driverdoor_grey
+	rag_landrover_110_codriverdoor_grey
+	rag_landrover_110_hood_grey
+	rag_landrover_110_cargo1_grey
+	rag_landrover_110_cargo2_grey
+	rag_landrover_110_cargo3_grey
+	rag_landrover_110_wheel_grey
+	rag_landrover_110_wheel_grey
+	rag_landrover_110_wheel_grey
+	rag_landrover_110_wheel_grey
+	rag_landrover_110_wheel_grey
+	SeaChest
+	WoodenCrate
+	WoodenCrate
+	WoodenCrate
+	CanisterGasoline
+	PersonalRadio
+	
+<VehicleParts> rag_landrover_110_red
+	SparkPlug
+	CarBattery
+	CarRadiator
+	HeadlightH7
+	HeadlightH7
+	rag_landrover_110_driverdoor_red
+	rag_landrover_110_codriverdoor_red
+	rag_landrover_110_hood_red
+	rag_landrover_110_cargo1_red
+	rag_landrover_110_cargo2_red
+	rag_landrover_110_cargo3_red
+	rag_landrover_110_wheel_red
+	rag_landrover_110_wheel_red
+	rag_landrover_110_wheel_red
+	rag_landrover_110_wheel_red
+	rag_landrover_110_wheel_red
+	SeaChest
+	WoodenCrate
+	WoodenCrate
+	WoodenCrate
+	CanisterGasoline
+	PersonalRadio
+	
+<VehicleParts> rag_landrover_110_un
+	SparkPlug
+	CarBattery
+	CarRadiator
+	HeadlightH7
+	HeadlightH7
+	rag_landrover_110_driverdoor_un
+	rag_landrover_110_codriverdoor_un
+	rag_landrover_110_hood_un
+	rag_landrover_110_cargo1_un
+	rag_landrover_110_cargo2_un
+	rag_landrover_110_cargo3_un
+	rag_landrover_110_wheel_un
+	rag_landrover_110_wheel_un
+	rag_landrover_110_wheel_un
+	rag_landrover_110_wheel_un
+	rag_landrover_110_wheel_un
+	SeaChest
+	WoodenCrate
+	WoodenCrate
+	WoodenCrate
+	CanisterGasoline
+	PersonalRadio
+	
+<VehicleParts> Helipolice_SIB4
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+SIBPolice_Door_1_1
+SIBPolice_Door_1_2
+SIBPolice_Door_2_1
+SIBPolice_Door_2_2
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Helipolice_swat_SIB5
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+SIBPolice_Door_1_1_swat
+SIBPolice_Door_1_2_swat
+SIBPolice_Door_2_1_swat
+SIBPolice_Door_2_2_swat
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> HeliSIB_UH1D
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+SIBUH1D_Door_1_1
+SIBUH1D_Door_1_2
+SIBUH1D_Door_2_1
+SIBUH1D_Door_2_2
+SIBUH1D_blade1
+SIBUH1D_blade2
+SIBUH1D_bladem1
+SIBUH1D_bladem2
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> HeliSIB_UH1D_airforce
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+SIBUH1D_Door_1_1_airforce
+SIBUH1D_Door_1_2_airforce
+SIBUH1D_Door_2_1_airforce
+SIBUH1D_Door_2_2_airforce
+SIBUH1D_blade1
+SIBUH1D_blade2
+SIBUH1D_bladem1
+SIBUH1D_bladem2
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> HeliSIB_UH1D_iron
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+SIBUH1D_Door_1_1_iron
+SIBUH1D_Door_1_2_iron
+SIBUH1D_Door_2_1_iron
+SIBUH1D_Door_2_2_iron
+SIBUH1D_blade1
+SIBUH1D_blade2
+SIBUH1D_bladem1
+SIBUH1D_bladem2
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> HeliSIB_UH1D_navy
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+SIBUH1D_Door_1_1_navy
+SIBUH1D_Door_1_2_navy
+SIBUH1D_Door_2_1_navy
+SIBUH1D_Door_2_2_navy
+SIBUH1D_blade1
+SIBUH1D_blade2
+SIBUH1D_bladem1
+SIBUH1D_bladem2
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> HeliSIB_UH1D_Camo
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+SIBUH1D_Door_1_1_camo
+SIBUH1D_Door_1_2_camo
+SIBUH1D_Door_2_1_camo
+SIBUH1D_Door_2_2_camo
+SIBUH1D_blade1
+SIBUH1D_blade2
+SIBUH1D_bladem1
+SIBUH1D_bladem2
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Heliblack_hawk_SIB
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+SIBblack_hawk_Door_1_1
+SIBblack_hawk_Door_1_2
+SIBblack_hawk_Door_2_1
+SIBblack_hawk_Door_2_2
+SIBblack_hawk_blade1
+SIBblack_hawk_blade2
+SIBblack_hawk_blade3
+SIBblack_hawk_blade4
+SIBblack_hawk_bladem1
+SIBblack_hawk_bladem2
+SIBblack_hawk_bladem3
+SIBblack_hawk_bladem4
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Heliblack_hawk_SIB_camo
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+SIBblack_hawk_Door_1_1_camo
+SIBblack_hawk_Door_1_2_camo
+SIBblack_hawk_Door_2_1_camo
+SIBblack_hawk_Door_2_2_camo
+SIBblack_hawk_blade1
+SIBblack_hawk_blade2
+SIBblack_hawk_blade3
+SIBblack_hawk_blade4
+SIBblack_hawk_bladem1
+SIBblack_hawk_bladem2
+SIBblack_hawk_bladem3
+SIBblack_hawk_bladem4
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Helichinook_RF
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+RFchinook_Door_1_1
+RFchinook_Door_1_2
+RFchinook_Door_2_2
+RFchinook_blade1
+RFchinook_blade2
+RFchinook_blade3
+RFchinook_rear_blade1
+RFchinook_rear_blade2
+RFchinook_rear_blade3
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Helichinook_RF_Black
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+RFchinook_Door_1_1_Black
+RFchinook_Door_1_2_Black
+RFchinook_Door_2_2_Black
+RFchinook_blade1
+RFchinook_blade2
+RFchinook_blade3
+RFchinook_rear_blade1
+RFchinook_rear_blade2
+RFchinook_rear_blade3
+CarBattery
+HeadlightH7
+HeadlightH7
 
 //<OpenFile> FileName.txt			// Links to another File; Must be right above <FileEnd>!
 <FileEnd>							// This has to be on the End of this File and is very importand!

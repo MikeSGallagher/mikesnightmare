@@ -1,0 +1,24 @@
+{
+    "PlayerID": "76561198016558916",
+    "GUID": "",
+    "Stats": [
+        {
+            "Name": "heroSucide",
+            "Stat": 7
+        },
+        {
+            "Name": "ZombieKill",
+            "Stat": 3
+        }
+    ],
+    "Affinities": [
+        {
+            "Name": "hero",
+            "Points": 10015.0
+        },
+        {
+            "Name": "bandit",
+            "Points": 700.0
+        }
+    ]
+}

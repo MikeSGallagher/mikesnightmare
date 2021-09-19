@@ -70,6 +70,12 @@
 		SpaghettiCan,                                                          *,                   5,                   2
 		BakedBeansCan,                                                         *,                   5,                   2
 		TacticalBaconCan,                                                      *,                   5,                   3
+		wonderbread_mung,                                                      *,                   100,                 50
+		sandwich_mung,                                                         *,                   100,                 50
+		vinegar_mung,                                                          *,                   100,                 50
+		ketchup_mung,                                                          *,                   100,                 50
+		Vesuri_mung,                                                           *,                   100,                 50
+		pickles_closed,                                                        *,                   100,                 50
 	<Category>Meat
 		ChickenBreastMeat,                                                     S,                   2,                   1
 		GoatSteakMeat,                                                         S,                   3,                   1
@@ -166,6 +172,7 @@
 		PainkillerTablets,                                                     *,                   10,                  6
 		Epinephrine,                                                           *,                   20,                  10
 		Morphine,                                                              *,                   25,                  15
+		IodineTincture,                                                        *,                   250,                 150
 	<Category>Mass's ManyItemOverhaul Food
 		MassMeth,                                                              *,                   1000,                500
 		MassMRE4,                                                              *,                   1000,                500
@@ -250,6 +257,11 @@
 		Binoculars,                                                            *,                   30,                  15
 		FishingRod,                                                            *,                   60,                  25
 		MassBinocs,                                                            *,                   100,                 50
+		Clawhammer_mung,                                                       *,                   200,                 100
+		oillamp_mung,                                                          *,                   200,                 100
+		Zippo_new,                                                             *,                   100,                 50
+		maglite_mung,                                                          *,                   600,                 300
+		Airam_mung,                                                            *,                   400,                 200
 	<Category>Tools (big)
 		LugWrench,                                                             *,                   4,                   1
 		Crowbar,                                                               *,                   5,                   3
@@ -260,6 +272,8 @@
 		WoodAxe,                                                               *,                   20,                  8
 		WoodAxe_mung,                                                          *,                   20,                  8
 		FirefighterAxe,                                                        *,                   30,                  12
+		shovel_Mung,                                                           *,                   400,                 200
+		Scythe_Mung,                                                           *,                   200,                 100
 	<Category>Electronics
 		Battery9V,                                                             *,                   8,                   3
 		PersonalRadio,                                                         *,                   10,                  5
@@ -284,6 +298,7 @@
 		Headtorch_Black,                                                       *,                   40,                  20
 		Headtorch_Grey,                                                        *,                   40,                  20
 		Spotlight,                                                             *,                   600,                 200
+		ballgrill_mung,                                                        *,                   300,                 150
 	<Category>Cooking & Hunting Supplies
 		PurificationTablets,                                                   *,                   5,                   2
 		Pot,                                                                   M,                   25,                  10
@@ -338,6 +353,10 @@
 		Msp_MilitaryCrate_Grey,                                                *,                   3000,                1500
 		Msp_MilitaryCrate_Olive,                                               *,                   3000,                1500
 		Msp_MilitaryCrate_Tan,                                                 *,                   3000,                1500
+		hardigg_Mung,                                                          *,                   1500,                750
+		hardigg2_Mung,                                                         *,                   1500,                750
+		gunwall_kit_mung,                                                      *,                   1000,                400
+		gunwall_metal_kit_mung,                                                *,                   1000,                400
 	<Category>Seeds & Lime
 		TomatoSeedsPack,                                                       *,                   4,                   1
 		PepperSeedsPack,                                                       *,                   4,                   1
@@ -702,6 +721,8 @@
 		NailedBaseballBat,                                                     W,                   45,                  20
 		baseballbatsaw_mung,                                                   W,                   150,                 75
 		Msp_BaseballBat,                                                       W,                   500,                 250
+		katana_Mung,                                                           *,                   500,                 250
+		bowieknife_mung,                                                       *,                   200,                 100
 	<Category>Sidearms
 		Flaregun,                                                              W,                   80,                  40
 		MakarovIJ70,                                                           W,                   100,                 50
@@ -714,6 +735,7 @@
 		Mass357M1911,                                                          W,                   1500,                750
 		lebedev_PL15_mung,                                                     W,                   1000,                500
 		CZ75,                                                                  W,                   1000,                500
+		Nagant1895_mung,                                                       W,                   1000,                500
 	<Category>Rifles
 		Izh18,                                                                 W,                   350,                 175
 		Mosin9130,                                                             W,                   400,                 200
@@ -773,11 +795,12 @@
 		KOD_MBR_DesertCamo,                                                    W,                   1000,                500
 		KOD_MBR_WoodlandCamo,                                                  W,                   1000,                500
 		Ruger1022,                                                             W,                   750,                 250
+		Gewehr43_mung,                                                         *,                   1200,                600
 	<Category>Shotguns
 		Mp133Shotgun,                                                          W,                   500,                 250
 		Izh43Shotgun,                                                          W,                   900,                 400
 		Saiga,                                                                 W,                   1500,                600
-		csmcmillan_mung,                                                       *,                   1000,                500
+		csmcmillan_mung,                                                       W,                   1000,                500
 		Izh54_sawnoff_mung,                                                    W,                   1500,                750
 	<Category>Submachine Guns
 		CZ61,                                                                  W,                   700,                 300
@@ -805,17 +828,18 @@
 		B95,                                                                   W,                   1700,                1100
 		SVD,                                                                   W,                   2000,                1200
 	<Category>Grenades
-		RGD5Grenade,                                                           1,                   300,                 100
-		M67Grenade,                                                            1,                   300,                 100
-		M18SmokeGrenade_Red,                                                   1,                   300,                 100
-		M18SmokeGrenade_Green,                                                 1,                   300,                 100
-		M18SmokeGrenade_Yellow,                                                1,                   300,                 100
-		M18SmokeGrenade_Purple,                                                1,                   300,                 100
-		M18SmokeGrenade_White,                                                 1,                   300,                 100
-		RDG2SmokeGrenade_Black,                                                1,                   300,                 100
-		RDG2SmokeGrenade_White,                                                1,                   300,                 100
-		FlashGrenade,                                                          1,                   300,                 100
-		LandMineTrap,                                                          1,                   300,                 100
+		RGD5Grenade,                                                           *,                   300,                 100
+		M67Grenade,                                                            *,                   300,                 100
+		M18SmokeGrenade_Red,                                                   *,                   300,                 100
+		M18SmokeGrenade_Green,                                                 *,                   300,                 100
+		M18SmokeGrenade_Yellow,                                                *,                   300,                 100
+		M18SmokeGrenade_Purple,                                                *,                   300,                 100
+		M18SmokeGrenade_White,                                                 *,                   300,                 100
+		RDG2SmokeGrenade_Black,                                                *,                   300,                 100
+		RDG2SmokeGrenade_White,                                                *,                   300,                 100
+		FlashGrenade,                                                          *,                   300,                 100
+		LandMineTrap,                                                          *,                   300,                 100
+		stielhandgranate_mung,                                                 *,                   800,                 400
 	<Category>Mass's ManyItemOverhaul Weapons
 		Mass357M1911,                                                          W,                   1000,                500
 		MassG18,                                                               W,                   1000,                500
@@ -1261,6 +1285,8 @@
 		Sebbes_VEPR,                                                           W,                   1500,                1000
 		Sebbes_AlphaAK105,                                                     W,                   1500,                1000
 		Sebbes_AlphaAK105_camo,                                                W,                   1500,                1000
+		Sebbes_IMIUZI,                                                         W,                   1500,                1000
+		Sebbes_GalilSAR,                                                       W,                   1500,                1000
 	<Category>Sebbes Pistols
 		Sebbes_M9A3,                                                           W,                   1500,                1000
 		Sebbes_SigSauerP226,                                                   W,                   1500,                1000
@@ -1448,6 +1474,7 @@
 		Mag_KOD_Drum308_50Rnd,                                                 M,                   5,                   1
 		Mag_Glock_30Rnd,                                                       M,                   500,                 250
 		Mag_Glock_50Rnd,                                                       M,                   1000,                500
+		Mag_gewehr43_10Rnd_mung,                                               *,                   400,                 200
 	<Category>Handguards
 		MP5_PlasticHndgrd,                                                     *,                   100,                 50
 		MP5_RailHndgrd,                                                        *,                   150,                 75
@@ -1501,6 +1528,8 @@
 		MLOK_Buttstock_Green,                                                  *,                   500,                 250
 		MLOK_Buttstock_Tan,                                                    *,                   500,                 250
 		MLOK_Buttstock_White,                                                  *,                   500,                 250
+		zenitco_pt3_buttstock,                                                 *,                   200,                 100
+		MassAR15AdjBttstck,                                                    *,                   750,                 500
 	<Category>Optics
 		M4_CarryHandleOptic,                                                   *,                   150,                 60
 		BUISOptic,                                                             *,                   150,                 60
@@ -1794,68 +1823,14 @@
 		bandana_mung,                                                          *,                   100,                 50
 		guitar_mung,                                                           *,                   200,                 100
 		teddyhead_mung,                                                        *,                   200,                 100
-		ballgrill_mung,                                                        *,                   300,                 150
-		bowieknife_mung,                                                       *,                   200,                 100
-		zenitco_pt3_buttstock,                                                 *,                   200,                 100
-		hardigg_Mung,                                                          *,                   1500,                750
-		hardigg2_Mung,                                                         *,                   1500,                750
-		stielhandgranate_mung,                                                 *,                   800,                 400
-		oxygentankrig_mung,                                                    *,                   500,                 250
-		shovel_Mung,                                                           *,                   400,                 200
 		RollingPapers_Jest,                                                    *,                   100,                 50
-		hannibal_mask_mung,                                                    *,                   100,                 50
 		joint_mung,                                                            *,                   100,                 50
 		cigarette_mung,                                                        *,                   100,                 50
 		cigar_mung,                                                            *,                   100,                 50
-		vinegar_mung,                                                          *,                   100,                 50
-		ketchup_mung,                                                          *,                   100,                 50
-		Vesuri_mung,                                                           *,                   100,                 50
 		brain_Mung,                                                            *,                   100,                 50
 		sherlockpipe_mung,                                                     *,                   100,                 50
-		Clawhammer_mung,                                                       *,                   200,                 100
-		mag3_gasmask_mung,                                                     *,                   400,                 200
-		pickles_closed,                                                        *,                   100,                 50
-		Zippo_new,                                                             *,                   100,                 50
-		fannypack_pink_mung,                                                   *,                   200,                 100
-		fannypack_black_mung,                                                  *,                   200,                 100
-		fannypack_camo_mung,                                                   *,                   300,                 100
-		fannypack_multi_mung,                                                  *,                   300,                 100
-		Hikingbagmung_white,                                                   *,                   500,                 250
-		Hikingbagmung_yellow,                                                  *,                   500,                 250
-		Hikingbagmung_red,                                                     *,                   500,                 250
-		Hikingbagmung_blue,                                                    *,                   500,                 250
-		Hikingbagmung_green,                                                   *,                   500,                 250
-		Hikingbagmung_black,                                                   *,                   600,                 300
-		Hikingbagmung_camo,                                                    *,                   600,                 300
-		Hikingbagmung_pink,                                                    *,                   600,                 300
-		katana_Mung,                                                           *,                   500,                 250
-		Lennon_glasses_pink_mung,                                              *,                   200,                 100
-		Lennon_glasses_galaxy_mung,                                            *,                   200,                 100
-		Lennon_glasses_black_mung,                                             *,                   200,                 100
-		Lennon_glasses_blue_mung,                                              *,                   200,                 100
-		Lennon_glasses_yellow_mung,                                            *,                   200,                 100
-		Lennon_glasses_white_mung,                                             *,                   200,                 100
-		m52helmet_mung,                                                        *,                   400,                 200
-		maglite_mung,                                                          *,                   600,                 300
-		Airam_mung,                                                            *,                   400,                 200
-		oillamp_mung,                                                          *,                   200,                 100
 		SAK_Mung,                                                              *,                   300,                 150
-		sandwich_mung,                                                         *,                   100,                 50
-		Scythe_Mung,                                                           *,                   200,                 100
-		simplebackpack_blue_mung,                                              *,                   800,                 400
-		simplebackpack_camoblack_mung,                                         *,                   800,                 400
-		simplebackpack_green_mung,                                             *,                   800,                 400
-		simplebackpack_redpink_mung,                                           *,                   800,                 400
-		simplebackpack_redyellow_mung,                                         *,                   800,                 400
-		stalker_gasmask_white_mung,                                            *,                   500,                 250
-		stalker_gasmask_black_mung,                                            *,                   500,                 250
-		wonderbread_mung,                                                      *,                   100,                 50
-		Nagant1895_mung,                                                       *,                   1000,                500
-		Gewehr43_mung,                                                         *,                   1200,                600
-		Mag_gewehr43_10Rnd_mung,                                               *,                   400,                 200
 		makeshifttent_mung,                                                    *,                   1000,                500
-		gunwall_kit_mung,                                                      *,                   1000,                400
-		gunwall_metal_kit_mung,                                                *,                   1000,                400
 		sleepingbag_blue_mung,                                                 *,                   1000,                500
 		sleepingbag_yellow_mung,                                               *,                   1000,                500
 		sleepingbag_red_mung,                                                  *,                   1000,                500
@@ -2372,6 +2347,12 @@
 		AviatorGlasses,                                                        *,                   40,                  20
 		TacticalGoggles,                                                       *,                   60,                  30
 		NVGHeadstrap,                                                          *,                   200,                 120
+		Lennon_glasses_pink_mung,                                              *,                   200,                 100
+		Lennon_glasses_galaxy_mung,                                            *,                   200,                 100
+		Lennon_glasses_black_mung,                                             *,                   200,                 100
+		Lennon_glasses_blue_mung,                                              *,                   200,                 100
+		Lennon_glasses_yellow_mung,                                            *,                   200,                 100
+		Lennon_glasses_white_mung,                                             *,                   200,                 100
 	<Category>Armbands
 		Armband_Pink,                                                          *,                   15,                  5
 		Armband_Yellow,                                                        *,                   15,                  5
@@ -2520,6 +2501,7 @@
 		BallisticHelmet_Black,                                                 *,                   300,                 100
 		BallisticHelmet_Green,                                                 *,                   350,                 110
 		MassFedora_Yellow,                                                     *,                   350,                 150
+		m52helmet_mung,                                                        *,                   400,                 200
 	<Category>Masks
 		SurgicalMask,                                                          *,                   15,                  3
 		BandanaMask_PolkaPattern,                                              *,                   25,                  6
@@ -2538,6 +2520,10 @@
 		Balaclava3Holes_Green,                                                 *,                   60,                  15
 		WeldingMask,                                                           *,                   70,                  20
 		GP5GasMask,                                                            *,                   120,                 40
+		stalker_gasmask_white_mung,                                            *,                   500,                 250
+		stalker_gasmask_black_mung,                                            *,                   500,                 250
+		mag3_gasmask_mung,                                                     *,                   400,                 200
+		hannibal_mask_mung,                                                    *,                   100,                 50
 	<Category>Shirts
 		TShirt_OrangeWhiteStripes,                                             *,                   8,                   2
 		TShirt_RedBlackStripes,                                                *,                   8,                   2
@@ -2905,6 +2891,24 @@
 		bag_6B38_LETO_mung,                                                    *,                   4000,                2000
 		bag_6B38_Black_mung,                                                   *,                   4000,                2000
 		bag_6B38_Snow_mung,                                                    *,                   4000,                2000
+		fannypack_pink_mung,                                                   *,                   200,                 100
+		fannypack_black_mung,                                                  *,                   200,                 100
+		fannypack_camo_mung,                                                   *,                   300,                 100
+		fannypack_multi_mung,                                                  *,                   300,                 100
+		Hikingbagmung_white,                                                   *,                   500,                 250
+		Hikingbagmung_yellow,                                                  *,                   500,                 250
+		Hikingbagmung_red,                                                     *,                   500,                 250
+		Hikingbagmung_blue,                                                    *,                   500,                 250
+		Hikingbagmung_green,                                                   *,                   500,                 250
+		Hikingbagmung_black,                                                   *,                   600,                 300
+		Hikingbagmung_camo,                                                    *,                   600,                 300
+		Hikingbagmung_pink,                                                    *,                   600,                 300
+		simplebackpack_blue_mung,                                              *,                   800,                 400
+		simplebackpack_camoblack_mung,                                         *,                   800,                 400
+		simplebackpack_green_mung,                                             *,                   800,                 400
+		simplebackpack_redpink_mung,                                           *,                   800,                 400
+		simplebackpack_redyellow_mung,                                         *,                   800,                 400
+		oxygentankrig_mung,                                                    *,                   500,                 250
 	<Category>MVS Pouches & Chestrigs
 		MVS_Combat_Vest_OD,                                                    *,                   100,                 50
 		MVS_Combat_Vest_Tan,                                                   *,                   100,                 50
@@ -4324,6 +4328,11 @@
 		rag_hummer_pink_Armored,                                               VNK,                 400000,              150000
 		rag_hummer_winter_Armored,                                             VNK,                 400000,              150000
 		rag_hummer_anarchy_Armored,                                            VNK,                 450000,              150000
+		rag_landrover_110,                                                     VNK,                 400000,              150000
+		rag_landrover_110_olive,                                               VNK,                 400000,              150000
+		rag_landrover_110_grey,                                                VNK,                 400000,              150000
+		rag_landrover_110_red,                                                 VNK,                 400000,              150000
+		rag_landrover_110_un,                                                  VNK,                 400000,              150000
 	<Category>Vehicle Parts
 		HeadlightH7_Box,                                                       *,                   30,                  15
 		SparkPlug,                                                             *,                   60,                  40
@@ -4522,6 +4531,41 @@
 		rag_hummer_Trunk_anarchy,                                              *,                   2500,                1000
 		rag_hummer_Trunk_winter,                                               *,                   2500,                1000
 		rag_hummer_wheel,                                                      *,                   2500,                1000
+		rag_landrover_110_driverdoor,                                          *,                   2500,                1000
+		rag_landrover_110_codriverdoor,                                        *,                   2500,                1000
+		rag_landrover_110_hood,                                                *,                   2500,                1000
+		rag_landrover_110_cargo1,                                              *,                   2500,                1000
+		rag_landrover_110_cargo2,                                              *,                   2500,                1000
+		rag_landrover_110_cargo3,                                              *,                   2500,                1000
+		rag_landrover_110_driverdoor_olive,                                    *,                   2500,                1000
+		rag_landrover_110_codriverdoor_olive,                                  *,                   2500,                1000
+		rag_landrover_110_hood_olive,                                          *,                   2500,                1000
+		rag_landrover_110_cargo1_olive,                                        *,                   2500,                1000
+		rag_landrover_110_cargo2_olive,                                        *,                   2500,                1000
+		rag_landrover_110_cargo3_olive,                                        *,                   2500,                1000
+		rag_landrover_110_driverdoor_grey,                                     *,                   2500,                1000
+		rag_landrover_110_codriverdoor_grey,                                   *,                   2500,                1000
+		rag_landrover_110_hood_grey,                                           *,                   2500,                1000
+		rag_landrover_110_cargo1_grey,                                         *,                   2500,                1000
+		rag_landrover_110_cargo2_grey,                                         *,                   2500,                1000
+		rag_landrover_110_cargo3_grey,                                         *,                   2500,                1000
+		rag_landrover_110_driverdoor_red,                                      *,                   2500,                1000
+		rag_landrover_110_codriverdoor_red,                                    *,                   2500,                1000
+		rag_landrover_110_hood_red,                                            *,                   2500,                1000
+		rag_landrover_110_cargo1_red,                                          *,                   2500,                1000
+		rag_landrover_110_cargo2_red,                                          *,                   2500,                1000
+		rag_landrover_110_cargo3_red,                                          *,                   2500,                1000
+		rag_landrover_110_driverdoor_un,                                       *,                   2500,                1000
+		rag_landrover_110_codriverdoor_un,                                     *,                   2500,                1000
+		rag_landrover_110_hood_un,                                             *,                   2500,                1000
+		rag_landrover_110_cargo1_un,                                           *,                   2500,                1000
+		rag_landrover_110_cargo2_un,                                           *,                   2500,                1000
+		rag_landrover_110_cargo3_un,                                           *,                   2500,                1000
+		rag_landrover_110_wheel,                                               *,                   2500,                1000
+		rag_landrover_110_wheel_olive,                                         *,                   2500,                1000
+		rag_landrover_110_wheel_grey,                                          *,                   2500,                1000
+		rag_landrover_110_wheel_red,                                           *,                   2500,                1000
+		rag_landrover_110_wheel_un,                                            *,                   2500,                1000
 	<Category>Keys
 		MCK_CarKey_Base,                                                       *,                   5000,                -1
 		MCK_CarKey_Blue,                                                       *,                   5000,                -1
@@ -4553,39 +4597,17 @@
 		VehicleKeyLost,                                                        KL,                  -1,                  -1				// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
 <Trader>Helicopter Trader // ID=6
 	<Category>Helicopters
-		Helipolice_SIB4,                                                       VNK,                 100000,              75000
-		Helipolice_swat_SIB5,                                                  VNK,                 100000,              75000
-		Helipolice_flames,                                                     VNK,                 100000,              75000
-		Helipolice_green,                                                      VNK,                 100000,              75000
-		Helipolice_raid,                                                       VNK,                 100000,              75000
-		Helipolice_urban,                                                      VNK,                 100000,              75000
-		Police_BIORust,                                                        VNK,                 100000,              75000
-		HeliSIB_UH1D,                                                          VNK,                 100000,              75000
-		HeliSIB_UH1D_airforce,                                                 VNK,                 100000,              75000
-		HeliSIB_UH1D_iron,                                                     VNK,                 100000,              75000
-		HeliSIB_UH1D_navy,                                                     VNK,                 100000,              75000
-		HeliSIB_UH1D_camo,                                                     VNK,                 100000,              75000
-		HeliSIB_UH1D_taxi,                                                     VNK,                 100000,              75000
-		HeliSIB_UH1D_medic,                                                    VNK,                 100000,              75000
-		Heliblack_hawk_SIB,                                                    VNK,                 100000,              75000
-		Heliblack_hawk_SIB_camo,                                               VNK,                 100000,              75000
-		Heliblack_hawk_SIB_BlueCamo,                                           VNK,                 100000,              75000
-		Heliblack_hawk_SIB_camo2,                                              VNK,                 100000,              75000
-		Heliblack_hawk_SIB_desert,                                             VNK,                 100000,              75000
-		Heli_apache,                                                           VNK,                 100000,              75000
-		Heli_apache_camo,                                                      VNK,                 100000,              75000
-		Heli_apache_camo_desert,                                               VNK,                 100000,              75000
-		Helicopter_apache_black,                                               VNK,                 100000,              75000
-		Helicopter_apache_green,                                               VNK,                 1000000,             750000
-		Helichinook_RF,                                                        VNK,                 1000000,             750000
-		Helichinook_RF_black,                                                  VNK,                 1000000,             750000
-		Helichinook_RF_bloody,                                                 VNK,                 1000000,             750000
-		Helichinook_RF_camo,                                                   VNK,                 1000000,             750000
-		Helichinook_RF_civ,                                                    VNK,                 1000000,             750000
-		Helichinook_RF_UK,                                                     VNK,                 1000000,             750000
-		Helichinook_RF_USA,                                                    VNK,                 1000000,             750000
-		Helilittle_bird_RF,                                                    VNK,                 100000,              75000
-		HelicopterRF_camo,                                                     VNK,                 100000,              75000
+		Helichinook_RF_Black,                                                  VNK,                 750000,              500000
+		Helichinook_RF,                                                        VNK,                 750000,              500000
+		Heliblack_hawk_SIB_camo,                                               VNK,                 750000,              500000
+		Heliblack_hawk_SIB,                                                    VNK,                 750000,              500000
+		HeliSIB_UH1D_Camo,                                                     VNK,                 750000,              500000
+		HeliSIB_UH1D_navy,                                                     VNK,                 750000,              500000
+		HeliSIB_UH1D_iron,                                                     VNK,                 750000,              500000
+		HeliSIB_UH1D_airforce,                                                 VNK,                 750000,              500000
+		HeliSIB_UH1D,                                                          VNK,                 750000,              500000
+		Helipolice_swat_SIB5,                                                  VNK,                 750000,              500000
+		Helipolice_SIB4,                                                       VNK,                 750000,              500000
 	<Category>Keys
 		MCK_CarKey_Base,                                                       *,                   5000,                -1
 		MCK_CarKey_Blue,                                                       *,                   5000,                -1
