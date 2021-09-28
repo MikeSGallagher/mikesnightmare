@@ -20,7 +20,7 @@ class MissionSettings
 	//Mission options
 	static bool Opt_OnStartCleanUp = true;		//1 = Clean up previous mission position from any items at server start, 0 = deactivate OnStartCleanUp
 	static bool Opt_BuildStatics = false;		//1 = Spawn additional static buildings on startup(check EventsWorldData file), 0 = deploy only missions 
-	static bool Opt_SendStoryOnDisconn = true;	//1 = Player gets SurvivorStories displayed in main menu after disconnecting, 0 = deactivate SurvivorStories 
+	static bool Opt_SendStoryOnDisconn = false;	//1 = Player gets SurvivorStories displayed in main menu after disconnecting, 0 = deactivate SurvivorStories 
 	static bool Opt_DenyObjTakeaway = true;		//1 = mission object container gets deleted if manipulated, 0 = allow takeaway
 	static bool Opt_MsgTypeRadio = true; 		//1 = messages on radio for listeners only, 0 = server message broadcast to all clients
 	static bool Opt_ServerMsgFreq = true;		//1 = server informs all players of radio frequency, 0 = deactivate radio frequency information

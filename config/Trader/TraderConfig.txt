@@ -284,6 +284,11 @@
 		BaseRadio,                                                             *,                   50,                  30
 		Rangefinder,                                                           *,                   60,                  35
 		NVGoggles,                                                             *,                   400,                 220
+		PowerBattery,                                                          *,                   1500,                1250
+		Battery_Charger,                                                       *,                   2500,                2000
+		PowerBattery2,                                                         *,                   2200,                1100
+		BatteryReCharger,                                                      *,                   3200,                2000
+		ReCharger2,                                                            *,                   4000,                2000
 	<Category>Fire & Lights
 		Chemlight_Blue,                                                        *,                   2,                   1
 		Chemlight_Green,                                                       *,                   2,                   1
@@ -1287,6 +1292,7 @@
 		Sebbes_AlphaAK105_camo,                                                W,                   1500,                1000
 		Sebbes_IMIUZI,                                                         W,                   1500,                1000
 		Sebbes_GalilSAR,                                                       W,                   1500,                1000
+		Sebbes_MPX,                                                            W,                   2500,                1000
 	<Category>Sebbes Pistols
 		Sebbes_M9A3,                                                           W,                   1500,                1000
 		Sebbes_SigSauerP226,                                                   W,                   1500,                1000
@@ -1323,6 +1329,7 @@
 		Sebbes_HAMR_Optic,                                                     *,                   500,                 250
 		Sebbes_WaltherMRS_Optic,                                               *,                   500,                 250
 		Sebbes_SV98_Scope,                                                     *,                   500,                 250
+		Sebbes_EOTech_Vudu,                                                    *,                   1500,                750
 	<Category>Sebbes Suppressors
 		Sebbes_SR25_Suppressor_Black,                                          *,                   1000,                500
 		Sebbes_SR25_Suppressor_Green,                                          *,                   1000,                500
@@ -1334,33 +1341,34 @@
 		Sebbes_CTR_Stock,                                                      *,                   500,                 250
 		Sebbes_CTR_Stock_camo,                                                 *,                   500,                 250
 	<Category>Sebbes Magazines
-		Mag_AK74_30Rnd,                                                        *,                   250,                 100
-		Mag_STG44_30Rnd,                                                       *,                   250,                 100
-		Mag_Scar_H_20rnd,                                                      *,                   250,                 100
-		Mag_MP40Coupled_32Rnd,                                                 *,                   250,                 100
-		Mag_MP40_32Rnd,                                                        *,                   250,                 100
-		Mag_HoneyBadger_30Rnd,                                                 *,                   250,                 100
-		Mag_HKUMP_25Rnd,                                                       *,                   250,                 100
-		Mag_HKUMPCoupled_25Rnd,                                                *,                   250,                 100
-		Mag_MP7_40Rnd,                                                         *,                   250,                 100
-		Mag_MP7Drum_60Rnd,                                                     *,                   250,                 100
-		Mag_RPK74_45Rnd,                                                       *,                   250,                 100
-		vz58_mag_30rnd,                                                        *,                   250,                 100
-		Mag_M9A3_17Rnd,                                                        *,                   250,                 100
-		Mag_SigSauerP226_15Rnd,                                                *,                   250,                 100
-		Mag_MP433_17Rnd,                                                       *,                   250,                 100
-		Mag_M24_5rnd,                                                          *,                   250,                 100
-		Mag_AWM_5rnd,                                                          *,                   250,                 100
-		Mag_SOK94_10Rnd,                                                       *,                   250,                 100
-		Mag_M1A_20rnd,                                                         *,                   250,                 100
-		Mag_SR25_20Rnd,                                                        *,                   250,                 100
-		Mag_M82_10Rnd,                                                         *,                   250,                 100
-		Mag_M110_20Rnd,                                                        *,                   250,                 100
-		Mag_AS50_10Rnd,                                                        *,                   250,                 100
-		Mag_SV98_10rnd,                                                        *,                   250,                 100
-		Mag_M249_Box200Rnd,                                                    *,                   550,                 225
-		Mag_PKM_Box200Rnd,                                                     *,                   550,                 225
-		Mag_PKM_Box200Rnd,                                                     *,                   550,                 225
+		Mag_AK74_30Rnd,                                                        M,                   250,                 100
+		Mag_STG44_30Rnd,                                                       M,                   250,                 100
+		Mag_Scar_H_20rnd,                                                      M,                   250,                 100
+		Mag_MP40Coupled_32Rnd,                                                 M,                   250,                 100
+		Mag_MP40_32Rnd,                                                        M,                   250,                 100
+		Mag_HoneyBadger_30Rnd,                                                 M,                   250,                 100
+		Mag_HKUMP_25Rnd,                                                       M,                   250,                 100
+		Mag_HKUMPCoupled_25Rnd,                                                M,                   250,                 100
+		Mag_MP7_40Rnd,                                                         M,                   250,                 100
+		Mag_MP7Drum_60Rnd,                                                     M,                   250,                 100
+		Mag_RPK74_45Rnd,                                                       M,                   250,                 100
+		vz58_mag_30rnd,                                                        M,                   250,                 100
+		Mag_M9A3_17Rnd,                                                        M,                   250,                 100
+		Mag_SigSauerP226_15Rnd,                                                M,                   250,                 100
+		Mag_MP433_17Rnd,                                                       M,                   250,                 100
+		Mag_M24_5rnd,                                                          M,                   250,                 100
+		Mag_AWM_5rnd,                                                          M,                   250,                 100
+		Mag_SOK94_10Rnd,                                                       M,                   250,                 100
+		Mag_M1A_20rnd,                                                         M,                   250,                 100
+		Mag_SR25_20Rnd,                                                        M,                   250,                 100
+		Mag_M82_10Rnd,                                                         M,                   250,                 100
+		Mag_M110_20Rnd,                                                        M,                   250,                 100
+		Mag_AS50_10Rnd,                                                        M,                   250,                 100
+		Mag_SV98_10rnd,                                                        M,                   250,                 100
+		Mag_M249_Box200Rnd,                                                    M,                   550,                 225
+		Mag_PKM_Box200Rnd,                                                     M,                   550,                 225
+		Mag_PKM_Box200Rnd,                                                     M,                   550,                 225
+		Mag_IMIUZI_30Rnd,                                                      M,                   750,                 250
 <Trader>Weapon Supplies // ID=3
 	<Category>Ammunition
 		Ammo_380,                                                              1,                   1,                   -1
@@ -1380,6 +1388,7 @@
 		Ammo_545x39Tracer,                                                     1,                   10,                  -1
 		Ammo_308WinTracer,                                                     1,                   10,                  -1
 		Ammo_762x39Tracer,                                                     1,                   10,                  -1
+		Ammo_50BMG,                                                            1,                   50,                  25
 		Ammo_Flare,                                                            1,                   15,                  -1
 		Ammo_762x54Tracer,                                                     1,                   20,                  12
 		MSFC_Ammo_127x99,                                                      *,                   300,                 150
@@ -1402,6 +1411,7 @@
 		AmmoBox_556x45Tracer_20Rnd,                                            *,                   160,                 80
 		AmmoBox_762x39Tracer_20Rnd,                                            *,                   160,                 80
 		AmmoBox_762x54Tracer_20Rnd,                                            *,                   400,                 200
+		Ammobox_792x33_30Rnd,                                                  *,                   500,                 250
 		KOD_Ammo_408,                                                          10,                  5,                   1
 		KOD_Ammo_23x75,                                                        10,                  5,                   1
 		KOD_Ammo_338,                                                          10,                  5,                   1
@@ -1421,6 +1431,7 @@
 		Mag_CZ61_20Rnd,                                                        M,                   100,                 50
 		Mag_UMP_25Rnd,                                                         M,                   150,                 75
 		Mag_MP5_30Rnd,                                                         M,                   200,                 100
+		Mag_MP5_30RndCouple,                                                   M,                   500,                 250
 		Mag_FAL_20Rnd,                                                         M,                   100,                 50
 		Mag_Saiga_5Rnd,                                                        M,                   100,                 50
 		Mag_Saiga_8Rnd,                                                        M,                   220,                 60
@@ -2524,6 +2535,7 @@
 		stalker_gasmask_black_mung,                                            *,                   500,                 250
 		mag3_gasmask_mung,                                                     *,                   400,                 200
 		hannibal_mask_mung,                                                    *,                   100,                 50
+		BalaclavaMask_Blackskull,                                              *,                   500,                 250
 	<Category>Shirts
 		TShirt_OrangeWhiteStripes,                                             *,                   8,                   2
 		TShirt_RedBlackStripes,                                                *,                   8,                   2
@@ -4277,6 +4289,7 @@
 		MassPlateCarrierPouches_Black,                                         *,                   1000,                500
 		MassPlateCarrierPouches_PartizanM,                                     *,                   1000,                500
 		MassPlateCarrierPouches_Winter,                                        *,                   1000,                500
+		MassPlateCarrierPouches_ODG,                                           *,                   1000,                500
 		MassPlateCarrierHolster_Black,                                         *,                   1000,                500
 		MassPlateCarrierHolster_PartizanM,                                     *,                   1000,                500
 		MassPlateCarrierHolster_Winter,                                        *,                   1000,                500

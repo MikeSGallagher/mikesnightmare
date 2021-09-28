@@ -3498,7 +3498,7 @@
   </type>
   <type name="CarBattery">
     <nominal>60</nominal>
-    <lifetime>28800</lifetime>
+    <lifetime>3888000</lifetime>
     <restock>360</restock>
     <min>40</min>
     <quantmin>20</quantmin>
@@ -15605,7 +15605,7 @@
   </type>
   <type name="TruckBattery">
     <nominal>20</nominal>
-    <lifetime>28800</lifetime>
+    <lifetime>3888000</lifetime>
     <restock>360</restock>
     <min>10</min>
     <quantmin>20</quantmin>
@@ -61024,5 +61024,75 @@
   <type name="HeliSIB_Mi35">
     <lifetime>38880000</lifetime>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="PowerBattery">
+    <nominal>15</nominal>
+    <lifetime>38880000</lifetime>
+    <restock>0</restock>
+    <min>10</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="Farm" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="Battery_Charger">
+    <nominal>5</nominal>
+    <lifetime>38880000</lifetime>
+    <restock>0</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="Farm" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="PowerBattery2">
+    <nominal>15</nominal>
+    <lifetime>38880000</lifetime>
+    <restock>0</restock>
+    <min>10</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="Farm" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="BatteryReCharger">
+    <nominal>5</nominal>
+    <lifetime>38880000</lifetime>
+    <restock>0</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="Farm" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="ReCharger2">
+    <nominal>5</nominal>
+    <lifetime>38880000</lifetime>
+    <restock>0</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="Farm" />
+    <usage name="Town" />
+    <usage name="Village" />
   </type>
 </types>

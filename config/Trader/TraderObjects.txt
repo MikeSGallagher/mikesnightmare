@@ -207,7 +207,7 @@
 <ObjectOrientation>	0,			0,			0
 
 <Object>			BarrelHoles_Red			
-<ObjectPosition>	4561.182617, 233.048599, 4517.283691			
+<ObjectPosition>	3009.875000, 369.434845, 6767.934570			
 <ObjectOrientation>	0,			0,			0
 					
 // Kumyrna:
@@ -462,6 +462,22 @@
 <ObjectAttachment>	BDUPants
 <ObjectAttachment>	TTSKOBoots
 <ObjectAttachment>	AssaultBag_Ttsko
+
+<Object>			BarrelHoles_Red			
+<ObjectPosition>	5026.897949, 9.542471, 2341.881348			
+<ObjectOrientation>	0,			0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	5035.473633, 9.542443, 2351.426025
+<ObjectOrientation>	-64.0013,	0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	5031.576660, 9.542497, 2362.330811
+<ObjectOrientation>	-64.0013,	0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	5024.077148, 9.542478, 2353.743164
+<ObjectOrientation>	-64.0013,	0,			0
 
 //<OpenFile> FileName.txt								// Links to another File; Must be right above <FileEnd>!
 <FileEnd>												// This has to be on the End of this File and is very importand!
