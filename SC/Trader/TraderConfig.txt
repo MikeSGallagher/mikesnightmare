@@ -151,19 +151,20 @@
 		Canteen,                                                               *,                   8,                   4
 		Vodka,                                                                 *,                   12,                  8
 	<Category>Medical Supplies
-//		Rag,                                                                   1,                   1,                   -1
+		Rag,                                                                   1,                   1,                   -1
 		BandageDressing,                                                       2,                   3,                   1
 		BloodTestKit,                                                          *,                   5,                   2
-//		InjectionVial,                                                         *,                   5,                   2
+		InjectionVial,                                                         *,                   5,                   2
 		Thermometer,                                                           *,                   5,                   2
 		DisinfectantSpray,                                                     *,                   8,                   5
-//		Syringe,                                                               *,                   8,                   5
+		Syringe,                                                               *,                   8,                   5
 		Heatpack,                                                              *,                   10,                  5
 		StartKitIV,                                                            *,                   10,                  6
 		SalineBag,                                                             *,                   15,                  8
 		BloodBagEmpty,                                                         *,                   18,                  10
 		FirstAidKit,                                                           *,                   20,                  10
-//		Defibrillator,                                                         *,                   35,                  20
+		Defibrillator,                                                         *,                   35,                  20
+		AntiChemInjector,													   *,					2500,				1000
 	<Category>Medications
 		CharcoalTablets,                                                       *,                   2,                   1
 		DisinfectantAlcohol,                                                   *,                   4,                   2
@@ -1594,7 +1595,6 @@
 		AD_SpecterDR,                                                          *,                   900,                 350
 		AD_SpecterDR_MosinMount,                                               *,                   900,                 350
 		AD_SpecterDR_B13,                                                      *,                   900,                 350
-		MassScope,                                                             *,                   5000,                2500
 		ACOGOptic_6x,                                                          *,                   3500,                1500
 		ACOGOptic,                                                             *,                   2500,                1000
 		Leupold_ACOG_mung,                                                     *,                   3500,                1500

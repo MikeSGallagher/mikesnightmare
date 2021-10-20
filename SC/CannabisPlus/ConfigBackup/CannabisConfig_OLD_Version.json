@@ -1,5 +1,5 @@
 {
-    "configVersion": 252,
+    "configVersion": 251,
     "removeAfterHarvest": 1,
     "tobacco_growtime": 8,
     "tobacco_cropcount": 2,
@@ -40,7 +40,6 @@
     "pumpkin_growtime": 8,
     "pumpkin_cropcount": 2,
     "pumpkinSeed_count": 9,
-    "spoiltime": 60,
     "activateCigaretteSmokingEffect": 0,
     "smokingCigaretteEffectDuration": 20,
     "cigaretteCyclesToActivateEffect": 8,
