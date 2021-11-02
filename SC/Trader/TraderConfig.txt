@@ -748,58 +748,6 @@
 		CZ527,                                                                 W,                   500,                 250
 		Winchester70,                                                          W,                   500,                 250
 		SKS,                                                                   W,                   600,                 300
-		KOD_AEK971,                                                            W,                   1000,                500
-		KOD_MP5SD,                                                             W,                   1000,                500
-		KOD_RPK16,                                                             W,                   1000,                500
-		KOD_SVD_Wood,                                                          W,                   1000,                500
-		KOD_FAL_Wood,                                                          W,                   1000,                500
-		KOD_AK47,                                                              W,                   1000,                500
-		KOD_AK15,                                                              W,                   1000,                500
-		KOD_AKALPHA,                                                           W,                   1000,                500
-		KOD_Beowulf,                                                           W,                   1000,                500
-		KOD_ASH12,                                                             W,                   1000,                500
-		KOD_AWM,                                                               W,                   1000,                500
-		KOD_AX50,                                                              W,                   1000,                500
-		KOD_DVL10,                                                             W,                   1000,                500
-		KOD_DVL10M1,                                                           W,                   1000,                500
-		KOD_HK417,                                                             W,                   1000,                500
-		KOD_K98,                                                               W,                   1000,                500
-		KOD_M110_Tan,                                                          W,                   1000,                500
-		KOD_M110_Black,                                                        W,                   1000,                500
-		KOD_M16A4,                                                             W,                   1000,                500
-		KOD_M82A2_Grey,                                                        W,                   1000,                500
-		KOD_M82A2_Black,                                                       W,                   1000,                500
-		KOD_M82A2_Tan,                                                         W,                   1000,                500
-		KOD_PKM,                                                               W,                   1000,                500
-		KOD_R700,                                                              W,                   1000,                500
-		KOD_RSASS_Tan,                                                         W,                   1000,                500
-		KOD_Ruger,                                                             W,                   1000,                500
-		KOD_SCARH,                                                             W,                   1000,                500
-		KOD_VR80,                                                              W,                   1000,                500
-		KOD_AR15Skeleton,                                                      W,                   1000,                500
-		KOD_DrumShotgun,                                                       W,                   1000,                500
-		KOD_SKS,                                                               W,                   1000,                500
-		KOD_FAMAS,                                                             W,                   1000,                500
-		KOD_AKM,                                                               W,                   1000,                500
-		KOD_MCR_Tan,                                                           W,                   1000,                500
-		KOD_MCR_Black,                                                         W,                   1000,                500
-		KOD_MCR_BlackTan,                                                      W,                   1000,                500
-		KOD_MCR_TanCamo,                                                       W,                   1000,                500
-		KOD_MCR_UCPCamo,                                                       W,                   1000,                500
-		KOD_MCR_WoodlandCamo,                                                  W,                   1000,                500
-		KOD_SA58,                                                              W,                   1000,                500
-		KOD_M200_Grey,                                                         W,                   1000,                500
-		KOD_M200_Black,                                                        W,                   1000,                500
-		KOD_Revolver50Cal,                                                     W,                   1000,                500
-		KOD_KS23,                                                              W,                   1000,                500
-		KOD_PPSh,                                                              W,                   1000,                500
-		KOD_Scorpion,                                                          W,                   1000,                500
-		KOD_Raptr,                                                             W,                   1000,                500
-		KOD_MBR_Black,                                                         W,                   1000,                500
-		KOD_MBR_Tan,                                                           W,                   1000,                500
-		KOD_MBR_UCPCamo,                                                       W,                   1000,                500
-		KOD_MBR_DesertCamo,                                                    W,                   1000,                500
-		KOD_MBR_WoodlandCamo,                                                  W,                   1000,                500
 		Ruger1022,                                                             W,                   750,                 250
 		Gewehr43_mung,                                                         *,                   1200,                600
 	<Category>Shotguns
@@ -1413,12 +1361,6 @@
 		AmmoBox_762x39Tracer_20Rnd,                                            *,                   160,                 80
 		AmmoBox_762x54Tracer_20Rnd,                                            *,                   400,                 200
 		Ammobox_792x33_30Rnd,                                                  *,                   500,                 250
-		KOD_Ammo_408,                                                          10,                  5,                   1
-		KOD_Ammo_23x75,                                                        10,                  5,                   1
-		KOD_Ammo_338,                                                          10,                  5,                   1
-		KOD_Ammo_50BMG,                                                        10,                  5,                   1
-		KOD_Ammo_40lw,                                                         10,                  5,                   1
-		KOD_Ammo_792x57,                                                       10,                  5,                   1
 		Ammo_50CalBW,                                                          10,                  5,                   1
 		Mag_cs5_10Rnd_mung,                                                    *,                   200,                 100
 	<Category>Magazines
@@ -1453,37 +1395,6 @@
 		Mag_SVD_10Rnd,                                                         M,                   250,                 125
 		Mag_308WinSnaploader_2Rnd,                                             M,                   250,                 125
 		Mag_CMAG_30Rnd_Black,                                                  M,                   5,                   1
-		Mag_KOD_VSS_20rnd,                                                     M,                   5,                   1
-		Mag_KOD_VSS_40rnd,                                                     M,                   5,                   1
-		Mag_KOD_SA58_20Rnd,                                                    M,                   5,                   1
-		Mag_KOD_M200_7rnd,                                                     M,                   5,                   1
-		Mag_KOD_PPSh_71rnd,                                                    M,                   5,                   1
-		Mag_KOD_Scorpion_30rnd,                                                M,                   5,                   1
-		Mag_KOD_Raptr_30rnd,                                                   M,                   5,                   1
-		Mag_SKS_20rnd,                                                         M,                   5,                   1
-		Mag_KOD_DrumShotgun_30rnd,                                             M,                   5,                   1
-		Mag_KOD_VR80_10Rnd,                                                    M,                   5,                   1
-		Mag_KOD_VR80_30Rnd,                                                    M,                   5,                   1
-		Mag_KOD_SCARH_20Rnd,                                                   M,                   5,                   1
-		Mag_KOD_SCARH_30Rnd,                                                   M,                   5,                   1
-		Mag_KOD_Ruger_5Rnd,                                                    M,                   5,                   1
-		Mag_KOD_RSASS_20Rnd,                                                   M,                   5,                   1
-		Mag_KOD_R700_7Rnd,                                                     M,                   5,                   1
-		Mag_KOD_PKM_100Rnd,                                                    M,                   5,                   1
-		Mag_KOD_M82A2_10Rnd,                                                   M,                   5,                   1
-		Mag_KOD_M110_10Rnd,                                                    M,                   5,                   1
-		Mag_KOD_M110_20Rnd,                                                    M,                   5,                   1
-		Mag_KOD_HK417_20Rnd,                                                   M,                   5,                   1
-		Mag_KOD_DVL10M1_5Rnd,                                                  M,                   5,                   1
-		Mag_KOD_DVL10_5Rnd,                                                    M,                   5,                   1
-		Mag_KOD_AX50_5Rnd,                                                     M,                   5,                   1
-		Mag_KOD_AWM_5Rnd,                                                      M,                   5,                   1
-		Mag_KOD_ASH12_20Rnd,                                                   M,                   5,                   1
-		Mag_KOD_Beowulf_10Rnd,                                                 M,                   5,                   1
-		Mag_KOD_AKALPHA_30Rnd,                                                 M,                   5,                   1
-		Mag_KOD_AK47_20Rnd,                                                    M,                   5,                   1
-		Mag_KOD_RPK16_96Rnd,                                                   M,                   5,                   1
-		Mag_KOD_Drum308_50Rnd,                                                 M,                   5,                   1
 		Mag_Glock_30Rnd,                                                       M,                   500,                 250
 		Mag_Glock_50Rnd,                                                       M,                   1000,                500
 		Mag_gewehr43_10Rnd_mung,                                               *,                   400,                 200
@@ -1510,9 +1421,6 @@
 		M4_OEBttstck,                                                          *,                   150,                 75
 		M4_CQBBttstck,                                                         *,                   150,                 75
 		M4_MPBttstck,                                                          *,                   150,                 75
-		KOD_AR15Skeleton_Buttstock,                                            *,                   150,                 75
-		KOD_AK_Bttstck,                                                        *,                   150,                 75
-		KOD_SA58_Bttstck,                                                      *,                   150,                 75
 		mcmillan_buttstock,                                                    *,                   100,                 50
 		Ar15_Handguard,                                                        *,                   500,                 250
 		Ar15_Buttstock_Black,                                                  *,                   500,                 250
@@ -1600,7 +1508,6 @@
 		Leupold_ACOG_mung,                                                     *,                   3500,                1500
 		Thermal_Optic,                                                         *,                   10000,               5000
 		Thermal_RangeFinder,                                                   *,                   10000,               5000
-		KOD_AWM_Scope,                                                         *,                   1000,                500
 		M4_T3NRDSOptic_Green,                                                  *,                   1000,                500
 		M4_T3NRDSOptic_Tan,                                                    *,                   1000,                500
 		M4_T3NRDSOptic_White,                                                  *,                   1000,                500
@@ -1620,11 +1527,6 @@
 		PistolSuppressor,                                                      *,                   150,                 75
 		AK_Suppressor,                                                         *,                   250,                 125
 		M4_Suppressor,                                                         *,                   250,                 125
-		KOD_M82A2_Suppressor_Black,                                            *,                   5,                   1
-		KOD_M82A2_Suppressor_Tan,                                              *,                   5,                   1
-		KOD_M82A2_Suppressor_Grey,                                             *,                   5,                   1
-		KOD_AWM_Suppressor,                                                    *,                   5,                   1
-		KOD_Suppressor_308,                                                    *,                   5,                   1
 		M4_Suppressor_Green,                                                   *,                   750,                 250
 		M4_Suppressor_Tan,                                                     *,                   750,                 250
 		M4_Suppressor_White,                                                   *,                   750,                 250
