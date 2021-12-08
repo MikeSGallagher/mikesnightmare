@@ -1,32 +1,11 @@
-//Spawn helper function
-void SpawnObject( string type, vector position, vector orientation )
-{
-    auto obj = GetGame().CreateObject( type, position );
-    obj.SetPosition( position );
-    obj.SetOrientation( orientation );
-    obj.SetOrientation( obj.GetOrientation() ); //Collision fix
-    obj.Update();
-    obj.SetAffectPathgraph( true, false );
-    if( obj.CanAffectPathgraph() ) GetGame().GetCallQueue( CALL_CATEGORY_SYSTEM ).CallLater( GetGame().UpdatePathgraphRegionByObject, 100, false, obj );
-}
+#include "$CurrentDir:\\mpmissions\\dayzOffline.chernarusplus\\CustomObjects\\SpawnObject.c"
+#include "$CurrentDir:\\mpmissions\\dayzOffline.chernarusplus\\CustomObjects\\ATMs.c"
+#include "$CurrentDir:\\mpmissions\\dayzOffline.chernarusplus\\CustomObjects\\BalotaAir.c"
+#include "$CurrentDir:\\mpmissions\\dayzOffline.chernarusplus\\CustomObjects\\CustomBridgePrison.c"
+#include "$CurrentDir:\\mpmissions\\dayzOffline.chernarusplus\\CustomObjects\\NEAF.c"
 
 void main()
 {
-  
-  //Custom Spawn Objects
-	SpawnObject("KR_ATMGreen", "3706.7 402.012 5984.86", "90 0 0"); //Green Mountain ATM 1
-	SpawnObject("KR_ATMYellow", "3704.7 402.332 6003.1", "275 0 0"); //Green Mountain ATM 2
-	SpawnObject("KR_ATMGreen", "8360.15 292.054 5994.15", "325 0 0"); //Kumyrna ATM 1
-	SpawnObject("KR_ATMBlackWhite", "8350.7 292.011 5978.3", "235 0 0"); //Kumyrna ATM 2
-  
-	//INIT WEATHER BEFORE ECONOMY INIT------------------------
-	Weather weather = g_Game.GetWeather();
-
-	weather.MissionWeather(false);    // false = use weather controller from Weather.c
-
-	weather.GetOvercast().Set( Math.RandomFloatInclusive(0.4, 0.6), 1, 0);
-	weather.GetRain().Set( 0, 0, 1);
-	weather.GetFog().Set( Math.RandomFloatInclusive(0.05, 0.1), 1, 0);
 
 	//INIT ECONOMY--------------------------------------
 	Hive ce = CreateHive();
@@ -56,6 +35,12 @@ void main()
 			}
 		}
 	}
+	Place_ATMs();
+	Place_BalotaAir();
+	Place_BridgePrison();
+	Place_NEAF();
+	
+   // GetCEApi().ExportProxyData( "7500 0 7500", 10000 );  //Center of map, radius of how far to go out and find buildings.
 }
 
 class CustomMission: MissionServer
@@ -109,32 +94,7 @@ class CustomMission: MissionServer
 			else
 				itemEnt = player.GetInventory().CreateInInventory( "Plum" );
 
-		SetRandomHealth( itemEnt );
-           player.GetInventory().CreateInInventory("DryBag_Black");    // added items
-		   player.GetInventory().CreateInInventory("Compass");    // added items
-		   player.GetInventory().CreateInInventory("Canteen");    // added items
-		   player.GetInventory().CreateInInventory("SardinesCan");    // added items
-		   player.GetInventory().CreateInInventory("CombatKnife");    // added items
-		   player.GetInventory().CreateInInventory("CanOpener");    // added items
-		   player.GetInventory().CreateInInventory("ChernarusMap");    // added items
-		   player.GetInventory().CreateInInventory("M4A1");    // added items
-		   player.GetInventory().CreateInInventory("Mag_STANAGCoupled_30Rnd");    // added items
-		   player.GetInventory().CreateInInventory("AmmoBox_556x45_20Rnd");    // added items
-		   player.GetInventory().CreateInInventory("BandageDressing");    // added items
-		   player.GetInventory().CreateInInventory("PurificationTablets");    // added items
-		   player.GetInventory().CreateInInventory("WoodAxe");    // added items
-		   player.GetInventory().CreateInInventory("BakedBeansCan");    // added items
-		   player.GetInventory().CreateInInventory("SodaCan_Pipsi");    // added items
-		   player.GetInventory().CreateInInventory("SodaCan_Spite");    // added items
-		   player.GetInventory().CreateInInventory("TacticalBaconCan");    // added items
-		   player.GetInventory().CreateInInventory("Matchbox");    // added items
-		   player.GetInventory().CreateInInventory("DuctTape");    // added items
-		   player.GetInventory().CreateInInventory("Whetstone");    // added items
-		   player.GetInventory().CreateInInventory("Mag_STANAGCoupled_30Rnd");    // added items
-		   player.GetInventory().CreateInInventory("AmmoBox_556x45_20Rnd");    // added items
-		   player.GetInventory().CreateInInventory("Binoculars");    // added items
-		   player.GetInventory().CreateInInventory("SewingKit");    // added items
-		   player.GetInventory().CreateInInventory("WeaponCleaningKit");    // added items
+			SetRandomHealth( itemEnt );
 		}
 		
 		itemClothing = player.FindAttachmentBySlotName( "Legs" );

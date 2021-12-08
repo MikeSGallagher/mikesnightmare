@@ -7,9 +7,9 @@ ref autoptr TStringArray data_Chest004 = { "All","Normal","AKM","Mag_AKM_30Rnd",
 ref autoptr TStringArray data_Chest005 = { "All","Normal","CarBattery","PressVest_Blue", }; // Altar
 ref autoptr TStringArray data_Chest006 = { "All","Normal","NailBox", }; // Indus
 ref autoptr TStringArray data_Chest007 = { "All","Normal","AKM","FirefighterAxe", }; // FireStation
+ref autoptr TStringArray data_Chest008 = { "All","Normal","AntiChemInjector","GasMask_Filter", }; // Toxic zones (v1.14 update)
 
 /// use these line to create your own loot chest configuration
-ref autoptr TStringArray data_Chest008 = { "All","Normal","AKM","Mag_AKM_30Rnd", "AK_Suppressor", "AK_Woodbttstck", "AK_WoodHndgrd" }; // not used yet
 ref autoptr TStringArray data_Chest009 = { "All","Normal","AKM","Mag_AKM_30Rnd", "AK_Suppressor", "AK_Woodbttstck", "AK_WoodHndgrd" }; // not used yet
 ref autoptr TStringArray data_Chest010 = { "All","Normal","AKM","Mag_AKM_30Rnd", "AK_Suppressor", "AK_Woodbttstck", "AK_WoodHndgrd" }; // not used yet
 ref autoptr TStringArray data_Chest011 = { "All","Normal","AKM","Mag_AKM_30Rnd", "AK_Suppressor", "AK_Woodbttstck", "AK_WoodHndgrd" }; // not used yet

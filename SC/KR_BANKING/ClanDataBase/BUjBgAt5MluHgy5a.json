@@ -1,0 +1,37 @@
+{
+    "m_ClanID": "BUjBgAt5MluHgy5a",
+    "m_OwnersPlainID": "76561198015543936",
+    "m_ClanName": "BENT",
+    "m_Prefix": "CUNT",
+    "m_BankAmount": 137545,
+    "m_Members": [
+        {
+            "m_plainID": "76561198015543936",
+            "m_playername": "Jkradar",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        },
+        {
+            "m_plainID": "76561198293993091",
+            "m_playername": "lb426",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 0,
+                "m_CanEdit": 0
+            }
+        }
+    ],
+    "m_ClanLogs": [
+        "Jkradar deposited: 28145",
+        "Jkradar deposited: 109400",
+        "lb426 withdrawed: 0",
+        "lb426 withdrawed: 0"
+    ]
+}

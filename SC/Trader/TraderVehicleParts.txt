@@ -510,12 +510,91 @@
 	WoodenCrate
 	CanisterGasoline
 	PersonalRadio
-	
+
+<VehicleParts> CrSk_Land_Rover_Defender_110
+	Defender110_koleso
+	Defender110_koleso
+	Defender110_koleso
+	Defender110_koleso
+	Defender110_dver_1_1
+	Defender110_dver_2_1
+	Defender110_dver_1_2
+	Defender110_dver_2_2
+	Defender110_kapot
+	Defender110_bagazhnik
+	CarRadiator
+	CarBattery
+	HeadlightH7
+	HeadlightH7
+	SparkPlug
+
+<VehicleParts> CrSk_Land_Rover_Defender_110_Green
+	Defender110_koleso
+	Defender110_koleso
+	Defender110_koleso
+	Defender110_koleso
+	Defender110_dver_1_1_Green
+	Defender110_dver_2_1_Green
+	Defender110_dver_1_2_Green
+	Defender110_dver_2_2_Green
+	Defender110_kapot_Green
+	Defender110_bagazhnik_Green
+	CarRadiator
+	CarBattery
+	HeadlightH7
+	HeadlightH7
+	SparkPlug
+
+<VehicleParts> CrSk_Land_Rover_Defender_110_UN
+	Defender110_koleso
+	Defender110_koleso
+	Defender110_koleso
+	Defender110_koleso
+	Defender110_dver_1_1_UN
+	Defender110_dver_2_1_UN
+	Defender110_dver_1_2_UN
+	Defender110_dver_2_2_UN
+	Defender110_kapot_UN
+	Defender110_bagazhnik_UN
+	CarRadiator
+	CarBattery
+	HeadlightH7
+	HeadlightH7
+	SparkPlug
+
+<VehicleParts> Helilittle_bird_RF
+RFlittle_bird_Door_1_1
+RFlittle_bird_Door_1_2
+RFlittle_bird_Door_2_1
+RFlittle_bird_Door_2_2
+RFlittle_bird_blade1
+RFlittle_bird_blade2
+RFlittle_bird_blade3
+RFlittle_bird_blade4
+RFlittle_bird_blade5
+RFlittle_bird_bladem1
+RFlittle_bird_bladem3
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> HellicopterRF_camo
+RFlittle_bird_Door_1_1
+RFlittle_bird_Door_1_2
+RFlittle_bird_Door_2_1
+RFlittle_bird_Door_2_2
+RFlittle_bird_blade1
+RFlittle_bird_blade2
+RFlittle_bird_blade3
+RFlittle_bird_blade4
+RFlittle_bird_blade5
+RFlittle_bird_bladem1
+RFlittle_bird_bladem3
+CarBattery
+HeadlightH7
+HeadlightH7
+
 <VehicleParts> Helipolice_SIB4
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
 SIBPolice_Door_1_1
 SIBPolice_Door_1_2
 SIBPolice_Door_2_1
@@ -524,11 +603,43 @@ CarBattery
 HeadlightH7
 HeadlightH7
 
+<VehicleParts> Helipolice_flames
+SIBPolice_Door_1_1_flames
+SIBPolice_Door_1_2_flames
+SIBPolice_Door_2_1_flames
+SIBPolice_Door_2_2_flames
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Helipolice_green
+SIBPolice_Door_1_1_green
+SIBPolice_Door_1_2_green
+SIBPolice_Door_2_1_green
+SIBPolice_Door_2_2_green
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Helipolice_raid
+SIBPolice_Door_1_1_raid
+SIBPolice_Door_1_2_raid
+SIBPolice_Door_2_1_raid
+SIBPolice_Door_2_2_raid
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Helipolice_urban
+SIBPolice_Door_1_1_urban
+SIBPolice_Door_1_2_urban
+SIBPolice_Door_2_1_urban
+SIBPolice_Door_2_2_urban
+CarBattery
+HeadlightH7
+HeadlightH7
+
 <VehicleParts> Helipolice_swat_SIB5
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
 SIBPolice_Door_1_1_swat
 SIBPolice_Door_1_2_swat
 SIBPolice_Door_2_1_swat
@@ -538,10 +649,6 @@ HeadlightH7
 HeadlightH7
 
 <VehicleParts> HeliSIB_UH1D
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
 SIBUH1D_Door_1_1
 SIBUH1D_Door_1_2
 SIBUH1D_Door_2_1
@@ -555,10 +662,6 @@ HeadlightH7
 HeadlightH7
 
 <VehicleParts> HeliSIB_UH1D_airforce
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
 SIBUH1D_Door_1_1_airforce
 SIBUH1D_Door_1_2_airforce
 SIBUH1D_Door_2_1_airforce
@@ -572,10 +675,6 @@ HeadlightH7
 HeadlightH7
 
 <VehicleParts> HeliSIB_UH1D_iron
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
 SIBUH1D_Door_1_1_iron
 SIBUH1D_Door_1_2_iron
 SIBUH1D_Door_2_1_iron
@@ -589,10 +688,6 @@ HeadlightH7
 HeadlightH7
 
 <VehicleParts> HeliSIB_UH1D_navy
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
 SIBUH1D_Door_1_1_navy
 SIBUH1D_Door_1_2_navy
 SIBUH1D_Door_2_1_navy
@@ -606,14 +701,23 @@ HeadlightH7
 HeadlightH7
 
 <VehicleParts> HeliSIB_UH1D_Camo
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
-HatchbackWheel
 SIBUH1D_Door_1_1_camo
 SIBUH1D_Door_1_2_camo
 SIBUH1D_Door_2_1_camo
 SIBUH1D_Door_2_2_camo
+SIBUH1D_blade1
+SIBUH1D_blade2
+SIBUH1D_bladem1
+SIBUH1D_bladem2
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> HeliSIB_UH1D_taxi
+SIBUH1D_Door_1_1_taxi
+SIBUH1D_Door_1_2_taxi
+SIBUH1D_Door_2_1_taxi
+SIBUH1D_Door_2_2_taxi
 SIBUH1D_blade1
 SIBUH1D_blade2
 SIBUH1D_bladem1
@@ -664,6 +768,48 @@ CarBattery
 HeadlightH7
 HeadlightH7
 
+<VehicleParts> Heliblack_hawk_SIB_camo2
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+SIBblack_hawk_Door_1_1_camo2
+SIBblack_hawk_Door_1_2_camo2
+SIBblack_hawk_Door_2_1_camo2
+SIBblack_hawk_Door_2_2_camo2
+SIBblack_hawk_blade1
+SIBblack_hawk_blade2
+SIBblack_hawk_blade3
+SIBblack_hawk_blade4
+SIBblack_hawk_bladem1
+SIBblack_hawk_bladem2
+SIBblack_hawk_bladem3
+SIBblack_hawk_bladem4
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Heliblack_hawk_SIB_BlueCamo
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+SIBblack_hawk_Door_1_1_BlueCamo
+SIBblack_hawk_Door_1_2_BlueCamo
+SIBblack_hawk_Door_2_1_BlueCamo
+SIBblack_hawk_Door_2_2_BlueCamo
+SIBblack_hawk_blade1
+SIBblack_hawk_blade2
+SIBblack_hawk_blade3
+SIBblack_hawk_blade4
+SIBblack_hawk_bladem1
+SIBblack_hawk_bladem2
+SIBblack_hawk_bladem3
+SIBblack_hawk_bladem4
+CarBattery
+HeadlightH7
+HeadlightH7
+
 <VehicleParts> Helichinook_RF
 HatchbackWheel
 HatchbackWheel
@@ -696,6 +842,170 @@ RFchinook_blade3
 RFchinook_rear_blade1
 RFchinook_rear_blade2
 RFchinook_rear_blade3
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Helichinook_RF_USA
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+RFchinook_Door_1_1_USA
+RFchinook_Door_1_2_USA
+RFchinook_Door_2_2
+RFchinook_blade1
+RFchinook_blade2
+RFchinook_blade3
+RFchinook_rear_blade1
+RFchinook_rear_blade2
+RFchinook_rear_blade3
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Helichinook_RF_civ
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+RFchinook_Door_1_1_civ
+RFchinook_Door_1_2_civ
+RFchinook_Door_2_2
+RFchinook_blade1
+RFchinook_blade2
+RFchinook_blade3
+RFchinook_rear_blade1
+RFchinook_rear_blade2
+RFchinook_rear_blade3
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Helichinook_RF_bloody
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+RFchinook_Door_1_1_bloody
+RFchinook_Door_1_2_bloody
+RFchinook_Door_2_2
+RFchinook_blade1
+RFchinook_blade2
+RFchinook_blade3
+RFchinook_rear_blade1
+RFchinook_rear_blade2
+RFchinook_rear_blade3
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Helicopter_apache_black
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+apache_Door_1_1_black
+apache_Door_2_1_black
+apache_blade1
+apache_blade2
+apache_blade3
+apache_blade4
+apache_bladem1
+apache_bladem2
+apache_bladem3
+apache_bladem4
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Helicopter_apache_green
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+apache_Door_1_1_green
+apache_Door_2_1_green
+apache_blade1
+apache_blade2
+apache_blade3
+apache_blade4
+apache_bladem1
+apache_bladem2
+apache_bladem3
+apache_bladem4
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Heli_apache
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+apache_Door_1_1
+apache_Door_2_1
+apache_blade1
+apache_blade2
+apache_blade3
+apache_blade4
+apache_bladem1
+apache_bladem2
+apache_bladem3
+apache_bladem4
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Heli_apache_camo
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+apache_Door_1_1_camo
+apache_Door_2_1_camo
+apache_blade1
+apache_blade2
+apache_blade3
+apache_blade4
+apache_bladem1
+apache_bladem2
+apache_bladem3
+apache_bladem4
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> Heli_apache_camo_desert
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+apache_Door_1_1_desert
+apache_Door_2_1_desert
+apache_blade1
+apache_blade2
+apache_blade3
+apache_blade4
+apache_bladem1
+apache_bladem2
+apache_bladem3
+apache_bladem4
+CarBattery
+HeadlightH7
+HeadlightH7
+
+<VehicleParts> HeliSIB_Mi35
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+HatchbackWheel
+SIBMi35_Door_1_1
+SIBMi35_Door_1_2
+SIBMi35_Door_1_2_1
+SIBMi35_Door_2_1
+SIBMi35_Door_2_2
+SIBMi35_Door_2_2_1
 CarBattery
 HeadlightH7
 HeadlightH7

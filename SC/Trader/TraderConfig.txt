@@ -164,7 +164,7 @@
 		BloodBagEmpty,                                                         *,                   18,                  10
 		FirstAidKit,                                                           *,                   20,                  10
 		Defibrillator,                                                         *,                   35,                  20
-		AntiChemInjector,													   *,					2500,				1000
+		AntiChemInjector,                                                      *,                   2500,                1000
 	<Category>Medications
 		CharcoalTablets,                                                       *,                   2,                   1
 		DisinfectantAlcohol,                                                   *,                   4,                   2
@@ -174,6 +174,31 @@
 		Epinephrine,                                                           *,                   20,                  10
 		Morphine,                                                              *,                   25,                  15
 		IodineTincture,                                                        *,                   250,                 150
+	<Category>AMS - aid
+		AMS_FirstAidKit,                                                       *,                   500,                 450
+		AMS_BandageBox,                                                        *,                   500,                 450
+		AMS_Bandage,                                                           *,                   500,                 450
+		AMS_Absorbent,                                                         *,                   500,                 450
+		AMS_BandageTape,                                                       *,                   500,                 450
+		AMS_AntiSept,                                                          *,                   500,                 450
+		AMS_Ai2,                                                               *,                   500,                 450
+		AMS_Polaris,                                                           *,                   500,                 450
+		AMS_Aspirin,                                                           *,                   500,                 450
+		AMS_Poter,                                                             *,                   500,                 450
+		AMS_Vikasol,                                                           *,                   500,                 450
+		AMS_Energy,                                                            *,                   500,                 450
+		AMS_Narcotics,                                                         *,                   500,                 450
+		AMS_Tourniquet,                                                        *,                   500,                 450
+		AMS_Methadone,                                                         *,                   500,                 450
+		AMS_BandAid,                                                           *,                   500,                 450
+		AMS_Splint,                                                            *,                   500,                 450
+		AMS_MFAK,                                                              *,                   500,                 450
+		AMS_NBCPouch,                                                          *,                   500,                 450
+		AMS_Whistle,                                                           *,                   500,                 450
+		AMS_WaterStraw,                                                        *,                   500,                 450
+		AMS_POX,                                                               *,                   500,                 450
+		AMS_GasMaskGP21,                                                       *,                   1500,                450
+		AMS_GasMaskGP21_Filter,                                                *,                   1500,                450
 	<Category>Mass's ManyItemOverhaul Food
 		MassMeth,                                                              *,                   1000,                500
 		MassMRE4,                                                              *,                   1000,                500
@@ -471,6 +496,25 @@
 		BBP_Dance_FloorKit,                                                    *,                   400,                 200
 		BBP_XmasLights_9v,                                                     *,                   80,                  40
 		BBP_XmasLights_Solar,                                                  *,                   120,                 60
+	<Category>Simple Base
+		Chopper_Step_Ladder_2Kit,                                              *,                   4000,                2000
+		Chopper_PostKit,                                                       *,                   50,                  25
+		Chopper_Post_HalfKit,                                                  *,                   30,                  15
+		Chopper_RoofKit,                                                       *,                   200,                 100
+		Chopper_FloorKit,                                                      *,                   200,                 100
+		Chopper_WallKit,                                                       *,                   200,                 100
+		Chopper_Wall_HalfKit,                                                  *,                   100,                 50
+		Chopper_DoorKit,                                                       *,                   300,                 150
+		Chopper_WindowKit,                                                     *,                   250,                 125
+		Chopper_StaircaseKit,                                                  *,                   8000,                4000
+		Chopper_Hinge,                                                         *,                   100,                 50
+		Chopper_Bracket,                                                       *,                   350,                 175
+		Chopper_Desk_Lamp,                                                     *,                   600,                 300
+		Chopper_Floor_Lamp,                                                    *,                   800,                 400
+		Chopper_Xmas_Tree,                                                     *,                   400,                 200
+		Chopper_GateKit,                                                       *,                   400,                 200
+		Chopper_XmasLights_Solar,                                              *,                   120,                 60
+		CabinZ_Prefab_Kit,                                                     *,                   95000,               50000
 	<Category>Military Gear | Large Tents
 		MilitaryGear_LargeTent_ATACS,                                          *,                   7000,                1200
 		MilitaryGear_LargeTent_CADPAT,                                         *,                   7000,                1200
@@ -1503,6 +1547,15 @@
 		AD_SpecterDR,                                                          *,                   900,                 350
 		AD_SpecterDR_MosinMount,                                               *,                   900,                 350
 		AD_SpecterDR_B13,                                                      *,                   900,                 350
+		AD_XPS34_HHS,                                                          *,                   900,                 350
+		AD_XPS34_HHS_MosinMount,                                               *,                   900,                 350
+		AD_XPS34_HHS_B13,                                                      *,                   900,                 350
+		AD_XPS34,                                                              *,                   900,                 350
+		AD_XPS34_MosinMount,                                                   *,                   900,                 350
+		AD_XPS34_B13,                                                          *,                   900,                 350
+		AD_LeupoldMk4,                                                         *,                   900,                 350
+		AD_LeupoldMk4_MosinMount,                                              *,                   900,                 350
+		AD_LeupoldMk4_B13,                                                     *,                   900,                 350
 		ACOGOptic_6x,                                                          *,                   3500,                1500
 		ACOGOptic,                                                             *,                   2500,                1000
 		Leupold_ACOG_mung,                                                     *,                   3500,                1500
@@ -4248,6 +4301,9 @@
 		rag_landrover_110_grey,                                                VNK,                 400000,              150000
 		rag_landrover_110_red,                                                 VNK,                 400000,              150000
 		rag_landrover_110_un,                                                  VNK,                 400000,              150000
+		CrSk_Land_Rover_Defender_110,                                          VNK,                 250000,              100000
+		CrSk_Land_Rover_Defender_110_Green,                                    VNK,                 250000,              100000
+		CrSk_Land_Rover_Defender_110_UN,                                       VNK,                 250000,              100000
 	<Category>Vehicle Parts
 		HeadlightH7_Box,                                                       *,                   30,                  15
 		SparkPlug,                                                             *,                   60,                  40
@@ -4481,6 +4537,25 @@
 		rag_landrover_110_wheel_grey,                                          *,                   2500,                1000
 		rag_landrover_110_wheel_red,                                           *,                   2500,                1000
 		rag_landrover_110_wheel_un,                                            *,                   2500,                1000
+		Defender110_koleso,                                                    *,                   1000,                500
+		Defender110_dver_1_1,                                                  *,                   2000,                750
+		Defender110_dver_2_1,                                                  *,                   2000,                750
+		Defender110_dver_1_2,                                                  *,                   2000,                750
+		Defender110_dver_2_2,                                                  *,                   2000,                750
+		Defender110_kapot,                                                     *,                   1000,                500
+		Defender110_bagazhnik,                                                 *,                   1000,                500
+		Defender110_dver_1_1_Green,                                            *,                   2000,                750
+		Defender110_dver_2_1_Green,                                            *,                   2000,                750
+		Defender110_dver_1_2_Green,                                            *,                   2000,                750
+		Defender110_dver_2_2_Green,                                            *,                   2000,                750
+		Defender110_kapot_Green,                                               *,                   1000,                500
+		Defender110_bagazhnik_Green,                                           *,                   1000,                500
+		Defender110_dver_1_1_UN,                                               *,                   2000,                750
+		Defender110_dver_2_1_UN,                                               *,                   2000,                750
+		Defender110_dver_1_2_UN,                                               *,                   2000,                750
+		Defender110_dver_2_2_UN,                                               *,                   2000,                750
+		Defender110_kapot_UN,                                                  *,                   1000,                500
+		Defender110_bagazhnik_UN,                                              *,                   1000,                500
 	<Category>Keys
 		MCK_CarKey_Base,                                                       *,                   5000,                -1
 		MCK_CarKey_Blue,                                                       *,                   5000,                -1
@@ -4512,17 +4587,35 @@
 		VehicleKeyLost,                                                        KL,                  -1,                  -1				// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
 <Trader>Helicopter Trader // ID=6
 	<Category>Helicopters
-		Helichinook_RF_Black,                                                  VNK,                 750000,              500000
-		Helichinook_RF,                                                        VNK,                 750000,              500000
-		Heliblack_hawk_SIB_camo,                                               VNK,                 750000,              500000
-		Heliblack_hawk_SIB,                                                    VNK,                 750000,              500000
-		HeliSIB_UH1D_Camo,                                                     VNK,                 750000,              500000
-		HeliSIB_UH1D_navy,                                                     VNK,                 750000,              500000
-		HeliSIB_UH1D_iron,                                                     VNK,                 750000,              500000
-		HeliSIB_UH1D_airforce,                                                 VNK,                 750000,              500000
-		HeliSIB_UH1D,                                                          VNK,                 750000,              500000
-		Helipolice_swat_SIB5,                                                  VNK,                 750000,              500000
-		Helipolice_SIB4,                                                       VNK,                 750000,              500000
+		Helilittle_bird_RF,                                                    VNK,                 20000,               10000
+		HelicopterRF_camo,                                                     VNK,                 20000,               10000
+		HeliSIB_UH1D,                                                          VNK,                 40000,               20000
+		HeliSIB_UH1D_navy,                                                     VNK,                 40000,               20000
+		HeliSIB_UH1D_iron,                                                     VNK,                 40000,               20000
+		HeliSIB_UH1D_airforce,                                                 VNK,                 40000,               20000
+		HeliSIB_UH1D_Camo,                                                     VNK,                 40000,               20000
+		HeliSIB_UH1D_taxi,                                                     VNK,                 45000,               22500
+		Helipolice_SIB4,                                                       VNK,                 50000,               20000
+		Helipolice_swat_SIB5,                                                  VNK,                 50000,               20000
+		Helipolice_flames,                                                     VNK,                 55000,               27500
+		Helipolice_green,                                                      VNK,                 55000,               27500
+		Helipolice_raid,                                                       VNK,                 55000,               27500
+		Helipolice_urban,                                                      VNK,                 55000,               27500
+		Heliblack_hawk_SIB,                                                    VNK,                 55500,               27550
+		Heliblack_hawk_SIB_camo,                                               VNK,                 55500,               27550
+		Heliblack_hawk_SIB_camo2,                                              VNK,                 55500,               27550
+		Heliblack_hawk_SIB_BlueCamo,                                           VNK,                 55500,               27550
+		Helichinook_RF,                                                        VNK,                 60000,               30000
+		Helichinook_RF_civ,                                                    VNK,                 60000,               30000
+		Helichinook_RF_Black,                                                  VNK,                 60000,               30000
+		Helichinook_RF_bloody,                                                 VNK,                 60000,               30000
+		Helichinook_RF_USA,                                                    VNK,                 60000,               30000
+		Heli_apache,                                                           VNK,                 90000,               45000
+		Heli_apache_camo,                                                      VNK,                 90000,               45000
+		Heli_apache_camo_desert,                                               VNK,                 90000,               45000
+		Helicopter_apache_green,                                               VNK,                 90000,               45000
+		Helicopter_apache_black,                                               VNK,                 90000,               45000
+		HeliSIB_Mi35,                                                          VNK,                 95000,               47500
 	<Category>Keys
 		MCK_CarKey_Base,                                                       *,                   5000,                -1
 		MCK_CarKey_Blue,                                                       *,                   5000,                -1

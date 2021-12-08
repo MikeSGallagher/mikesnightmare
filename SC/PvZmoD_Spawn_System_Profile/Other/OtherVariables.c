@@ -38,7 +38,6 @@ string lootContainer = "LootChest";
 
 /// Mission Name ///
 
-//string missionNamePvz   = "dayzOffline.enoch"; /// LIVONIA
 string missionNamePvz   = "dayzOffline.chernarusplus"; /// CHERNARUS+
 // string missionNamePvz   = "Expansion.ChernarusPlusGloom"; /// CHERNARUS+ Expansion
 

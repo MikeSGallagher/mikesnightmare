@@ -18,12 +18,15 @@
         <Zombies_Strenght_Activated	 						Day = "1"	Night = "1"/>	<!-- [0 or 1]  -->
 		<Zombies_Vision_Activated							Day = "1" 	Night = "1" WithBloodyHands="1" WithSpecialMask="1" MiniMumRatioDistance="1"/> <!-- [0 or 1]  -->
         <Player_Fist_Fighting_Activated 					Day = "1"	Night = "1"/>	<!-- [0 or 1]  -->
-		<Zombies_Hit_Players_On_Obstacles_Activated 		Day = "0"	Night = "0"/>	<!-- [0 or 1]  -->  
+		<Zombies_Hit_Players_On_Obstacles_Activated 		Day = "1"	Night = "1"/>	<!-- [0 or 1]  -->  
 		<Zombies_Hit_Unconscious_Players_Activated			Day	= "0"	Night = "0"/> 	<!-- [0 or 1]  -->		
-		<Zombies_Fight_Wolves_Activated						Day	= "1"	Night = "1"/> 	<!-- [0 or 1]  -->
-		<Zombies_Fight_Bears_Activated						Day	= "1"	Night = "1"/> 	<!-- [0 or 1]  -->
+		<Zombies_Fight_Wolves_Activated						Day	= "0"	Night = "0"/> 	<!-- [0 or 1]  -->
+		<Zombies_Fight_Bears_Activated						Day	= "0"	Night = "0"/> 	<!-- [0 or 1]  -->
 		<Zombies_Hearing_Doors_Player_Standing_Activated	Day	= "1"	Night = "1"/> 	<!-- [0 or 1]  -->
-		<Zombies_Hearing_Doors_Player_Crouching_Activated	Day	= "1"	Night = "1"/> 	<!-- [0 or 1]  -->
+		<Zombies_Hearing_Doors_Player_Crouching_Activated	Day	= "0"	Night = "0"/> 	<!-- [0 or 1]  -->
+		<Zombies_Breaking_Doors_Activated					Day = "1"	Night = "1"/>	<!-- [0 or 1]  -->
+		<Zombies_Breaking_LockedDoors_Activated				Day = "0"	Night = "0"/>	<!-- [0 or 1]  -->
+		<Zombies_Aggressive_Doors_Detection_Activated		Day = "1"	Night = "1"/>	<!-- [0 or 1]  -->
 	</type>
 	
 	<type name="Zombies_Caracteristics">
@@ -35,7 +38,7 @@
 	</type>
 	
     <type name="Players_Caracteristics">
-        <Maximum_Number_Of_Bleeding_Sources_From_Zombies_Combat			Value = "2"	/>
+        <Maximum_Number_Of_Bleeding_Sources_From_Zombies_Combat			Value = "4"	/>
         <Shoes_Degradation_When_Hit_By_Crawling_Zombie					Value = "5.0" />			<!-- [Decimal 0.0 to infinite] -->
 		<Fist_Fighting   Bleeding_Chance_If_Fist_Fighting_Without_Gloves 			= "0.025"	/>	<!-- [0.0 to 1.0] -->
 		<Fist_Fighting	 Player_Dammage_If_Fist_Fighting_Without_Gloves				= "0.5"		/>  <!-- [Decimal 0.0 to 100.0] (Max player health is 100.0 hp) -->
@@ -54,7 +57,7 @@
     </type>		
 	
 	<type name="Damages_To_Vehicles_Radiator_When_Cruching_Zombies">
- 		<Damages_To_Vehicles		Activated	 			= "0"		/>	<!-- [0 or 1] -->
+ 		<Damages_To_Vehicles		Activated	 			= "1"		/>	<!-- [0 or 1] -->
 		<Damages_To_Vehicles		Vehicle_Type_Resistance	= "DefaultCars:100,ExpansionVodnik:200,ExpansionBus:200"/>	<!-- (no spaces, look carefully at the line structure if you want to add vehicles) -->
 		<Damages_To_Vehicles		Damages_Per_Impact	 	= "1.0"		/>	<!-- decimal [0.0 to infinite] -->
 		<Damages_To_Vehicles		Timer_Between_Impacts	= "5"		/>	<!-- Integer [1 to infinite] (seconds) (never inferior to 1) -->
@@ -63,7 +66,7 @@
     </type>	
 	
 	<type name="Zombies_Attacking_Stopped_Vehicles">
- 		<Attack_Stopped_Vehicles	Activated	 			= "0"		/>	<!-- Integer [0 or 1] -->
+ 		<Attack_Stopped_Vehicles	Activated	 			= "1"		/>	<!-- Integer [0 or 1] -->
 		<Attack_Stopped_Vehicles	Vehicle_Type_Resistance	= "DefaultCars:100,ExpansionVodnik:200,ExpansionBus:200"/>	<!-- (no spaces, look carefully at the line structure if you want to add vehicles) -->
 		<Attack_Stopped_Vehicles	Damage_On_Structure		= "2.0"	/>	<!-- decimal [0.0 to infinite] -->
 		<Attack_Stopped_Vehicles	Damage_On_Attachments	= "5.0"	/>	<!-- decimal [0.0 to infinite] -->
@@ -80,10 +83,10 @@
 	
 	<type name="Debug_Only_For_Testing_Or_Debugging">
         <Debug_Mod 	Activated = "0"/>	<!-- [0 1 or 2] keep to 0 to save server resources : refresh xml modifications each 1 second if debug mod > 0 and each 30 seconds if debug mod = 0 (when change from 0 to 1 the curent 30s timer have to finished before begin to refresh at 1s rate) / if set to 2 damage messages will be shown when hitting zombies -->
-	</type>	
+	</type>		
 	
-	<type name="NewFeatures">		<!-- New feautures, you should move them in the right section (not mandatory but cleaner structure is easier for you to tweak) -->    
-	</type>
-</types>
+	<type name="NewFeatures">		<!-- New feautures, you should move them in the right section (not mandatory but cleaner structure is easier for you to tweak) -->      
+ 	</type>
+</types>
 <!--  ___________ YOU CAN FIND DETAILED INSTRUCTIONS in PvZmoD_CustomisableZombies_HELP.txt file ___________  -->
-
+

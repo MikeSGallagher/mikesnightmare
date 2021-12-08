@@ -50,7 +50,21 @@
 			If set to 0 the animal concerned will not fight with zombies.
 			Note that the "Friendly_Wolves" (details in "other" section bellow) never fight the zombies.
 			Remember these last features can be server resource consuming (if set to 1).
-
+		
+		Zombies_Breaking_Doors_Activated
+			If set to 0 no zombies will be able to break the closed doors.
+			If set to 1 the zombies that have their "Numb_Of_Hit_To_Break_Doors" value superior to 0 in Characteristics.xml will be able to break the doors.
+			Note the doors locked with a lockpick, doors from base buildings or mods like "More Doors" can't be break.
+			All doors (small, big, wooden or metal) have the same resistance.
+		
+		Zombies_Breaking_LockedDoors_Activated
+			Same thing than above but for the doors locked with a lockpick
+		
+		Zombies_Aggressive_Doors_Detection_Activated
+			If set to 1 zombies will hit the door even if they don't face it anymore.
+			The zombie only have to face the door for the first hit, for the other hits he just need to not move too much.
+			This can be somewhat immersive breaking (that's why this feature can be deactivated) but make breaking doors feature more efficient.
+			
 ////////////////////////	
 
 	Zombies_Caracteristics :
@@ -407,6 +421,28 @@
 
 ////////////////////////
 	
+	Can_Be_Backstabbed
+		Enable (1) or disable (0) 
+		If disable the players will not be able to oneshot the zombie when he come from behind
+		
+////////////////////////
+
+	Resist_Contaminated_Effect
+		Enable (1) or disable (0) 
+		If enable the zombie will not die when he enter a contaminated zone
+		The NBC zombies always resist to contaminated areas, even if you set the value to 0
+
+////////////////////////
+	
+	Numb_Of_Hit_To_Break_Doors
+		[0 to infinite]
+		If set to 0 no zombie will be able to break the closed doors.
+		If set to 1 the zombie will break the door with 1 hit, if set to 2 with 2 hits, set to 3 with 3 hits...
+		Note the doors locked with a lockpick, doors from base buildings or mods like "More Doors" can't be break.
+		All doors (small, big, wooden or metal) have the same resistance.
+
+////////////////////////
+	
 	Summary of possible values:
 	
 		type name					Class name
@@ -432,6 +468,11 @@
 		Damage_Stamina				Integers (Quantity) [0 to 100]			(or "-99") 	except "NightRatio" => Decimal (Ratio) [0.0 to infinite]	(or "-99")	
 		
 		Vision_Distance_Ratio		Decimals (Ratio) 	[0.0 to infinite]	(or "-99")
+		
+		Can_Be_Backstabbed			Integers (On/Off) 	[0 or 1]			(or "-99")
+		Resist_Contaminated_Effect	Integers (On/Off) 	[0 or 1]			(or "-99")
+		
+		Numb_Of_Hit_To_Break_Doors	Integer (Quantity) 	[0 to infinite]		(or "-99")	
 	
 	/////////
 	

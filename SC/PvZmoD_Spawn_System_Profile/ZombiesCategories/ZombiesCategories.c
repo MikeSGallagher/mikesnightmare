@@ -3,6 +3,15 @@
 ref autoptr TStringArray Empty = {	}; // Don't modify this one
 
 /// ////////////////////////////////
+ref autoptr TStringArray Zombie_Type_Santa = { // (v1.15 update)
+	"ZmbM_Santa",	
+};
+ref autoptr TStringArray Zombie_Type_NBC_Low = { // (v1.14 update)
+	"ZmbM_NBC_Yellow",	
+};
+ref autoptr TStringArray Zombie_Type_NBC_Hight = { // (v1.14 update)
+	"ZmbM_NBC_Grey",	
+};
 
 ref autoptr TStringArray Zombie_Type_AroundCastles = {
 	"ZmbM_HunterOld_Autumn",

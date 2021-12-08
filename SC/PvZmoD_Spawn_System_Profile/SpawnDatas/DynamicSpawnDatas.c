@@ -8,24 +8,24 @@ ref autoptr TIntArray data_AverageTown =	{ 20,		10,			15,			3,			7,			100,		5,		
 ref autoptr TIntArray data_BigTown =		{ 30,		10,			15,			5,			9,			100,		10,				30,					30 };			// 30 BigTown
 ref autoptr TIntArray data_Building =		{ 40,		20,			20,			5,			7,			100,		10,				30,					40 };			// 40 Building
 ref autoptr TIntArray data_Industial =		{ 50,		10,			15,			3,			4,			100,		5,				30,					50 };			// 50 Industial
-ref autoptr TIntArray data_Military =		{ 60,		10,			15,			3,			6,			80,			5,				30,					60 };			// 60 Military
-ref autoptr TIntArray data_Fog =			{ 70,		1,			10,			5,			5,			15,			5,				10,					70 };			// 70 Fog / night (test not used)
-ref autoptr TIntArray data_Prison =			{ 71,		5,			7,			3,			5,			60,			3,				30,					71 };			// 71 Prison
-ref autoptr TIntArray data_Marines =		{ 72,		5,			7,			0,			0,			20,			10,				20,					72 };			// 72 Riffy (test no used)
+ref autoptr TIntArray data_Military =		{ 60,		10,			15,			3,			6,			80,			5,				30,					60 };			// 60 Military (always focus)
+ref autoptr TIntArray data_Fog =			{ 70,		0,			0,			0,			0,			0,			0,				0,					70 };			// 70 
+ref autoptr TIntArray data_Prison =			{ 71,		5,			7,			3,			5,			60,			3,				30,					71 };			// 71 Prison (always focus)
+ref autoptr TIntArray data_Marines =		{ 72,		0,			0,			0,			0,			0,			0,				0,					72 };			// 72 
 ref autoptr TIntArray data_Bridge =			{ 73,		5,			7,			1,			2,			140,		2,				0,					60 };			// 73 Prison Bridge
 ref autoptr TIntArray data_Config90 =		{ 90,		10,			10,			1,			1,			600,		200,			200,				90 };			// 90 Hunters aroud castles
 
 /// Here you can configure your personnal dynamic spawn types
-ref autoptr TIntArray data_Config91 =		{ 91,		0,			0,			0,			0,			0,			0,				0,					0 };			// 
-ref autoptr TIntArray data_Config92 =		{ 92,		0,			0,			0,			0,			0,			0,				0,					0 };			// 
-ref autoptr TIntArray data_Config93 =		{ 93,		0,			0,			0,			0,			0,			0,				0,					0 };			// 
-ref autoptr TIntArray data_Config94 =		{ 94,		0,			0,			0,			0,			0,			0,				0,					0 };			// 
-ref autoptr TIntArray data_Config95 =		{ 95,		0,			0,			0,			0,			0,			0,				0,					0 };			// 
-ref autoptr TIntArray data_Config96 =		{ 96,		0,			0,			0,			0,			0,			0,				0,					0 };			// 
-ref autoptr TIntArray data_Config97 =		{ 97,		0,			0,			0,			0,			0,			0,				0,					0 };			// 
+ref autoptr TIntArray data_Config91 =		{ 91,		0,			0,			0,			0,			0,			0,				0,					0 };			// 91 
+ref autoptr TIntArray data_Config92 =		{ 92,		0,			0,			0,			0,			0,			0,				0,					0 };			// 92 
+ref autoptr TIntArray data_Config93 =		{ 93,		0,			0,			0,			0,			0,			0,				0,					0 };			// 93 
+ref autoptr TIntArray data_Config94 =		{ 94,		0,			0,			0,			0,			0,			0,				0,					0 };			// 94 
+ref autoptr TIntArray data_Config95 =		{ 95,		0,			0,			0,			0,			0,			0,				0,					0 };			// 95 
+ref autoptr TIntArray data_Config96 =		{ 96,		0,			0,			0,			0,			0,			0,				0,					0 };			// 96 
+ref autoptr TIntArray data_Config97 =		{ 97,		0,			0,			0,			0,			0,			0,				0,					0 };			// 97 
+ref autoptr TIntArray data_Config98 =		{ 98,		0,			0,			0,			0,			0,			0,				0,					0 };			// 98 
 
-ref autoptr TIntArray data_Config98 =		{ 98,		2,			2,			1,			1,			100,		1,				0,					1 };			// Test	/ Debug	(can be modify if you need)
-ref autoptr TIntArray data_Config99 =		{ 99,		2,			2,			5,			5,			60,			3,				0,					30 };			// Test	/ Debug	(can be modify if you need)
+ref autoptr TIntArray data_Config99 =		{ 99,		7,			10,			2,			3,			80,			10,				40,					99 };			// 99 Toxic zones (always focus) (v1.14 update)
 
 ///  									NUMCONFIG	TIMEmini     TIMEmaxi	NBRmini		NBRmaxi		DISTANCE	AREA RADIUS 	Lateral SHIFT 	numChooseZombiesCategorie  
 

@@ -1,0 +1,74 @@
+//******************************************************************************************************************************************************************************************
+//IMPORTANT: This file will be created automatically in your server profiles folder/SimpleBase. This version is just for reference.
+//IMPORTANT: Don't use this file .json files don't allow comments, so it won't work. Use the auto-generated file in your server profiles folder/SimpleBase.
+//******************************************************************************************************************************************************************************************
+{
+    "BaseBuildTools": [                                     //Tools used for building. NOTE: Some tools used for vanilla building have been disabled due to conflicts.
+        "Hatchet",                                          //Shovel, Pliers, Pickaxe and Sledgehammer disabled here, but still work for vanilla building.
+        "Hammer"
+    ],
+    "BaseDismantleTools": [                                 //Tools used for dismantling. NOTE: Some tools used for vanilla dismantling have been disabled due to conflicts.
+        "Hatchet",                                          //Shovel, Pliers, Pickaxe and Sledgehammer disabled here, but still work for vanilla dismantling.
+        "Crowbar"
+    ],
+    "BaseDestroyToolsWood": [                               //Tools used for destroying wooden parts. (Applies to SimpleBase, BaseBuildingPlus and vanilla)
+        "SledgeHammer",
+        "Pickaxe",
+        "FirefighterAxe",
+        "WoodAxe"
+    ],
+    "BaseDestroyToolsMetal": [                              //Tools used for destroying metal parts. (Applies to SimpleBase, BaseBuildingPlus and vanilla)
+        "SledgeHammer",
+        "Pickaxe",
+        "FirefighterAxe"
+    ],
+    "BaseDestroyToolsConcrete": [                           //Tools used for destroying concrete parts. (Currently only applies to BaseBuildingPlus)
+        "SledgeHammer",
+        "Pickaxe"
+    ],
+    "BaseBuildTime": 20,                                    //Time (in seconds) to build.
+    "BaseDismantleTime": 60,                                //Time (in seconds) to dismantle.
+    "BaseDestroyTimeDefault": 600,                          //Time (in seconds) to destroy any part not labelled wood, metal or concrete.
+    "BaseDestroyTimeWood": 600,                             //Time (in seconds) to destroy wooden base parts. (Applies to SimpleBase, BaseBuildingPlus and vanilla)
+    "BaseDestroyTimeMetal": 900,                            //Time (in seconds) to destroy metal base parts. (Applies to SimpleBase, BaseBuildingPlus and vanilla)
+    "BaseDestroyTimeConcrete": 1800,                        //Time (in seconds) to destroy concrete base parts. (Currently only applies to BaseBuildingPlus)
+    "BaseDestroyTimeSBUpgradeLogs": 600,                    //Time (in seconds) to destroy log reinforcement upgrades. (Applies to SimpleBase)
+    "BaseDestroyTimeSBUpgradeMetal": 900,                   //Time (in seconds) to destroy metal reinforcement upgrades. (Applies to SimpleBase)
+    "BaseDestroyTimeSBUpgradeBars": 300,                    //Time (in seconds) to destroy window bars upgrades. (Applies to SimpleBase and BaseBuildingPlus)
+    "BaseBuildToolDamage": 1,                               //Damage to tool used for building.
+    "BaseDismantleToolDamage": 3,                           //Damage to tool used for dismantling.
+    "BaseDestroyToolDamageWood": 50,                        //Damage to tool used for destroying wooden parts. (Applies to SimpleBase, BaseBuildingPlus and vanilla)
+    "BaseDestroyToolDamageMetal": 100,                      //Damage to tool used for destroying metal parts. (Applies to SimpleBase, BaseBuildingPlus and vanilla)
+    "BaseDestroyToolDamageConcrete": 1000,                  //Damage to tool used for destroying concrete parts. (Currently only applies to BaseBuildingPlus)
+    "BaseDestroyToolDamageUpgradeLogs": 50,                 //Damage to tool used for destroying log reinforcement upgrades. (Applies to SimpleBase)
+    "BaseDestroyToolDamageUpgradeMetal": 100,               //Damage to tool used for destroying metal reinforcement upgrades. (Applies to SimpleBase)
+    "BaseDestroyToolDamageUpgradeBars": 50,                 //Damage to tool used for destroying window bars upgrades. (Applies to SimpleBase and BaseBuildingPlus)
+    "BaseInfiniteLifetime": 0,                              //0=Disabled. 1=Enabled. Infinite lifetime option for all SimpleBase parts.
+    "BaseRaidOnlyDoors": 0,                                 //0=Disabled. 1=Enabled. Raid only doors, gates and hatches option. (Applies to SimpleBase, BaseBuildingPlus and vanilla)
+    "DisableCraftVanillaFence": 0,                          //0=Allow crafting. 1=Disallow crafting. Option to disable crafting vanilla fence kit.
+    "DisableCraftVanillaWatchtower": 0,                     //0=Allow crafting. 1=Disallow crafting. Option to disable crafting vanilla watchtower kit.
+    "DisableDestroy": 0,                                    //0=Allow raiding. 1=Disallow raiding. Option to disable raiding. (Applies to all)
+    "DisableDestroySimpleBase": 0,                          //0=Allow raiding. 1=Disallow raiding. Option to disable raiding. (Applies to SimpleBase)
+    "DisableDestroySimpleWall": 0,                          //0=Allow raiding. 1=Disallow raiding. Option to disable raiding Simple Wall.
+    "DisableDestroySimpleHalfWall": 0,                      //0=Allow raiding. 1=Disallow raiding. Option to disable raiding Simple HalfWall.
+    "DisableDestroySimpleWindow": 0,                        //0=Allow raiding. 1=Disallow raiding. Option to disable raiding Simple Window.
+    "DisableDestroySimpleDoor": 0,                          //0=Allow raiding. 1=Disallow raiding. Option to disable raiding Simple Door.
+    "DisableDestroySimpleGate": 0,                          //0=Allow raiding. 1=Disallow raiding. Option to disable raiding Simple Gate.
+    "DisableDestroySimpleRoof": 0,                          //0=Allow raiding. 1=Disallow raiding. Option to disable raiding Simple Roof. (Simple Roof currently unraidable anyway)
+    "DisableDestroySimpleFloor": 0,                         //0=Allow raiding. 1=Disallow raiding. Option to disable raiding Simple Floor. (Simple Floor currently unraidable anyway)
+    "DisableDestroySimpleStaircase": 0,                     //0=Allow raiding. 1=Disallow raiding. Option to disable raiding Simple Staircase. (Simple Staircase currently unraidable anyway)
+    "DisableDestroySimplePillar": 0,                        //0=Allow raiding. 1=Disallow raiding. Option to disable raiding Simple Pillar.
+    "DisableDestroySimpleHalfPillar": 0,                    //0=Allow raiding. 1=Disallow raiding. Option to disable raiding Simple HalfPillar.
+    "DisableDismantle": 0,                                  //0=Allow dismantle. 1=Disallow dismantle. Option to disable dismantling. (Applies to all)
+    "DisableDismantleSimpleBase": 0,                        //0=Allow dismantle. 1=Disallow dismantle. Option to disable dismantling. (Applies to SimpleBase)
+    "DisableDismantleSimpleWall": 0,                        //0=Allow dismantle. 1=Disallow dismantle. Option to disable dismantling Simple Wall.
+    "DisableDismantleSimpleHalfWall": 0,                    //0=Allow dismantle. 1=Disallow dismantle. Option to disable dismantling Simple HalfWall.
+    "DisableDismantleSimpleWindow": 0,                      //0=Allow dismantle. 1=Disallow dismantle. Option to disable dismantling Simple Window.
+    "DisableDismantleSimpleDoor": 0,                        //0=Allow dismantle. 1=Disallow dismantle. Option to disable dismantling Simple Door.
+    "DisableDismantleSimpleGate": 0,                        //0=Allow dismantle. 1=Disallow dismantle. Option to disable dismantling Simple Gate.
+    "DisableDismantleSimpleRoof": 0,                        //0=Allow dismantle. 1=Disallow dismantle. Option to disable dismantling Simple Roof.
+    "DisableDismantleSimpleFloor": 0,                       //0=Allow dismantle. 1=Disallow dismantle. Option to disable dismantling Simple Floor.
+    "DisableDismantleSimpleStaircase": 0,                   //0=Allow dismantle. 1=Disallow dismantle. Option to disable dismantling Simple Staircase.
+    "DisableDismantleSimplePillar": 0,                      //0=Allow dismantle. 1=Disallow dismantle. Option to disable dismantling Simple Pillar.
+    "DisableDismantleSimpleHalfPillar": 0                   //0=Allow dismantle. 1=Disallow dismantle. Option to disable dismantling Simple HalfPillar.
+}

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<!-- Machineguns -->
+	<type name="Sebbes_M249">
+		<attachments chance="0.10">
+			<item name="Mag_M249_Box200Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+			<item name="Sebbes_MicroT2_Optic" chance="0.20" />
+			<item name="Sebbes_HAMR_Optic" chance="0.20" />
+			<item name="Sebbes_EOTechHolographic" chance="0.20" />
+			<item name="Sebbes_WaltherMRS_Optic" chance="0.20" />
+		</attachments>
+	</type>
+	
+	<!-- FireArms -->
+	
+	<type name="Sebbes_AlphaAK105">
+        <attachments chance="1.00">
+            <item name="M4_CQBBttstck" chance="0.20" />
+            <item name="M4_MPBttstck" chance="0.20" />
+            <item name="M4_OEBttstck" chance="0.20" />
+            <item name="Sebbes_CTR_Stock" chance="0.20" />
+            <item name="Sebbes_CTR_Stock_camo" chance="0.20" />
+        </attachments>
+        <attachments chance="0.30">
+            <item name="Mag_AK74_30Rnd" chance="1.00" />
+        </attachments>
+        <attachments chance="0.20">
+            <item name="KobraOptic" chance="0.50" />
+            <item name="KashtanOptic" chance="0.30" />
+            <item name="PSO1Optic" chance="0.20" />
+        </attachments>
+        <attachments chance="0.10">
+            <item name="AK_Suppressor" chance="0.50" />
+        </attachments>
+    </type>
+	
+	<type name="Sebbes_VZ58">
+        <attachments chance="0.30">
+            <item name="vz58_mag_30rnd" chance="1.00" />
+        </attachments>
+        <attachments chance="0.20">
+            <item name="KobraOptic" chance="0.50" />
+            <item name="KashtanOptic" chance="0.30" />
+            <item name="PSO1Optic" chance="0.20" />
+        </attachments>
+        <attachments chance="0.10">
+            <item name="AK_Suppressor" chance="0.50" />
+        </attachments>
+    </type>
+	
+	<type name="Sebbes_PKP">
+        <attachments chance="0.30">
+            <item name="Mag_PKM_Box200Rnd" chance="1.00" />
+        </attachments>
+        <attachments chance="0.20">
+            <item name="KobraOptic" chance="0.50" />
+            <item name="KashtanOptic" chance="0.30" />
+            <item name="PSO1Optic" chance="0.20" />
+        </attachments>
+    </type>
+	
+	<type name="Sebbes_PKM">
+        <attachments chance="0.30">
+            <item name="Mag_PKM_Box200Rnd" chance="1.00" />
+        </attachments>
+    </type>
+	
+	<type name="Sebbes_AK12">
+		<attachments chance="0.30">
+			<item name="Mag_AK74_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.30" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+			<item name="Sebbes_MicroT2_Optic" chance="0.20" />
+			<item name="Sebbes_HAMR_Optic" chance="0.20" />
+			<item name="Sebbes_EOTechHolographic" chance="0.20" />
+			<item name="Sebbes_WaltherMRS_Optic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="AK_Suppressor" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="Sebbes_HK416">
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance=".90" />
+			<item name="Mag_STANAGCoupled_30Rnd" chance=".10" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.30" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+			<item name="Sebbes_MicroT2_Optic" chance="0.20" />
+			<item name="Sebbes_HAMR_Optic" chance="0.20" />
+			<item name="Sebbes_EOTechHolographic" chance="0.20" />
+			<item name="Sebbes_WaltherMRS_Optic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="M4_Suppressor" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="Sebbes_M16A4">
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance=".90" />
+			<item name="Mag_STANAGCoupled_30Rnd" chance=".10" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.30" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+			<item name="Sebbes_MicroT2_Optic" chance="0.20" />
+			<item name="Sebbes_HAMR_Optic" chance="0.20" />
+			<item name="Sebbes_EOTechHolographic" chance="0.20" />
+			<item name="Sebbes_WaltherMRS_Optic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="M4_Suppressor" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="Sebbes_SCAR_L">
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance=".90" />
+			<item name="Mag_STANAGCoupled_30Rnd" chance=".10" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.30" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+			<item name="Sebbes_MicroT2_Optic" chance="0.20" />
+			<item name="Sebbes_HAMR_Optic" chance="0.10" />
+			<item name="Sebbes_EOTechHolographic" chance="0.20" />
+			<item name="Sebbes_WaltherMRS_Optic" chance="0.10" />
+		</attachments>
+	</type>
+	<type name="Sebbes_STG44">
+		<attachments chance="0.30">
+			<item name="Mag_STG44_30Rnd" chance="1" />
+		</attachments>
+	</type>
+	<type name="Sebbes_MP40">
+		<attachments chance="0.30">
+			<item name="Mag_MP40_32Rnd" chance="1" />
+		</attachments>
+	</type>
+	<type name="Sebbes_SCAR_H">
+		<attachments chance="0.30">
+			<item name="Mag_Scar_H_20rnd" chance="1" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.30" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+			<item name="Sebbes_MicroT2_Optic" chance="0.20" />
+			<item name="Sebbes_HAMR_Optic" chance="0.10" />
+			<item name="Sebbes_EOTechHolographic" chance="0.20" />
+			<item name="Sebbes_WaltherMRS_Optic" chance="0.10" />
+		</attachments>
+	</type>
+	<type name="Sebbes_HoneyBadger">
+		<attachments chance="0.30">
+			<item name="Mag_HoneyBadger_30Rnd" chance="1" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.30" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+			<item name="Sebbes_MicroT2_Optic" chance="0.20" />
+			<item name="Sebbes_HAMR_Optic" chance="0.10" />
+			<item name="Sebbes_EOTechHolographic" chance="0.20" />
+			<item name="Sebbes_WaltherMRS_Optic" chance="0.10" />
+		</attachments>
+	</type>
+	<type name="Sebbes_HKUMP45">
+		<attachments chance="0.20">
+			<item name="Mag_HKUMP_25Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="BUISOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.15" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.30" />
+			<item name="Sebbes_MicroT2_Optic" chance="0.20" />
+			<item name="Sebbes_HAMR_Optic" chance="0.10" />
+			<item name="Sebbes_EOTechHolographic" chance="0.10" />
+			<item name="Sebbes_WaltherMRS_Optic" chance="0.10" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Sebbes_HKMP5">
+		<attachments chance="0.30">
+			<item name="Mag_MP5_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MP5k_StockBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="BUISOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.15" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.30" />
+			<item name="Sebbes_MicroT2_Optic" chance="0.20" />
+			<item name="Sebbes_HAMR_Optic" chance="0.10" />
+			<item name="Sebbes_EOTechHolographic" chance="0.10" />
+			<item name="Sebbes_WaltherMRS_Optic" chance="0.10" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Sebbes_MP7">
+		<attachments chance="0.30">
+			<item name="Mag_MP7_40Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="BUISOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.15" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.30" />
+			<item name="Sebbes_MicroT2_Optic" chance="0.20" />
+			<item name="Sebbes_HAMR_Optic" chance="0.10" />
+			<item name="Sebbes_EOTechHolographic" chance="0.10" />
+			<item name="Sebbes_WaltherMRS_Optic" chance="0.10" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Sebbes_RPK74">
+		<attachments chance="0.30">
+			<item name="Mag_RPK74_45Rnd" chance="1" />
+		</attachments>
+	</type>
+	
+	<!-- Pistols -->
+	
+	<type name="Sebbes_M9A3">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="Mag_M9A3_17Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Sebbes_SigSauerP226">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="Mag_SigSauerP226_15Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Sebbes_MP443">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="Mag_MP433_17Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	
+	<!-- Snipers -->
+	
+	<type name="Sebbes_SR25_Black">
+		<attachments chance="1.00">
+			<item name="Sebbes_SR25_Suppressor_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="HuntingOptic" chance="1" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_SR25_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Sebbes_SR25_Green">
+		<attachments chance="1.00">
+			<item name="Sebbes_SR25_Suppressor_Green" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="HuntingOptic" chance="1" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_SR25_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Sebbes_SR25_White">
+		<attachments chance="1.00">
+			<item name="Sebbes_SR25_Suppressor_White" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="HuntingOptic" chance="1" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_SR25_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Sebbes_M40A1">
+		<attachments chance="1.00">
+			<item name="Sebbes_M40A1_Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="HuntingOptic" chance="1" />
+		</attachments>
+	</type>
+	<type name="Sebbes_M24">
+		<attachments chance="0.20">
+			<item name="HuntingOptic" chance="1" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_M24_5rnd" chance="1" />
+		</attachments>
+	</type>
+	<type name="Sebbes_AWM">
+		<attachments chance="0.20">
+			<item name="Sebbes_AWM_Scope" chance="1" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AWM_5rnd" chance="1" />
+		</attachments>
+	</type>
+	<type name="Sebbes_SOK94">
+		<attachments chance="0.30">
+			<item name="Mag_SOK94_10Rnd" chance="1" />
+		</attachments>
+	</type>
+	<type name="Sebbes_M1aSocom">
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.15" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.30" />
+			<item name="Sebbes_MicroT2_Optic" chance="0.20" />
+			<item name="Sebbes_HAMR_Optic" chance="0.10" />
+			<item name="Sebbes_EOTechHolographic" chance="0.10" />
+			<item name="Sebbes_WaltherMRS_Optic" chance="0.10" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_M1A_20rnd" chance="1" />
+		</attachments>
+	</type>
+	<type name="Sebbes_M82">
+		<attachments chance="0.20">
+			<item name="HuntingOptic" chance="1" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_M82_10Rnd" chance="1" />
+		</attachments>
+	</type>
+	<type name="Sebbes_M110">
+		<attachments chance="0.20">
+			<item name="HuntingOptic" chance="1" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_M110_20Rnd" chance="1" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="AtlasBipod" chance="1" />
+		</attachments>
+	</type>
+	<type name="Sebbes_AS50">
+		<attachments chance="0.20">
+			<item name="HuntingOptic" chance="1" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AS50_10Rnd" chance="1" />
+		</attachments>
+	</type>
+	<type name="Sebbes_SV98">
+		<attachments chance="0.20">
+			<item name="Sebbes_SV98_Scope" chance="1" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_SV98_10rnd" chance="1" />
+		</attachments>
+	</type>
+	
+	<!-- Shotguns -->
+	
+	<type name="Sebbes_M590A1">
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.15" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.30" />
+			<item name="Sebbes_MicroT2_Optic" chance="0.20" />
+			<item name="Sebbes_HAMR_Optic" chance="0.10" />
+			<item name="Sebbes_EOTechHolographic" chance="0.10" />
+			<item name="Sebbes_WaltherMRS_Optic" chance="0.10" />
+		</attachments>
+	</type>
+</spawnabletypes>

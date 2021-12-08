@@ -637,4 +637,24 @@
 		<Night Ratio ="1.0"/>
 		<Night Zombies ="ZmbM_priestPopSkinny"/>
 	</type>
+	<type name="ZmbM_usSoldier_Officer_Desert">
+		<Night Ratio ="1.0"/>
+		<Night Zombies ="ZmbM_usSoldier_Officer_Desert"/>
+	</type>
+	<type name="ZmbM_PolicemanSpecForce_Heavy">
+		<Night Ratio ="1.0"/>
+		<Night Zombies ="ZmbM_PolicemanSpecForce_Heavy"/>
+	</type>
+	<type name="ZmbM_NBC_Yellow">
+		<Night Ratio ="1.0"/>
+		<Night Zombies ="ZmbM_NBC_Yellow"/>
+	</type>
+	<type name="ZmbM_NBC_Grey">
+		<Night Ratio ="1.0"/>
+		<Night Zombies ="ZmbM_NBC_Grey"/>
+	</type>
+	<type name="ZmbM_Santa">
+		<Night Ratio ="1.0"/>
+		<Night Zombies ="ZmbM_Santa"/>
+	</type>
 </types>

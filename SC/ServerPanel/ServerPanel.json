@@ -30,13 +30,19 @@
         "There are so far 60 Mods on this server.",
 		"For More information about a mod, please refer to the mod list when you joined.",
 		"Respectfully look up a mod on Steamworkshop for more detailed info",
-		"about it's functionality. Thank you for playing here today!"
-       
+		"about it's functionality. Thank you for playing here today!",
+		"",
+		"With base building you need to be 1000m away from Trader Zones or Military bases",
+		"there are no exceptions your base will be deleted within this radius."
     ],
     "sServerTab2": [
         "SmashFlash - Server Owner",
 		"Viper Vic - Server Admin",
 		"JkRadar - Server Admin",
+		"BBear0007 - Server Admin",
+		"DemonikRain - Server Admin",
+		"CyrusTheVirus72 - Server Admin",
+		"FaddedWolf - Server Admin",
 		"",
 		"If you like our server please feel free to donate to keep it going"
     ],

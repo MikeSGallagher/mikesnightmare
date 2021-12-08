@@ -7,7 +7,7 @@ Use INTEGERS values (no decimals, no true/false...)
 {
 	"Data_RealTimeTweak": 
 	{
-		"0": 0,   	// (Debug) Show debug messages (0 disable, 1 enable)
+		"0": 0,   	// (Debug) Show debug messages (0 disable, 1 enable) 
 
 		"1": 300, 	// (Perf) Maximum number of Z on the server (not including those spawned with vanilla system if always active) 0 => completely deactivate spawn system, just keeping items spawn on zeds body.
 		"2": 0, 	// (Tech) Use vanilla spawn system when fps are under the "56" value (see post in workshop discution thread for details)
@@ -77,7 +77,7 @@ Use INTEGERS values (no decimals, no true/false...)
 		"54": 1,	// (Perf) CleanUp Packed Zombies moving distance (meters) to be considered as not moving
 		"55": 10,   // (Perf) CleanUp Packed Zombies time (seconds) between two check
 		
-		"56": 50,  // (Perf) FPS cap : if server FPS are lower, somes zombies disappear (0 no FPS cap, zombies will not desapear)
+		"56": 80,  // (Perf) FPS cap : if server FPS are lower, somes zombies disappear (0 no FPS cap, zombies will not desapear)
 		"57": 4,   	// (Perf) speed variation of despawn distance [1-99]
 		
 		"58": 999,  // (NOT USED ANYMORE)
@@ -111,15 +111,17 @@ Use INTEGERS values (no decimals, no true/false...)
 
 		"78" : 3, 	// (Bonfires) Minimum Number Of Zombies On Bonfires (this value is independent from "03" or "04" values, it is not link to the dynamic or static system)
 		"79" : 5, 	// (Bonfires) Maximum Number Of Zombies On Bonfires (this value is independent from "03" or "04" values, it is not link to the dynamic or static system)
-		"80" : 106, // (Bonfires) Type Of Zombies On Bonfires 		 	(this value is independent from "03" or "04" values, it is not link to the dynamic or static system)
+		"80" : 106, // (Bonfires) Type Of Zombies On Bonfires 		 	(correspond to the values in ZombiesChooseCategories.c file)
 		
-		"81" : 999, // Not used yet
-		"82" : 999, // Not used yet
-		"83" : 999, // Not used yet
-		"84" : 999, // Not used yet
-		"85" : 999, // Not used yet
-		"86" : 999, // Not used yet
-		"87" : 999, // Not used yet
+		"81" : 1, 	// (Toxic) Minimum Number Of Zombies In Toxic Zones 	(this value is independent from "03" or "04" values, it is not link to the dynamic or static system)
+		"82" : 10, 	// (Toxic) Maximum Number Of Zombies In Toxic Zones 	(this value is independent from "03" or "04" values, it is not link to the dynamic or static system)
+		"83" : 99,	// (Toxic) Type Of Zombies In Toxic Zones 		 		(correspond to the values in ZombiesChooseCategories.c file)		
+		"84" : 75, 	// (Toxic) Spawn Radius In Toxic Zones
+		
+		"85" : 1, 	// (SantasSleigh Crash) Minimum Number Of Zombies On SantasSleigh Crash (this value is independent from "03" or "04" values, it is not link to the dynamic or static system)
+		"86" : 1, 	// (SantasSleigh Crash) Maximum Number Of Zombies On SantasSleigh Crash (this value is independent from "03" or "04" values, it is not link to the dynamic or static system)
+		"87" : 98, 	// (SantasSleigh Crash) Type Of Zombies On SantasSleigh Crash (correspond to the values in ZombiesChooseCategories.c file)
+		
 		"88" : 999, // Not used yet
 		"89" : 999, // Not used yet
 		"90" : 999, // Not used yet
