@@ -1,0 +1,36 @@
+{
+    "m_ClanID": "KYZnMOgaohthhCga",
+    "m_OwnersPlainID": "76561198332627380",
+    "m_ClanName": "DIVIsion",
+    "m_Prefix": "ua",
+    "m_BankAmount": 0,
+    "m_Members": [
+        {
+            "m_plainID": "76561198332627380",
+            "m_playername": "connor",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        },
+        {
+            "m_plainID": "76561199088617925",
+            "m_playername": "atlants",
+            "m_permissions": {
+                "m_CanWithdraw": 0,
+                "m_CanDeposit": 0,
+                "m_CanInvite": 0,
+                "m_CanKick": 0,
+                "m_CanEdit": 0
+            }
+        }
+    ],
+    "m_ClanLogs": [
+        "connor deposited: 200000",
+        "connor deposited: 0",
+        "connor withdrawed: 200000"
+    ]
+}

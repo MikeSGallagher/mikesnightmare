@@ -83,8 +83,8 @@ ref autoptr TIntArray data_Zone073 = {10,			12463,			4685,			12963,				4185,				
 ref autoptr TIntArray data_Zone074 = {10,			4770,			5789,			5070,				5489,				100,			15}; 		// Small town / Pulkovo
 /// DYNAMIC SPAWN 		 : 			NUM CONFIG / COORDX-upleft / COORDZ-upleft / COORDX-lowerright / COORDZ-lowerright / QUANTITY RATIO / TOTAL MAX ZEDS NUMBER
 ref autoptr TIntArray data_Zone075 = {20,			1694,			2390,			1994,				2090,				100,			30}; 		// Average town / Kamenka
-ref autoptr TIntArray data_Zone076 = {20,			3435,			2667,			3835,				2267,				100,			30}; 		// Average town / kamarovo
-ref autoptr TIntArray data_Zone077 = {20,			4274,			2658,			4674,				2258,				100,			30}; 		// Average town / Ballota
+ref autoptr TIntArray data_Zone076 = {60,			3435,			2667,			3835,				2267,				100,			30}; 		// Average town / kamarovo
+ref autoptr TIntArray data_Zone077 = {60,			4274,			2658,			4674,				2258,				100,			30}; 		// Average town / Ballota
 ref autoptr TIntArray data_Zone078 = {20,			11866,			3769,			12266,				3369,				100,			30}; 		// Average town / Kamyshovo
 ref autoptr TIntArray data_Zone079 = {20,			13254,			6385,			13554,				6085,				100,			30}; 		// Average town / Solnichy
 ref autoptr TIntArray data_Zone080 = {20,			11860,			13952,			12300,				13488,				100,			30}; 		// Average town / Cernaya
@@ -142,7 +142,7 @@ ref autoptr TIntArray data_Zone122 = {99,			13665,			11257,			13968,				11045,		
 /// (I highly recommend to you to use the last lines first because I will surely add new zones and take the first for more readability)
 
 /// DYNAMIC SPAWN 		 : 			NUM CONFIG / COORDX-upleft / COORDZ-upleft / COORDX-lowerright / COORDZ-lowerright / QUANTITY RATIO / TOTAL MAX ZEDS NUMBER / description
-ref autoptr TIntArray data_Zone123 = {0,			0,				0,				0,					0,					100,			100}; 					//
+ref autoptr TIntArray data_Zone123 = {60,			4753,			2348,			4813,				2228,					100,			30}; 					//
 ref autoptr TIntArray data_Zone124 = {0,			0,				0,				0,					0,					100,			100}; 					//
 ref autoptr TIntArray data_Zone125 = {0,			0,				0,				0,					0,					100,			100}; 					//
 ref autoptr TIntArray data_Zone126 = {0,			0,				0,				0,					0,					100,			100}; 					//

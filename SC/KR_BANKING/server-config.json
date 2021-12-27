@@ -2,7 +2,7 @@
     "ModVersion": "2.11",
     "MenuDelay": 1.0,
     "startCurrency": 0,
-    "maxCurrency": 10000000,
+    "maxCurrency": 100000000,
     "IsClanAccountActive": 1,
     "CostsToCreateClan": 5000,
     "CostsToInviteAnPlayer": 1000,

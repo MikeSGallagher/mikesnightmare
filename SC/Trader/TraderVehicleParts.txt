@@ -360,7 +360,7 @@
 	rag_hummer_Door_winter_3
 	rag_hummer_Door_winter_4
 	rag_hummer_Hood_winter
-	rag_hummer_Trunk_v
+	rag_hummer_Trunk_winter
 	rag_hummer_wheel
 	rag_hummer_wheel
 	rag_hummer_wheel

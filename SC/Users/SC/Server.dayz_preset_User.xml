@@ -757,26 +757,29 @@
     <input name="UACamRelease">
         <btn name="kLControl" />
     </input>
+    <input name="SIX_ToggleAutoRun">
+        <btn name="kAdd" />
+    </input>
+    <input name="UAToggleNotifcationSound">
+        <btn name="kRBracket" />
+    </input>
     <input name="UAOpenVPPMap">
         <btn name="kM" />
     </input>
     <input name="UAToggleVPPMap3DMarkers">
         <btn name="kK" />
     </input>
-    <input name="UAToggleNotifcationSound">
-        <btn name="kRBracket" />
+    <input name="PvZmoD_CZ_RefreshJsonVariables">
+        <btn name="kNumpad4" />
     </input>
-    <input name="UAToggleMute">
-        <btn name="kN" />
+    <input name="PvZ_InfomationPanel_ShowHidePvzInformationPanel_CZ">
+        <btn name="kSpace" />
     </input>
-    <input name="UAIncreaseMute">
-        <btn name="kEquals" />
+    <input name="PvZmodRefresh">
+        <btn name="kNumpad5" />
     </input>
-    <input name="UADecreaseMute">
-        <btn name="kMinus" />
-    </input>
-    <input name="UASchanaCompassToggle">
-        <btn name="kH" />
+    <input name="PvZ_InfomationPanel_ShowHidePvzInformationPanel_SS">
+        <btn name="kSpace" />
     </input>
     <input name="UASchanaChatChannel">
         <btn name="kZ" />
@@ -796,33 +799,41 @@
     <input name="UASchanaPartyPingClear">
         <btn name="kY" />
     </input>
-    <input name="PvZmoD_CZ_RefreshJsonVariables">
-        <btn name="kNumpad4" />
-    </input>
-    <input name="PvZ_InfomationPanel_ShowHidePvzInformationPanel_CZ">
-        <btn name="kSpace" />
-    </input>
-    <input name="PvZmodRefresh">
-        <btn name="kNumpad5" />
-    </input>
-    <input name="PvZ_InfomationPanel_ShowHidePvzInformationPanel_SS">
-        <btn name="kSpace" />
-    </input>
-    <input name="Pvz_TheDarkHorde_Direction">
-        <btn name="kNumpad0" />
-    </input>
-    <input name="Pvz_DH_RefreshData">
-        <btn name="kNumpad6" />
-    </input>
-    <input name="Pvz_TheDarkHorde_Init">
-        <btn name="kNumpad9" />
-    </input>
-    <input name="Pvz_TheDarkHorde_Trigger_Event" />
-    <input name="PvZ_InfomationPanel_ShowHidePvzInformationPanel_DH">
-        <btn name="kSpace" />
-    </input>
     <input name="SPOpenPanelMenu">
         <btn name="kPause" />
+    </input>
+    <input name="UAToggleMute">
+        <btn name="kN" />
+    </input>
+    <input name="UAIncreaseMute">
+        <btn name="kEquals" />
+    </input>
+    <input name="UADecreaseMute">
+        <btn name="kMinus" />
+    </input>
+    <input name="UASchanaCompassToggle">
+        <btn name="kH" />
+    </input>
+    <input name="UAWorkbenchUI">
+        <btn name="kK" />
+    </input>
+    <input name="UABuildSnapUI">
+        <btn name="kB" />
+    </input>
+    <input name="UABBPInv">
+        <btn name="kL" />
+    </input>
+    <input name="UANextSnap">
+        <btn name="mWheelUp" />
+    </input>
+    <input name="UAPrevSnap">
+        <btn name="mWheelDown" />
+    </input>
+    <input name="UASnapLook">
+        <btn name="kDown" />
+    </input>
+    <input name="UAAdvancedBanking">
+        <btn name="kB" />
     </input>
     <input name="UASIBHeliLookToggle">
         <btn name="kLControl">
@@ -864,33 +875,6 @@
     </input>
     <input name="UASIBHeliDown">
         <btn name="kZ" />
-    </input>
-    <input name="UAWorkbenchUI">
-        <btn name="kK" />
-    </input>
-    <input name="UABuildSnapUI">
-        <btn name="kB" />
-    </input>
-    <input name="UABBPInv">
-        <btn name="kL" />
-    </input>
-    <input name="UANextSnap">
-        <btn name="mWheelUp" />
-    </input>
-    <input name="UAPrevSnap">
-        <btn name="mWheelDown" />
-    </input>
-    <input name="UASnapLook">
-        <btn name="kDown" />
-    </input>
-    <input name="UAAdvancedBanking">
-        <btn name="kB" />
-    </input>
-    <input name="UAHeroesAndBanditsPanel">
-        <btn name="kJ" />
-    </input>
-    <input name="SIX_ToggleAutoRun">
-        <btn name="kAdd" />
     </input>
     <controller name="PCKeyboard">
         <limit name="doubleclick" value="0.500000" />

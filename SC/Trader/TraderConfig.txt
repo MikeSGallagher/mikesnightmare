@@ -285,7 +285,7 @@
 		MassBinocs,                                                            *,                   100,                 50
 		Clawhammer_mung,                                                       *,                   200,                 100
 		oillamp_mung,                                                          *,                   200,                 100
-		Zippo_new,                                                             *,                   100,                 50
+		Zippo_mung,                                                             *,                   100,                 50
 		maglite_mung,                                                          *,                   600,                 300
 		Airam_mung,                                                            *,                   400,                 200
 	<Category>Tools (big)
@@ -3243,7 +3243,6 @@
 		MVS_Patch_33,                                                          *,                   50,                  25
 		MVS_Patch_34,                                                          *,                   50,                  25
 		MVS_Patch_35,                                                          *,                   50,                  25
-		MVS_Patch_36,                                                          *,                   50,                  25
 	<Category>MVS Flags
 		MVS_CountryFlag_Afghanistan,                                           *,                   50,                  25
 		MVS_CountryFlag_Albania,                                               *,                   50,                  25

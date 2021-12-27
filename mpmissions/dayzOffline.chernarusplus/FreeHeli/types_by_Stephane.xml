@@ -29,10 +29,10 @@
  <!-- Heliblack_hawk_SIB -->
  <!-- PBO : HelicopterSIB_black-hawk.pbo -->
   	<type name="SIBblack_hawk_Door_1_1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -43,10 +43,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="SIBblack_hawk_Door_1_2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -57,10 +57,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="SIBblack_hawk_Door_2_1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -71,10 +71,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="SIBblack_hawk_Door_2_2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -87,10 +87,10 @@
  <!-- Heliblack_hawk_SIB_BlueCamo -->
  <!-- PBO :  -->
   	<type name="SIBblack_hawk_Door_1_1_BlueCamo">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -101,10 +101,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="SIBblack_hawk_Door_1_2_BlueCamo">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -115,10 +115,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="SIBblack_hawk_Door_2_1_BlueCamo">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -129,10 +129,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="SIBblack_hawk_Door_2_2_BlueCamo">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -146,10 +146,10 @@
  <!-- check v2 -->
  <!-- PBO :  -->
   	<type name="SIBblack_hawk_Door_1_1_camo2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -160,10 +160,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBblack_hawk_Door_1_2_camo2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -174,10 +174,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBblack_hawk_Door_2_1_camo2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -188,10 +188,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBblack_hawk_Door_2_2_camo2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -204,10 +204,10 @@
  <!-- Heliblack_hawk_SIB_desert -->
  <!-- v2 -->
   	<type name="SIBblack_hawk_Door_1_1_desert">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -218,10 +218,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBblack_hawk_Door_1_2_desert">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -232,10 +232,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBblack_hawk_Door_2_1_desert">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -246,10 +246,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBblack_hawk_Door_2_2_desert">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -261,10 +261,10 @@
     </type>
   <!-- Commun Blackhawk -->
     	<type name="SIBblack_hawk_blade1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -275,10 +275,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="SIBblack_hawk_blade2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -289,10 +289,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="SIBblack_hawk_blade3">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -303,10 +303,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="SIBblack_hawk_blade4">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -317,10 +317,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="SIBblack_hawk_bladem1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -331,10 +331,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="SIBblack_hawk_bladem2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -345,10 +345,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="SIBblack_hawk_bladem3">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -359,10 +359,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="SIBblack_hawk_bladem4">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -376,10 +376,10 @@
  <!-- v2 -->
  <!-- PBO : --> 
   	<type name="apache_Door_1_1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -390,10 +390,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="apache_Door_2_1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -407,10 +407,10 @@
  <!-- v2 -->
  <!-- PBO -->
   	<type name="apache_Door_1_1_black">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -421,10 +421,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="apache_Door_2_1_black">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -437,10 +437,10 @@
  <!-- Helicopter_apache_green -->
  <!-- v2 -->
   	<type name="apache_Door_1_1_green">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -451,10 +451,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="apache_Door_2_1_green">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -468,10 +468,10 @@
 <!-- v2 -->
 <!-- PBO: -->
   	<type name="apache_Door_1_1_camo">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -482,10 +482,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="apache_Door_2_1_camo">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -499,10 +499,10 @@
 <!-- v2 -->
 <!-- PBO: -->
   	<type name="apache_Door_1_1_camo_desert">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -513,10 +513,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="apache_Door_2_1_camo_desert">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -528,10 +528,10 @@
 	</type>		
 <!-- Commun apache -->
   	<type name="apache_blade1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -542,10 +542,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="apache_blade2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -556,10 +556,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="apache_blade3">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -570,10 +570,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="apache_blade4">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -584,10 +584,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="apache_bladem1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -598,10 +598,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="apache_bladem2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -612,10 +612,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="apache_bladem3">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -626,10 +626,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="apache_bladem4">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -642,10 +642,10 @@
  <!-- HeliSIB_UH1D -->
  <!-- v2 -->
   	<type name="SIBUH1D_Door_1_1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -656,10 +656,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBUH1D_Door_1_2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -670,10 +670,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="SIBUH1D_Door_2_1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -684,10 +684,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBUH1D_Door_2_2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -699,10 +699,10 @@
 	</type>
  <!-- HeliSIB_UH1D -->
   	<type name="SIBUH1D_Door_1_1_airforce">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -713,10 +713,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBUH1D_Door_1_2_airforce">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -727,10 +727,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="SIBUH1D_Door_2_1_airforce">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -741,10 +741,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBUH1D_Door_2_2_airforce">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -756,10 +756,10 @@
 	</type>
  <!-- HeliSIB_UH1D_iron -->
   	<type name="SIBUH1D_Door_1_1_iron">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -770,10 +770,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBUH1D_Door_1_2_iron">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -784,10 +784,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="SIBUH1D_Door_2_1_iron">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -798,10 +798,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBUH1D_Door_2_2_iron">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -814,10 +814,10 @@
  <!-- HeliSIB_UH1D_camo -->
  <!-- v2 -->
   	<type name="SIBUH1D_Door_1_1_camo">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -828,10 +828,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBUH1D_Door_1_2_camo">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -842,10 +842,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="SIBUH1D_Door_2_1_camo">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -856,10 +856,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBUH1D_Door_2_2_camo">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -871,10 +871,10 @@
 	</type>
  <!-- HeliSIB_UH1D_taxi -->
  	<type name="SIBUH1D_Door_1_1_taxi">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -885,10 +885,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBUH1D_Door_1_2_taxi">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -899,10 +899,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="SIBUH1D_Door_2_1_taxi">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -913,10 +913,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBUH1D_Door_2__taxi">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -928,10 +928,10 @@
 	</type>
 <!-- Commun UH1D -->
   	<type name="SIBUH1D_blade1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -942,10 +942,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="SIBUH1D_blade2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -956,10 +956,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="SIBUH1D_blade3">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -970,10 +970,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="SIBUH1D_blade4">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -987,10 +987,10 @@
 <!-- Helilittle_bird_RF -->
 <!-- désactivé dans v2
   	<type name="RFlittle_bird_Door_1_1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1001,10 +1001,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="RFlittle_bird_Door_1_2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1015,10 +1015,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="RFlittle_bird_Door_2_1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1029,10 +1029,10 @@
 		<usage name="Military"/>
     </type>
    	<type name="RFlittle_bird_Door_2_2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1045,10 +1045,10 @@
 -->
  <!-- Commun MH-6 -->
   	<type name="RFlittle_bird_blade1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1059,10 +1059,10 @@
 		<usage name="Military"/>
 	</type>
 	  	<type name="RFlittle_bird_blade2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1073,10 +1073,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="RFlittle_bird_blade3">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1087,10 +1087,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="RFlittle_bird_blade4">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1101,10 +1101,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="RFlittle_bird_blade5">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1115,10 +1115,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="RFlittle_bird_bladem1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1129,10 +1129,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="RFlittle_bird_bladem3">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1144,10 +1144,10 @@
 	</type>
 <!-- Helichinook_RF -->
   	<type name="RFchinook_Door_1_1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1158,10 +1158,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="RFchinook_Door_1_2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1172,10 +1172,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="RFchinook_Door_2_2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1188,10 +1188,10 @@
 <!-- Helichinook_RF_black -->
 <!-- PBO : Helichinook_black.pbo -->
   	<type name="RFchinook_Door_1_1_black">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1202,10 +1202,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="RFchinook_Door_1_2_black">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1216,10 +1216,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="RFchinook_Door_2_2_black">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1232,10 +1232,10 @@
 <!-- Helichinook_RF_bloody -->
 <!-- PBO : Helichinook_bloody.pbo -->
   	<type name="RFchinook_Door_1_1_bloody">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1246,10 +1246,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="RFchinook_Door_1_2_bloody">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1262,10 +1262,10 @@
 <!-- Helichinook_RF_civ -->
 <!-- PBO : Helichinook_civ.pbo -->
   	<type name="RFchinook_Door_1_1_civ">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1276,10 +1276,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="RFchinook_Door_1_2_civ">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1292,10 +1292,10 @@
 <!-- Helichinook_RF_USA -->
 <!-- PBO : Helichinook_USA.pbo -->
   	<type name="RFchinook_Door_1_1_USA">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1306,10 +1306,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="RFchinook_Door_1_2_USA">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1320,10 +1320,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="RFchinook_Door_2_2_">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1335,10 +1335,10 @@
     </type>
  <!-- Commun Chinook -->
   	<type name="RFchinook_blade1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1349,10 +1349,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="RFchinook_blade2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1363,10 +1363,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="RFchinook_blade3">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1377,10 +1377,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="RFchinook_rear_blade1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1391,10 +1391,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="RFchinook_rear_blade2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1405,10 +1405,10 @@
 		<usage name="Military"/>
 	</type>
   	<type name="RFchinook_rear_blade3">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1422,10 +1422,10 @@
 <!-- HeliSIB_Mi35 -->
 <!-- PBO : Mi35.pbo -->
   	<type name="SIBMi35_Door_1_1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1436,10 +1436,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBMi35_Door_1_2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1450,10 +1450,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBMi35_Door_1_2_1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1464,10 +1464,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBMi35_Door_2_1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1478,10 +1478,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBMi35_Door_2_2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1492,10 +1492,10 @@
 		<usage name="Military"/>
     </type>
   	<type name="SIBMi35_Door_2_2_1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

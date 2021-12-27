@@ -3,7 +3,7 @@
     "m_OwnersPlainID": "76561198015543936",
     "m_ClanName": "BENT",
     "m_Prefix": "CUNT",
-    "m_BankAmount": 137545,
+    "m_BankAmount": 200000,
     "m_Members": [
         {
             "m_plainID": "76561198015543936",
@@ -17,8 +17,8 @@
             }
         },
         {
-            "m_plainID": "76561198293993091",
-            "m_playername": "lb426",
+            "m_plainID": "76561198159839961",
+            "m_playername": "ninjarob72",
             "m_permissions": {
                 "m_CanWithdraw": 1,
                 "m_CanDeposit": 1,
@@ -32,6 +32,9 @@
         "Jkradar deposited: 28145",
         "Jkradar deposited: 109400",
         "lb426 withdrawed: 0",
-        "lb426 withdrawed: 0"
+        "lb426 withdrawed: 0",
+        "Jkradar deposited: 62455",
+        "Jkradar deposited: 0",
+        "Jkradar deposited: 0"
     ]
 }
