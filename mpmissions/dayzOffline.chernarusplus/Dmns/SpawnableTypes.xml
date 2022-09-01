@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>	
+	<type name="Dmns_MRAP">
+		<attachments chance="0.20">
+			<item name="CarBattery" chance="1.00" />
+			</attachments>
+			<attachments chance="0.10">
+			<item name="SparkPlug" chance="1.00" />
+			</attachments>
+			<attachments chance="0.30">
+			<item name="CarRadiator" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MRAPDriverDoor" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MRAPCoDriverDoor" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MRAPCargo1Door" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAPCargo2Door" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Dmns_MRAP_OD">
+		<attachments chance="0.20">
+			<item name="CarBattery" chance="1.00" />
+			</attachments>
+			<attachments chance="0.10">
+			<item name="SparkPlug" chance="1.00" />
+			</attachments>
+			<attachments chance="0.30">
+			<item name="CarRadiator" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MRAPDriverDoor_OD" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MRAPCoDriverDoor_OD" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MRAPCargo1Door_OD" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAPCargo2Door_OD" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Dmns_MRAP_Urban">
+		<attachments chance="0.20">
+			<item name="CarBattery" chance="1.00" />
+			</attachments>
+			<attachments chance="0.10">
+			<item name="SparkPlug" chance="1.00" />
+			</attachments>
+			<attachments chance="0.30">
+			<item name="CarRadiator" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MRAPDriverDoor_Urban" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MRAPCoDriverDoor_Urban" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MRAPCargo1Door_Urban" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAPCargo2Door_Urban" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Dmns_MRAP_SecOne">
+		<attachments chance="0.20">
+			<item name="CarBattery" chance="1.00" />
+			</attachments>
+			<attachments chance="0.10">
+			<item name="SparkPlug" chance="1.00" />
+			</attachments>
+			<attachments chance="0.30">
+			<item name="CarRadiator" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MRAPDriverDoor_SecOne" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MRAPCoDriverDoor_SecOne" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MRAPCargo1Door_SecOne" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAPCargo2Door_SecOne" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MRAP_wheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Dmns_HUMVEE">
+		<attachments chance="0.20">
+			<item name="CarBattery" chance="1.00" />
+			</attachments>
+			<attachments chance="0.10">
+			<item name="SparkPlug" chance="1.00" />
+			</attachments>
+			<attachments chance="0.30">
+			<item name="CarRadiator" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HUMVEEDriverDoor" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HUMVEECoDriverDoor" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HUMVEECargo1Door" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="HUMVEECargo2Door" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="HUMVEECargo3Door" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="HUMVEECargo4Door" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="HUMVEE_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="HUMVEE_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="HUMVEE_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="HUMVEE_wheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Dmns_DATSUN">
+		<attachments chance="0.20">
+			<item name="CarBattery" chance="1.00" />
+			</attachments>
+			<attachments chance="0.10">
+			<item name="SparkPlug" chance="1.00" />
+			</attachments>
+			<attachments chance="0.30">
+			<item name="CarRadiator" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="DATSUNDriverDoor" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="DATSUNCoDriverDoor" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="DATSUN_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="DATSUN_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="DATSUN_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="DATSUN_wheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Dmns_MTVR">
+		<attachments chance="0.20">
+			<item name="CarBattery" chance="1.00" />
+			</attachments>
+			<attachments chance="0.10">
+			<item name="SparkPlug" chance="1.00" />
+			</attachments>
+			<attachments chance="0.30">
+			<item name="CarRadiator" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MTVRDriverDoor" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MTVRCoDriverDoor" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MTVRCargo1Door" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="MTVRCargo2Door" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MTVR_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MTVR_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MTVR_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MTVR_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MTVR_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="MTVR_wheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Dmns_KAMAZ">
+		<attachments chance="0.20">
+			<item name="CarBattery" chance="1.00" />
+			</attachments>
+			<attachments chance="0.10">
+			<item name="SparkPlug" chance="1.00" />
+			</attachments>
+			<attachments chance="0.30">
+			<item name="CarRadiator" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="KAMAZDriverDoor" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="KAMAZCoDriverDoor" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="KAMAZCargo1Door" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="KAMAZCargo2Door" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="KAMAZ_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="KAMAZ_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="KAMAZ_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="KAMAZ_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="KAMAZ_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="KAMAZ_wheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Dmns_URAL">
+		<attachments chance="0.20">
+			<item name="CarBattery" chance="1.00" />
+			</attachments>
+			<attachments chance="0.10">
+			<item name="SparkPlug" chance="1.00" />
+			</attachments>
+			<attachments chance="0.30">
+			<item name="CarRadiator" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="URALDriverDoor" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="URALCoDriverDoor" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="URALCargo1Door" chance="1.00" />
+			</attachments>
+			<attachments chance="0.60">
+			<item name="URALCargo2Door" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="URAL_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="URAL_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="URAL_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="URAL_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="URAL_wheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="URAL_wheel" chance="1.00" />
+		</attachments>
+	</type>
+</spawnabletypes>

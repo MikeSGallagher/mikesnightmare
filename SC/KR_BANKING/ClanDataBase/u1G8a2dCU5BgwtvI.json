@@ -1,0 +1,36 @@
+{
+    "m_ClanID": "u1G8a2dCU5BgwtvI",
+    "m_OwnersPlainID": "76561199195091794",
+    "m_ClanName": "Surpreme Duo",
+    "m_Prefix": "420",
+    "m_BankAmount": 200000,
+    "m_Members": [
+        {
+            "m_plainID": "76561199195091794",
+            "m_playername": "starlord27s",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        },
+        {
+            "m_plainID": "76561199207470156",
+            "m_playername": "xluvhatex",
+            "m_permissions": {
+                "m_CanWithdraw": 0,
+                "m_CanDeposit": 0,
+                "m_CanInvite": 0,
+                "m_CanKick": 0,
+                "m_CanEdit": 0
+            }
+        }
+    ],
+    "m_ClanLogs": [
+        "starlord27s deposited: 200000",
+        "starlord27s deposited: 0",
+        "starlord27s deposited: 0"
+    ]
+}

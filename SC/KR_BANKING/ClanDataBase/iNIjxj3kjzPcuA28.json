@@ -1,0 +1,36 @@
+{
+    "m_ClanID": "iNIjxj3kjzPcuA28",
+    "m_OwnersPlainID": "76561198069208685",
+    "m_ClanName": "Angels Of Death",
+    "m_Prefix": "AOD",
+    "m_BankAmount": 200000,
+    "m_Members": [
+        {
+            "m_plainID": "76561198069208685",
+            "m_playername": "Ish",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        },
+        {
+            "m_plainID": "76561199223229105",
+            "m_playername": "happykilljoy2",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 0,
+                "m_CanEdit": 0
+            }
+        }
+    ],
+    "m_ClanLogs": [
+        "Ish deposited: 200000",
+        "Ish deposited: 0",
+        "Ish deposited: 0"
+    ]
+}

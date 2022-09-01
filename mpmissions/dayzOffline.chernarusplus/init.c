@@ -1,8 +1,8 @@
 #include "$CurrentDir:\\mpmissions\\dayzOffline.chernarusplus\\CustomObjects\\SpawnObject.c"
-#include "$CurrentDir:\\mpmissions\\dayzOffline.chernarusplus\\CustomObjects\\ATMs.c"
-#include "$CurrentDir:\\mpmissions\\dayzOffline.chernarusplus\\CustomObjects\\BalotaAir.c"
 #include "$CurrentDir:\\mpmissions\\dayzOffline.chernarusplus\\CustomObjects\\CustomBridgePrison.c"
-#include "$CurrentDir:\\mpmissions\\dayzOffline.chernarusplus\\CustomObjects\\NEAF.c"
+#include "$CurrentDir:\\mpmissions\\dayzOffline.chernarusplus\\CustomObjects\\CustomAreas.c"
+#include "$CurrentDir:\\mpmissions\\dayzOffline.chernarusplus\\CustomObjects\\Traders.c"
+#include "$CurrentDir:\\mpmissions\\dayzOffline.chernarusplus\\CustomObjects\\Admins.c"
 
 void main()
 {
@@ -35,12 +35,12 @@ void main()
 			}
 		}
 	}
-	Place_ATMs();
-	Place_BalotaAir();
 	Place_BridgePrison();
-	Place_NEAF();
+	Place_CustomAreas();
+    Place_Traders();
+    Place_Admins();
 	
-   // GetCEApi().ExportProxyData( "7500 0 7500", 10000 );  //Center of map, radius of how far to go out and find buildings.
+   //GetCEApi().ExportProxyData( "7500 0 7500", 10000 );  //Center of map, radius of how far to go out and find buildings.
 }
 
 class CustomMission: MissionServer
@@ -95,6 +95,31 @@ class CustomMission: MissionServer
 				itemEnt = player.GetInventory().CreateInInventory( "Plum" );
 
 			SetRandomHealth( itemEnt );
+			player.GetInventory().CreateInInventory("DryBag_Black");    // added items
+			player.GetInventory().CreateInInventory("Compass");    // added items
+			player.GetInventory().CreateInInventory("Canteen");    // added items
+			player.GetInventory().CreateInInventory("SardinesCan");    // added items
+			player.GetInventory().CreateInInventory("CombatKnife");    // added items
+			player.GetInventory().CreateInInventory("CanOpener");    // added items
+			player.GetInventory().CreateInInventory("ChernarusMap");    // added items
+			player.GetInventory().CreateInInventory("M4A1");    // added items
+			player.GetInventory().CreateInInventory("Mag_STANAGCoupled_30Rnd");    // added items
+			player.GetInventory().CreateInInventory("AmmoBox_556x45_20Rnd");    // added items
+			player.GetInventory().CreateInInventory("BandageDressing");    // added items
+			player.GetInventory().CreateInInventory("PurificationTablets");    // added items
+			player.GetInventory().CreateInInventory("WoodAxe");    // added items
+			player.GetInventory().CreateInInventory("BakedBeansCan");    // added items
+			player.GetInventory().CreateInInventory("SodaCan_Pipsi");    // added items
+			player.GetInventory().CreateInInventory("SodaCan_Spite");    // added items
+			player.GetInventory().CreateInInventory("TacticalBaconCan");    // added items
+			player.GetInventory().CreateInInventory("Matchbox");    // added items
+			player.GetInventory().CreateInInventory("DuctTape");    // added items
+			player.GetInventory().CreateInInventory("Whetstone");    // added items
+			player.GetInventory().CreateInInventory("Mag_STANAGCoupled_30Rnd");    // added items
+			player.GetInventory().CreateInInventory("AmmoBox_556x45_20Rnd");    // added items
+			player.GetInventory().CreateInInventory("Binoculars");    // added items
+			player.GetInventory().CreateInInventory("SewingKit");    // added items
+			player.GetInventory().CreateInInventory("WeaponCleaningKit");    // added items
 		}
 		
 		itemClothing = player.FindAttachmentBySlotName( "Legs" );

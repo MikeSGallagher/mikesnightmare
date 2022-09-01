@@ -1,0 +1,32 @@
+{
+    "m_ClanID": "QFW6aiM8mBk4XaSw",
+    "m_OwnersPlainID": "76561199046685570",
+    "m_ClanName": "BEM AND DONKEY",
+    "m_Prefix": "DBEM",
+    "m_BankAmount": 0,
+    "m_Members": [
+        {
+            "m_plainID": "76561199046685570",
+            "m_playername": "Donkey_9unch",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        },
+        {
+            "m_plainID": "76561199021763667",
+            "m_playername": "Bem",
+            "m_permissions": {
+                "m_CanWithdraw": 0,
+                "m_CanDeposit": 0,
+                "m_CanInvite": 0,
+                "m_CanKick": 0,
+                "m_CanEdit": 0
+            }
+        }
+    ],
+    "m_ClanLogs": []
+}

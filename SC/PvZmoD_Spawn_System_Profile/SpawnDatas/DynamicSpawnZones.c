@@ -142,7 +142,7 @@ ref autoptr TIntArray data_Zone122 = {99,			13665,			11257,			13968,				11045,		
 /// (I highly recommend to you to use the last lines first because I will surely add new zones and take the first for more readability)
 
 /// DYNAMIC SPAWN 		 : 			NUM CONFIG / COORDX-upleft / COORDZ-upleft / COORDX-lowerright / COORDZ-lowerright / QUANTITY RATIO / TOTAL MAX ZEDS NUMBER / description
-ref autoptr TIntArray data_Zone123 = {60,			4753,			2348,			4813,				2228,					100,			30}; 					//
+ref autoptr TIntArray data_Zone123 = {60,			4753,			2348,			4813,				2228,				100,			100}; 					//
 ref autoptr TIntArray data_Zone124 = {0,			0,				0,				0,					0,					100,			100}; 					//
 ref autoptr TIntArray data_Zone125 = {0,			0,				0,				0,					0,					100,			100}; 					//
 ref autoptr TIntArray data_Zone126 = {0,			0,				0,				0,					0,					100,			100}; 					//

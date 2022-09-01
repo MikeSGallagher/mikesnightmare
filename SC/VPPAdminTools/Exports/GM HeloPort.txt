@@ -1,0 +1,20 @@
+void SpawnObject(string objType, vector objPos, vector objOrientation)
+{
+	Object m_Building = Object.Cast(GetGame().CreateObject(objType, objPos));
+	if (m_Building == null) return;
+	m_Building.SetAffectPathgraph(true, false);
+	GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(GetGame().UpdatePathgraphRegionByObject, 100, false, m_Building);
+	m_Building.SetPosition(objPos);
+	m_Building.SetOrientation(objOrientation);
+}
+
+
+
+SpawnObject( "vbldr_pier_concrete1_tbig", "3655.959961 383.000000 6057.009766", "-138.000168 0.000000 -0.000000" );
+SpawnObject( "vbldr_rail_concreteramp", "3651.320068 408.000000 6061.740234", "41.999828 0.000000 -0.000000" );
+SpawnObject( "vbldr_platform1_ramp", "3676.439941 403.600006 6038.200195", "41.999828 0.000000 -0.000000" );
+SpawnObject( "vbldr_misc_dragonteeth_multiple_redwhite", "3682.750000 402.000000 6032.359863", "-50.000690 0.000000 0.000000" );
+SpawnObject( "bldr_pier_concrete3_end", "3650.000000 385.899994 6079.000000", "41.999828 0.000000 -0.000000" );
+SpawnObject( "bldr_pier_concrete3_end", "3634.000000 385.899994 6061.000000", "41.999828 0.000000 -0.000000" );
+SpawnObject( "rf_helipad_static", "3654.510010 409.339996 6082.169922", "48.001644 0.000000 -0.000000" );
+SpawnObject( "rf_helipad_static", "3630.739990 409.339996 6056.950195", "-61.999992 0.000000 -0.000000" );

@@ -37,7 +37,7 @@
 	<Currency> MoneyRuble25, 	25
 	<Currency> MoneyRuble50, 	50
 	<Currency> MoneyRuble100, 	100
-<Trader>Consume Trader // ID=0
+<Trader>Mikes MiniMart // ID=0
 	<Category>Vegetables
 		CaninaBerry,                                                           *,                   1,                   -1				// Item Classname, Quantity, Buyvalue, Sellvalue
 		SambucusBerry,                                                         *,                   1,                   -1				// Quantity * means max value; Quantity V means Vehicle; Quantity VNK means Vehicle without Key; Quantity M means Magazine; Quantity W means Weapon; Quantity S means Steack Meat; Quantity K means Key Duplication
@@ -112,7 +112,13 @@
 		DONFOOD_BREADROLL2,                                                    *,                   100,                 50
 		DONFOOD_BREADROLL3,                                                    *,                   100,                 50
 		DONFOOD_BREADROLL4,                                                    *,                   100,                 50
-		DONDRINK_MULLEDWINE,                                                   *,                   100,                 50
+        DONFOOD_FoodBag_Blue,                                                  *,                   100,                 50
+        DONFOOD_FoodBag_Green,                                                 *,                   100,                 50
+        DONFOOD_FoodBag_Orange,                                                *,                   100,                 50
+		DONFOOD_FoodBag_Pink,                                                  *,                   100,                 50
+        DONFOOD_FoodBag_Red,                                                   *,                   100,                 50
+        DONFOOD_FoodBag_Yellow,                                                *,                   100,                 50
+        DONDRINK_MULLEDWINE,                                                   *,                   100,                 50
 		DONDRINK_JUICEPACK_CHERRY,                                             *,                   100,                 50
 		DONDRINK_JUICEPACK_APRICOT,                                            *,                   100,                 50
 		DONDRINK_JUICEPACK_CRANBERRY,                                          *,                   100,                 50
@@ -150,7 +156,7 @@
 		WaterBottle,                                                           *,                   5,                   2
 		Canteen,                                                               *,                   8,                   4
 		Vodka,                                                                 *,                   12,                  8
-	<Category>Medical Supplies
+         <Category>Medical Supplies
 		Rag,                                                                   1,                   1,                   -1
 		BandageDressing,                                                       2,                   3,                   1
 		BloodTestKit,                                                          *,                   5,                   2
@@ -199,44 +205,6 @@
 		AMS_POX,                                                               *,                   500,                 450
 		AMS_GasMaskGP21,                                                       *,                   1500,                450
 		AMS_GasMaskGP21_Filter,                                                *,                   1500,                450
-	<Category>Mass's ManyItemOverhaul Food
-		MassMeth,                                                              *,                   1000,                500
-		MassMRE4,                                                              *,                   1000,                500
-		MassMRE9,                                                              *,                   1000,                500
-		MassMRE10,                                                             *,                   1000,                500
-		MassMREPoppySeedCakeW,                                                 *,                   1000,                500
-		MassMREPoppySeedCakeUW,                                                *,                   1000,                500
-		MassMRETortillaUW,                                                     *,                   1000,                500
-		MassMRETortillaW,                                                      *,                   1000,                500
-		MassMRERationHeater,                                                   *,                   1000,                500
-		MassMRECrackersW,                                                      *,                   1000,                500
-		MassMRECrackersUW,                                                     *,                   1000,                500
-		MassMREBreadW,                                                         *,                   1000,                500
-		MassMREBreadUW,                                                        *,                   1000,                500
-		MassMREPB,                                                             *,                   1000,                500
-		MassMREJelly,                                                          *,                   1000,                500
-		MassMREGrapeJelly,                                                     *,                   1000,                500
-		MassMRETobasco,                                                        *,                   1000,                500
-		MassMREHotCheeseSpread,                                                *,                   1000,                500
-		MassMREOatmealCookieW,                                                 *,                   1000,                500
-		MassMREOatmealCookieUW,                                                *,                   1000,                500
-		MassMREGum,                                                            *,                   1000,                500
-		MassMREDBBCobblerW,                                                    *,                   1000,                500
-		MassMREMCBeefStewW,                                                    *,                   1000,                500
-		MassMREMCChilliMacW,                                                   *,                   1000,                500
-		MassMREMCSpaghettiW,                                                   *,                   1000,                500
-		MassMREMCSpaghetti,                                                    *,                   1000,                500
-		MassMREMCChilliMac,                                                    *,                   1000,                500
-		MassMREMCBeefStew,                                                     *,                   1000,                500
-		MassMREDBBCobbler,                                                     *,                   1000,                500
-	<Category>Dragonballs
-		MassDB1,                                                               *,                   1000,                500
-		MassDB2,                                                               *,                   1000,                500
-		MassDB3,                                                               *,                   1000,                500
-		MassDB4,                                                               *,                   1000,                500
-		MassDB5,                                                               *,                   1000,                500
-		MassDB6,                                                               *,                   1000,                500
-		MassDB7,                                                               *,                   1000,                500
 	<Category>Rewards
 		WildboarPelt,                                                          *,                   -1,                  2500
 		RabbitPelt,                                                            *,                   -1,                  2500
@@ -250,14 +218,69 @@
 		MouflonPelt,                                                           *,                   -1,                  2500
 		FoxPelt,                                                               *,                   -1,                  5000
 		bearhead_mung,                                                         *,                   -1,                  10000
-	<Category>Money Exchange
+		Msp_Egg_Blue,                                                          *,                   -1,                  100000
+		Msp_Egg_Pink,                                                          *,                   -1,                  150000
+		Msp_Egg_Red,                                                           *,                   -1,                  200000
+		Msp_Egg_Green,                                                         *,                   -1,                  250000
+		Msp_Egg_Purple,                                                        *,                   -1,                  300000
+		Msp_Egg_Yellow,                                                        *,                   -1,                  350000
+    <Category>Medical Supplies
+		Rag,                                                                   1,                   1,                   -1
+		BandageDressing,                                                       2,                   3,                   1
+		BloodTestKit,                                                          *,                   5,                   2
+		InjectionVial,                                                         *,                   5,                   2
+		Thermometer,                                                           *,                   5,                   2
+		DisinfectantSpray,                                                     *,                   8,                   5
+		Syringe,                                                               *,                   8,                   5
+		Heatpack,                                                              *,                   10,                  5
+		StartKitIV,                                                            *,                   10,                  6
+		SalineBag,                                                             *,                   15,                  8
+		BloodBagEmpty,                                                         *,                   18,                  10
+		FirstAidKit,                                                           *,                   20,                  10
+		Defibrillator,                                                         *,                   35,                  20
+		AntiChemInjector,                                                      *,                   2500,                1000
+	<Category>Medications
+		CharcoalTablets,                                                       *,                   2,                   1
+		DisinfectantAlcohol,                                                   *,                   4,                   2
+		VitaminBottle,                                                         *,                   6,                   4
+		TetracyclineAntibiotics,                                               *,                   8,                   5
+		PainkillerTablets,                                                     *,                   10,                  6
+		Epinephrine,                                                           *,                   20,                  10
+		Morphine,                                                              *,                   25,                  15
+		IodineTincture,                                                        *,                   250,                 150
+	<Category>AMS - aid
+		AMS_FirstAidKit,                                                       *,                   500,                 450
+		AMS_BandageBox,                                                        *,                   500,                 450
+		AMS_Bandage,                                                           *,                   500,                 450
+		AMS_Absorbent,                                                         *,                   500,                 450
+		AMS_BandageTape,                                                       *,                   500,                 450
+		AMS_AntiSept,                                                          *,                   500,                 450
+		AMS_Ai2,                                                               *,                   500,                 450
+		AMS_Polaris,                                                           *,                   500,                 450
+		AMS_Aspirin,                                                           *,                   500,                 450
+		AMS_Poter,                                                             *,                   500,                 450
+		AMS_Vikasol,                                                           *,                   500,                 450
+		AMS_Energy,                                                            *,                   500,                 450
+		AMS_Narcotics,                                                         *,                   500,                 450
+		AMS_Tourniquet,                                                        *,                   500,                 450
+		AMS_Methadone,                                                         *,                   500,                 450
+		AMS_BandAid,                                                           *,                   500,                 450
+		AMS_Splint,                                                            *,                   500,                 450
+		AMS_MFAK,                                                              *,                   500,                 450
+		AMS_NBCPouch,                                                          *,                   500,                 450
+		AMS_Whistle,                                                           *,                   500,                 450
+		AMS_WaterStraw,                                                        *,                   500,                 450
+		AMS_POX,                                                               *,                   500,                 450
+		AMS_GasMaskGP21,                                                       *,                   1500,                450
+		AMS_GasMaskGP21_Filter,                                                *,                   1500,                450
+    <Category>Money Exchange
 		MoneyRuble1,                                                           1,                   1,                   -1
 		MoneyRuble5,                                                           1,                   5,                   -1
 		MoneyRuble10,                                                          1,                   10,                  -1
 		MoneyRuble25,                                                          1,                   25,                  -1
 		MoneyRuble50,                                                          1,                   50,                  -1
 		MoneyRuble100,                                                         1,                   100,                 -1
-<Trader>Misc Trader // ID=1
+<Trader>Bears TrueValue Hardware // ID=1
 	<Category>Tools (small)
 		Screwdriver,                                                           *,                   3,                   1
 		Wrench,                                                                *,                   3,                   1
@@ -285,7 +308,7 @@
 		MassBinocs,                                                            *,                   100,                 50
 		Clawhammer_mung,                                                       *,                   200,                 100
 		oillamp_mung,                                                          *,                   200,                 100
-		Zippo_mung,                                                             *,                   100,                 50
+		Zippo_mung,                                                            *,                   100,                 50
 		maglite_mung,                                                          *,                   600,                 300
 		Airam_mung,                                                            *,                   400,                 200
 	<Category>Tools (big)
@@ -334,7 +357,6 @@
 		PurificationTablets,                                                   *,                   5,                   2
 		Pot,                                                                   M,                   25,                  10
 		Tripod,                                                                *,                   35,                  15
-		BearTrap,                                                              *,                   50,                  30
 		FryingPan,                                                             *,                   50,                  25
 	<Category>Hardware Supplies
 		Paper,                                                                 *,                   1,                   2
@@ -357,6 +379,7 @@
 		SmallGasCanister,                                                      *,                   80,                  35
 		MediumGasCanister,                                                     *,                   100,                 40
 		LargeGasCanister,                                                      *,                   200,                 70
+		Kv5_Mung,                                                              *,                   500,                 150
 		CanisterGasoline,                                                      *,                   300,                 80
 		NailBox,                                                               *,                   300,                 120
 		BarbedWire,                                                            *,                   450,                 200
@@ -388,133 +411,108 @@
 		hardigg2_Mung,                                                         *,                   1500,                750
 		gunwall_kit_mung,                                                      *,                   1000,                400
 		gunwall_metal_kit_mung,                                                *,                   1000,                400
-	<Category>Seeds & Lime
+		CabinZ_Prefab_Kit,                                                     *,                   95000,               50000
+	<Category>Seeds & Planters
 		TomatoSeedsPack,                                                       *,                   4,                   1
 		PepperSeedsPack,                                                       *,                   4,                   1
 		ZucchiniSeedsPack,                                                     *,                   6,                   2
 		PumpkinSeedsPack,                                                      *,                   10,                  3
 		GardenLime,                                                            *,                   20,                  7
+		Msp_EmptySquarePlanterBox,                                             *,                   500,                250
+		Msp_EmptyPlanterBox,                                                   *,                   500,                250
+		Msp_EmptyPlanterPot,                                                   *,                   500,                250
 	<Category>Fluffy Pets <3
 		Bear_Beige,                                                            *,                   5,                   1
 		Bear_Dark,                                                             *,                   5,                   1
 		Bear_Pink,                                                             *,                   5,                   1
 		Bear_White,                                                            *,                   5,                   1
 	<Category>BaseBuildingPlus
-		BBP_Land_Claim_FlagKit,                                                *,                   5000,                2500
-		BBP_Blueprint,                                                         *,                   100,                 50
-		BBP_Workbench,                                                         *,                   150,                 75
-		BBP_T1_WallKit,                                                        *,                   200,                 100
-		BBP_T1_Wall_HalfKit,                                                   *,                   200,                 100
-		BBP_T1_DoorKit,                                                        *,                   300,                 150
-		BBP_T1_GateKit,                                                        *,                   400,                 200
-		BBP_T1_WindowKit,                                                      *,                   300,                 150
-		BBP_T1_RoofKit,                                                        *,                   200,                 100
-		BBP_T1_FloorKit,                                                       *,                   200,                 100
-		BBP_T1_Floor_HatchKit,                                                 *,                   300,                 150
-		BBP_T1_StairKit,                                                       *,                   300,                 150
-		BBP_T1_RampKit,                                                        *,                   300,                 150
-		BBP_T1_Ramp_WideKit,                                                   *,                   320,                 160
-		BBP_T2_WallKit,                                                        *,                   400,                 200
-		BBP_T2_Wall_HalfKit,                                                   *,                   400,                 200
-		BBP_T2_DoorKit,                                                        *,                   600,                 300
-		BBP_T2_GateKit,                                                        *,                   800,                 400
-		BBP_T2_RoofKit,                                                        *,                   400,                 200
-		BBP_T2_FloorKit,                                                       *,                   400,                 200
-		BBP_T3_WallKit,                                                        *,                   800,                 400
-		BBP_T3_Wall_HalfKit,                                                   *,                   800,                 400
-		BBP_T3_DoorKit,                                                        *,                   1200,                600
-		BBP_T3_GateKit,                                                        *,                   1400,                700
-		BBP_T3_WindowKit,                                                      *,                   1200,                600
-		BBP_T3_RoofKit,                                                        *,                   800,                 400
-		BBP_T3_FloorKit,                                                       *,                   800,                 400
-		BBP_T3_Floor_HatchKit,                                                 *,                   1000,                500
-//		BBP_Underground_BunkerKit,                                             *,                   4000,                2000				// Not ready for use
-//		BBP_Ladder_Kit,                                                        *,                   500,                 250				// Not ready for use
-		BBP_Cement,                                                            1,                   60,                  30
-		BBP_Mortar_Mix,                                                        *,                   60,                  30
-		BBP_Wood_Storage,                                                      *,                   1000,                500
-		BBP_Old_Lamp,                                                          *,                   600,                 300
-		BBP_Floor_Lamp,                                                        *,                   800,                 400
-		BBP_Sun_Shade,                                                         *,                   600,                 300
-		BBP_Tape_Measure,                                                      *,                   20,                  10
-		BBP_Painting,                                                          *,                   200,                 100
-		BBP_Painting_1,                                                        *,                   200,                 100
-		BBP_Painting_2,                                                        *,                   200,                 100
-		BBP_Xmas_Tree,                                                         *,                   400,                 200
-		BBP_MagnetBox,                                                         *,                   100,                 50
-		BBP_Letter_Large_A,                                                    *,                   100,                 50
-		BBP_Letter_Large_B,                                                    *,                   100,                 50
-		BBP_Letter_Large_C,                                                    *,                   100,                 50
-		BBP_Letter_Large_D,                                                    *,                   100,                 50
-		BBP_Letter_Large_E,                                                    *,                   100,                 50
-		BBP_Letter_Large_F,                                                    *,                   100,                 50
-		BBP_Letter_Large_G,                                                    *,                   100,                 50
-		BBP_Letter_Large_H,                                                    *,                   100,                 50
-		BBP_Letter_Large_I,                                                    *,                   100,                 50
-		BBP_Letter_Large_J,                                                    *,                   100,                 50
-		BBP_Letter_Large_K,                                                    *,                   100,                 50
-		BBP_Letter_Large_L,                                                    *,                   100,                 50
-		BBP_Letter_Large_M,                                                    *,                   100,                 50
-		BBP_Letter_Large_N,                                                    *,                   100,                 50
-		BBP_Letter_Large_O,                                                    *,                   100,                 50
-		BBP_Letter_Large_P,                                                    *,                   100,                 50
-		BBP_Letter_Large_Q,                                                    *,                   100,                 50
-		BBP_Letter_Large_R,                                                    *,                   100,                 50
-		BBP_Letter_Large_S,                                                    *,                   100,                 50
-		BBP_Letter_Large_T,                                                    *,                   100,                 50
-		BBP_Letter_Large_U,                                                    *,                   100,                 50
-		BBP_Letter_Large_V,                                                    *,                   100,                 50
-		BBP_Letter_Large_W,                                                    *,                   100,                 50
-		BBP_Letter_Large_X,                                                    *,                   100,                 50
-		BBP_Letter_Large_Y,                                                    *,                   100,                 50
-		BBP_Letter_Large_Z,                                                    *,                   100,                 50
-		BBP_Golf,                                                              *,                   80,                  40
-		BBP_Gang_Plug,                                                         *,                   800,                 400
-		BBP_Solar_PanelKit,                                                    *,                   6000,                3000
-		BBP_Carpet,                                                            *,                   200,                 100
-		BBP_Wallpaper,                                                         *,                   200,                 100
-		BBP_T3_Door_HalfKit,                                                   *,                   1000,                500
-		BBP_T1_FoundationKit,                                                  *,                   300,                 150
-		BBP_T2_FoundationKit,                                                  *,                   600,                 300
-		BBP_T3_FoundationKit,                                                  *,                   1000,                500
-		BBP_PillarKit,                                                         *,                   200,                 100
-		BBP_BedKit,                                                            *,                   800,                 400
-		BBP_Bedding,                                                           *,                   120,                 60
-		BBP_Step_LadderKit,                                                    *,                   800,                 400
-		BBP_T2_WindowKit,                                                      *,                   600,                 300
-		BBP_T3_StairKit,                                                       *,                   1000,                500
-		BBP_Plaster,                                                           *,                   200,                 100
-		BBP_Bucket,                                                            *,                   10000,               5000
-		BBP_WellKit,                                                           *,                   10100,               5050
-		BBP_T1_Roof_HatchKit,                                                  *,                   300,                 150
-		BBP_T2_Roof_HatchKit,                                                  *,                   600,                 300
-		BBP_T3_Roof_HatchKit,                                                  *,                   1200,                600
-		BBP_T2_StairKit,                                                       *,                   600,                 300
-		BBP_Wheelbarrow,                                                       *,                   400,                 200
-		BBP_Toilet,                                                            *,                   600,                 300
-		BBP_SofaKit,                                                           *,                   800,                 400
-		BBP_Dance_FloorKit,                                                    *,                   400,                 200
-		BBP_XmasLights_9v,                                                     *,                   80,                  40
-		BBP_XmasLights_Solar,                                                  *,                   120,                 60
-	<Category>Simple Base
-		Chopper_Step_Ladder_2Kit,                                              *,                   4000,                2000
-		Chopper_PostKit,                                                       *,                   50,                  25
-		Chopper_Post_HalfKit,                                                  *,                   30,                  15
-		Chopper_RoofKit,                                                       *,                   200,                 100
-		Chopper_FloorKit,                                                      *,                   200,                 100
-		Chopper_WallKit,                                                       *,                   200,                 100
-		Chopper_Wall_HalfKit,                                                  *,                   100,                 50
-		Chopper_DoorKit,                                                       *,                   300,                 150
-		Chopper_WindowKit,                                                     *,                   250,                 125
-		Chopper_StaircaseKit,                                                  *,                   8000,                4000
-		Chopper_Hinge,                                                         *,                   100,                 50
-		Chopper_Bracket,                                                       *,                   350,                 175
-		Chopper_Desk_Lamp,                                                     *,                   600,                 300
-		Chopper_Floor_Lamp,                                                    *,                   800,                 400
-		Chopper_Xmas_Tree,                                                     *,                   400,                 200
-		Chopper_GateKit,                                                       *,                   400,                 200
-		Chopper_XmasLights_Solar,                                              *,                   120,                 60
-		CabinZ_Prefab_Kit,                                                     *,                   95000,               50000
+		BBP_Wall_Kit,        							*,		200,		10
+		BBP_Door_Kit,        							*,		200,		10
+		BBP_Floor_Kit,       				 			*,		200,		10
+		BBP_Roof_Hatch_Kit,    							*,		200,		10
+		BBP_Floor_Hatch_Kit,    						*,		200,		10
+		BBP_Foundation_Kit,        						*,		200,		10
+		BBP_Gate_Kit,        							*,		200,		10
+		BBP_Half_Wall_Kit,        						*,		200,		10
+		BBP_Pillar_Kit,        							*,		200,		10
+		BBP_Ramp_Kit,        							*,		200,		10
+		BBP_Roof_Kit,        							*,		200,		10
+		BBP_Hanger_Roof_Kit,    						*,		200,		10
+		BBP_Slope_Roof_Kit,       	 					*,		200,		10
+		BBP_Slope_Wall_Kit,        						*,		200,		10
+		BBP_Stair_Kit,        							*,		200,		10
+		BBP_Triangle_Floor_Kit,    						*,		200,		10
+		BBP_Triangle_Roof_Kit,    						*,		200,		10
+		BBP_Window_Kit,        							*,		200,		10
+		BBP_BuildPermit,        						*,		200,		100
+		BBP_Blueprint,        							*,		200,		100
+		BBP_Workbench_Kit,								*,		300,		150
+		BBP_Step_Ladder_Kit,    						*,		200,		100
+		BBP_TapeMeasure,        						*,		200,		100
+		BBP_Concrete_Brick_Pile,    					*,		800,		400
+		BBP_Cement,										*,		2000,		1000
+		BBP_Mortar_Mix,									*,		200,		100
+		BBP_Cement_Mixer_Kit,        					*,		10000,		5000
+       <Category> BBPItemPack
+		//BBP_Land_Claim_FlagKit,						*,		5000,		2500 // Not working
+		//BBP_Ladder_Kit,								*,		500,		250  // Not ready for use
+		BBP_Wood_Storage,								*,		1000,		500
+		BBP_Old_Lamp,									*,		600,		300
+		BBP_Floor_Lamp,									*,		800,		400
+		BBP_Sun_Shade,									*,		600,		300
+		BBP_Tape_Measure,								*,		20,			10
+		BBP_Painting,									*,		200,		100
+		BBP_Painting_1,									*,		200,		100
+		BBP_Painting_2,									*,		200,		100
+		BBP_Xmas_Tree,									*,		400,		200
+		BBP_MagnetBox,									*,		100,		50
+		BBP_Letter_Large_A,								*,		100,		50
+		BBP_Letter_Large_B,								*,		100,		50
+		BBP_Letter_Large_C,								*,		100,		50
+		BBP_Letter_Large_D,								*,		100,		50
+		BBP_Letter_Large_E,								*,		100,		50
+		BBP_Letter_Large_F,								*,		100,		50
+		BBP_Letter_Large_G,								*,		100,		50
+		BBP_Letter_Large_H,								*,		100,		50
+		BBP_Letter_Large_I,								*,		100,		50
+		BBP_Letter_Large_J,								*,		100,		50
+		BBP_Letter_Large_K,								*,		100,		50
+		BBP_Letter_Large_L,								*,		100,		50
+		BBP_Letter_Large_M,								*,		100,		50
+		BBP_Letter_Large_N,								*,		100,		50
+		BBP_Letter_Large_O,								*,		100,		50
+		BBP_Letter_Large_P,								*,		100,		50
+		BBP_Letter_Large_Q,								*,		100,		50
+		BBP_Letter_Large_R,								*,		100,		50
+		BBP_Letter_Large_S,								*,		100,		50
+		BBP_Letter_Large_T,								*,		100,		50
+		BBP_Letter_Large_U,								*,		100,		50
+		BBP_Letter_Large_V,								*,		100,		50
+		BBP_Letter_Large_W,								*,		100,		50
+		BBP_Letter_Large_X,								*,		100,		50
+		BBP_Letter_Large_Y,								*,		100,		50
+		BBP_Letter_Large_Z,								*,		100,		50
+		BBP_Golf,										*,		80,			40
+		BBP_Gang_Plug,									*,		800,		400
+		BBP_SolarPlus_PanelKit,							*,		6000,		3000
+		BBP_BedKit,										*,		800,		400
+		BBP_Bedding,									*,		120,		60
+		BBP_Step_LadderKit,								*,		800,		400
+		BBP_Bucket,										*,		10000,		5000
+		BBP_WellKit,									*,		10100,		5050
+		BBP_Wheelbarrow,								*,		400,		200
+		BBP_Toilet,										*,		600,		300
+		BBP_SofaKit,									*,		800,		400
+		BBP_Dance_FloorKit,								*,		400,		200
+		BBP_XmasLights_9v,								*,		80,			40
+		BBP_XmasLights_Solar,							*,		120,		60
+		BBP_Painting_Landscape,							*,		200,		100
+		BBP_PhotoFrame_Portrait,						*,		50,			25
+		BBP_PhotoFrame_Landscape,						*,		50,			25
+		BBP_Carpet_Roll,								*,		100,		50
+		BBP_Mesh_Floor_Kit,								*,		400,		200
+		BBP_Blueprint_Expanded,							*,		400,		200
 	<Category>Military Gear | Large Tents
 		MilitaryGear_LargeTent_ATACS,                                          *,                   7000,                1200
 		MilitaryGear_LargeTent_CADPAT,                                         *,                   7000,                1200
@@ -549,50 +547,6 @@
 		MilitaryGear_CarTent_Tropic,                                           *,                   5000,                700
 		MilitaryGear_CarTent_Woodland,                                         *,                   5000,                700
 		MilitaryGear_CarTent_Yeger,                                            *,                   5000,                700
-	<Category>Drugs
-		DP_CocaBag,                                                            1,                   1900,                1280
-		DP_CocaBrick,                                                          *,                   50000,               44800
-		PsilocybeMushroom,                                                     1,                   200,                 175
-		DisinfectantAlcohol,                                                   1,                   200,                 175
-	<Category>Cannabis
-		CP_Relief_Balm,                                                        *,                   200,                 175
-		CP_RollingPapers,                                                      *,                   200,                 175
-		CigarettePack_Chernamorka,                                             *,                   900,                 600
-		CigarettePack_Merkur,                                                  *,                   900,                 600
-		CigarettePack_Partyzanka,                                              *,                   900,                 600
-//		CP_TobaccoSeedsPack,                                                   *,                   -1,                  -1
-		CP_CigarettePack_CannabisSkunk,                                        *,                   1200,                800
-		CP_CannabisBagSkunk,                                                   1,                   465,                 310
-		CP_CannabisBrickSkunk,                                                 *,                   7500,                5000
-//		CP_CannabisSeedsPackSkunk,                                             *,                   -1,                  -1
-		CP_CigarettePack_CannabisBlue,                                         *,                   2400,                1600
-		CP_CannabisBagBlue,                                                    1,                   945,                 630
-		CP_CannabisBrickBlue,                                                  *,                   15000,               10000
-//		CP_CannabisSeedsPackBlue,                                              *,                   -1,                  -1
-		CP_CigarettePack_CannabisKush,                                         *,                   3525,                2350
-		CP_CannabisBagKush,                                                    1,                   1410,                940
-		CP_CannabisBrickKush,                                                  *,                   22500,               15000
-//		CP_CannabisSeedsPackKush,                                              *,                   -1,                  -1
-		CP_CigarettePack_CannabisStardawg,                                     *,                   4725,                3150
-		CP_CannabisBagStardawg,                                                1,                   1875,                1250
-		CP_CannabisBrickStardawg,                                              *,                   30000,               20000
-//		CP_CannabisSeedsPackStardawg,                                          *,                   -1,                  -1
-		CP_CigarettePack_CannabisFuture,                                       *,                   4725,                3150
-		CP_CannabisBagFuture,                                                  1,                   1875,                1250
-		CP_CannabisBrickFuture,                                                *,                   30000,               20000
-//		CP_CannabisSeedsPackFuture,                                            *,                   -1,                  -1
-		CP_CigarettePack_CannabisS1,                                           *,                   4725,                3150
-		CP_CannabisBagS1,                                                      1,                   1875,                1250
-		CP_CannabisBrickS1,                                                    *,                   30000,               20000
-//		CP_CannabisSeedsPackS1,                                                *,                   -1,                  -1
-		CP_CigarettePack_CannabisNomad,                                        *,                   4725,                3150
-		CP_CannabisBagNomad,                                                   1,                   1875,                1250
-		CP_CannabisBrickNomad,                                                 *,                   30000,               20000
-//		CP_CannabisSeedsPackNomad,                                             *,                   -1,                  -1
-		CP_CigarettePack_CannabisBlackFrost,                                   *,                   4725,                3150
-		CP_CannabisBagBlackFrost,                                              1,                   1875,                1250
-		CP_CannabisBrickBlackFrost,                                            *,                   30000,               20000
-//		CP_CannabisSeedsPackBlackFrost,                                        *,                   -1,                  -1
 	<Category>Much Decos
 		MD_GraveShovel,                                                        *,                   600,                 60
 		MD_Crafting_Book,                                                      *,                   4000,                400
@@ -707,61 +661,7 @@
 		MD_SlumShelter_ThinBlue_Kit,                                           *,                   600,                 60
 		MD_SlumShelter_SmallMetal_Kit,                                         *,                   600,                 60
 		MD_SlumShelter_LargeMetal_Kit,                                         *,                   600,                 60
-	<Category>Mass's ManyItemOverhaul CHESS
-		MassChessboard,                                                        *,                   1000,                500
-		MassWhitePawn,                                                         *,                   1000,                500
-		MassWhiteQueen,                                                        *,                   1000,                500
-		MassWhiteKing,                                                         *,                   1000,                500
-		MassWhiteBishop,                                                       *,                   1000,                500
-		MassWhiteQueen,                                                        *,                   1000,                500
-		MassWhiteKing,                                                         *,                   1000,                500
-		MassWhiteBishop,                                                       *,                   1000,                500
-		MassWhiteKnight,                                                       *,                   1000,                500
-		MassWhiteRook,                                                         *,                   1000,                500
-		MassblackPawn,                                                         *,                   1000,                500
-		MassblackQueen,                                                        *,                   1000,                500
-		MassblackKing,                                                         *,                   1000,                500
-		MassblackBishop,                                                       *,                   1000,                500
-		MassblackKnight,                                                       *,                   1000,                500
-		MassblackRook,                                                         *,                   1000,                500
-	<Category>Mass's ManyItemOverhaul Items
-		MassSmiley,                                                            *,                   1000,                500
-		MassCatEars,                                                           *,                   1000,                500
-		MassScrap,                                                             *,                   1000,                500
-		MassScrapR,                                                            *,                   1000,                500
-		MassPaintR,                                                            *,                   1000,                500
-		MassPaint,                                                             *,                   1000,                500
-		MassImprovArmor,                                                       *,                   1000,                500
-		MassImprovArmorlow,                                                    *,                   1000,                500
-		MassImprovArmormed,                                                    *,                   1000,                500
-		MassImprovArmor_Red,                                                   *,                   1000,                500
-		MassImprovArmor_Blue,                                                  *,                   1000,                500
-		MassImprovArmor_Green,                                                 *,                   1000,                500
-		MassImprovArmor_Orange,                                                *,                   1000,                500
-		MassImprovArmor_Yellow,                                                *,                   1000,                500
-		MassImprovArmor_Pink,                                                  *,                   1000,                500
-		MassImprovArmor_Smiley,                                                *,                   1000,                500
-		MassImprovArmor_Black,                                                 *,                   1000,                500
-		MassImprovArmor_White,                                                 *,                   1000,                500
-		MassImprovArmor_low_Red,                                               *,                   1000,                500
-		MassImprovArmor_low_Blue,                                              *,                   1000,                500
-		MassImprovArmor_low_Green,                                             *,                   1000,                500
-		MassImprovArmor_low_Orange,                                            *,                   1000,                500
-		MassImprovArmor_low_Pink,                                              *,                   1000,                500
-		MassImprovArmor_low_Smiley,                                            *,                   1000,                500
-		MassImprovArmor_low_Black,                                             *,                   1000,                500
-		MassImprovArmor_low_White,                                             *,                   1000,                500
-		MassImprovArmor_low_Yellow,                                            *,                   1000,                500
-		MassImprovArmormed_Red,                                                *,                   1000,                500
-		MassImprovArmormed_Blue,                                               *,                   1000,                500
-		MassImprovArmormed_Green,                                              *,                   1000,                500
-		MassImprovArmormed_Orange,                                             *,                   1000,                500
-		MassImprovArmormed_Pink,                                               *,                   1000,                500
-		MassImprovArmormed_Smiley,                                             *,                   1000,                500
-		MassImprovArmormed_Black,                                              *,                   1000,                500
-		MassImprovArmormed_White,                                              *,                   1000,                500
-		MassImprovArmormed_Yellow,                                             *,                   1000,                500
-<Trader>Weapon Trader // ID=2
+<Trader>ViperVics Crazy Gunshop // ID=2
 	<Category>Melee
 		BrassKnuckles_Shiny,                                                   W,                   15,                  6
 		StunBaton,                                                             W,                   15,                  9
@@ -776,7 +676,6 @@
 	<Category>Sidearms
 		Flaregun,                                                              W,                   80,                  40
 		MakarovIJ70,                                                           W,                   100,                 50
-		CZ75,                                                                  W,                   135,                 70
 		FNX45,                                                                 W,                   175,                 90
 		Glock19,                                                               W,                   300,                 130
 		MKII,                                                                  W,                   320,                 160
@@ -791,6 +690,7 @@
 		Mosin9130,                                                             W,                   400,                 200
 		CZ527,                                                                 W,                   500,                 250
 		Winchester70,                                                          W,                   500,                 250
+		Repeater,                                                              W,                   500,                 250
 		SKS,                                                                   W,                   600,                 300
 		Ruger1022,                                                             W,                   750,                 250
 		Gewehr43_mung,                                                         *,                   1200,                600
@@ -813,14 +713,6 @@
 		M4A1,                                                                  W,                   1500,                750
 		M16A2,                                                                 W,                   2000,                1000
 		AD_M16A2,                                                              W,                   2000,                1000
-		AR15,                                                                  W,                   5000,                2500
-		AR15_9mm_Black,                                                        W,                   5000,                2500
-		AR15_9mm_Green,                                                        W,                   5000,                2500
-		AR15_9mm_TAN,                                                          W,                   5000,                2500
-		AR15_9mm_White,                                                        W,                   5000,                2500
-		AR15_9mm_Atacs_AU,                                                     W,                   5000,                2500
-		AR15_9mm_Atacs_FG,                                                     W,                   5000,                2500
-		AR15_9mm_Atacs_IX,                                                     W,                   5000,                2500
 	<Category>Sniper Rifles
 		VSS,                                                                   W,                   1600,                960
 		B95,                                                                   W,                   1700,                1100
@@ -836,46 +728,7 @@
 		RDG2SmokeGrenade_Black,                                                *,                   300,                 100
 		RDG2SmokeGrenade_White,                                                *,                   300,                 100
 		FlashGrenade,                                                          *,                   300,                 100
-		LandMineTrap,                                                          *,                   300,                 100
 		stielhandgranate_mung,                                                 *,                   800,                 400
-	<Category>Mass's ManyItemOverhaul Weapons
-		Mass357M1911,                                                          W,                   1000,                500
-		MassG18,                                                               W,                   1000,                500
-		MassG18_Green,                                                         W,                   1000,                500
-		MassStevens301,                                                        W,                   1000,                500
-		MassStevens301_green,                                                  W,                   1000,                500
-		MassStevens301_tan,                                                    W,                   1000,                500
-		MassStevens301SHORT,                                                   W,                   1000,                500
-		MassStevens301SHORT_green,                                             W,                   1000,                500
-		MassStevens301SHORT_tan,                                               W,                   1000,                500
-		MassStevens301SuperShort,                                              W,                   1000,                500
-		MassStevens301SuperShort_green,                                        W,                   1000,                500
-		MassStevens301SuperShort_tan,                                          W,                   1000,                500
-		MassTMP153,                                                            W,                   1000,                500
-		MassMP153,                                                             W,                   1000,                500
-		MassMP153Short,                                                        W,                   1000,                500
-		Massarmsan,                                                            W,                   1000,                500
-		MassM19,                                                               W,                   1000,                500
-		MassM19_Wood,                                                          W,                   1000,                500
-		MassPPSH41,                                                            W,                   1000,                500
-		MassPPSH41_Black,                                                      W,                   1000,                500
-		MassPPSH41_Green,                                                      W,                   1000,                500
-		MassPPSH41_Camo,                                                       W,                   1000,                500
-		MassScout556,                                                          W,                   1000,                500
-		MassType81,                                                            W,                   1000,                500
-		MassM16,                                                               W,                   1000,                500
-		Massmini14,                                                            W,                   1000,                500
-		MassB52,                                                               W,                   1000,                500
-		MassPpskn,                                                             W,                   1000,                500
-		MassAR15,                                                              W,                   1000,                500
-		MassM110,                                                              W,                   1000,                500
-		MassSVT40,                                                             W,                   1000,                500
-		MassSVT40_Black,                                                       W,                   1000,                500
-		MassSVT40_Green,                                                       W,                   1000,                500
-		MassSVT40_Camo,                                                        W,                   1000,                500
-		MassKivaari,                                                           W,                   1000,                500
-		Massm300,                                                              W,                   1000,                500
-		Massm300_camo,                                                         W,                   1000,                500
 	<Category>SQUAD MSF-C (Weapons)
 		MSFC_AN94,                                                             W,                   5000,                3000
 		MSFC_AN94_Black,                                                       W,                   5000,                3000
@@ -995,6 +848,7 @@
 		MSFC_DownrangeTomahawk_Black,                                          W,                   1000,                500
 		MSFC_DownrangeTomahawk_Green,                                          W,                   1000,                500
 	<Category>Mortys Weapons
+        TTC_AWM,                                                               W,                   20000,               7500
 		TTC_KAC,                                                               W,                   20000,               7500
 		TTC_MAS36,                                                             W,                   20000,               7500
 		TTC_Winchester1873,                                                    W,                   20000,               7500
@@ -1007,12 +861,17 @@
 		TTC_HK416Tan,                                                          W,                   20000,               7500
 		TTC_HK416OD,                                                           W,                   20000,               7500
 		TTC_HK416Black,                                                        W,                   20000,               7500
-		TTC_SG552,                                                             W,                   20000,               7500
+		TTC_Gevar43,                                                           W,                   20000,               7500
+        TTC_Gevar43_Green,                                                     W,                   20000,               7500
+        TTC_Gevar43_Tan,                                                       W,                   20000,               7500
+        TTC_Gevar43_Silver,                                                    W,                   20000,               7500 
+        TTC_SG552,                                                             W,                   20000,               7500
 		TTC_SG552_Wood,                                                        W,                   20000,               7500
 		TTC_SG552_Black,                                                       W,                   20000,               7500
 		TTC_SG550,                                                             W,                   20000,               7500
 		TTC_SG550_Black,                                                       W,                   20000,               7500
 		TTC_SG550_Pink,                                                        W,                   20000,               7500
+		TTC_L85,                                                               W,                   20000,               7500
 		TTC_M16,                                                               W,                   20000,               7500
 		TTC_AEK973,                                                            W,                   20000,               7500
 		TTC_M4DMR,                                                             W,                   20000,               7500
@@ -1082,6 +941,8 @@
 		TTC_MCX_Tan,                                                           W,                   45000,               7500
 		TTC_MCX_300blk,                                                        W,                   45000,               7500
 		TTC_MCX_Tan_300blk,                                                    W,                   45000,               7500
+		TTC_MCX_Spear,                                                         W,                   45000,               7500
+		TTC_MCX_Spear_Black,                                                   W,                   45000,               7500
 		TTC_AKM,                                                               W,                   45000,               7500
 		TTC_Deagle,                                                            W,                   45000,               7500
 		TTC_Glock17,                                                           W,                   45000,               7500
@@ -1150,15 +1011,20 @@
 		TTC_Ammo_4630,                                                         *,                   400,                 200
 		TTC_AmmoBox_792x33_20Rnd,                                              *,                   400,                 200
 		TTC_Ammo_792x33,                                                       *,                   400,                 200
+		TTC_Ammo_277,                                                          *,                   400,                 200
+		TTC_AmmoBox_277_20Rnd,                                                 *,                   400,                 200
 	<Category>Mortys Mags
 		Mag_SG_30Rnd,                                                          M,                   500,                 250
 		TTC_308Stanag,                                                         M,                   200,                 100
+		TTC_MCX_Spear_Magazine_20rnd,                                          M,                   200,                 100
 		TTC_300Stanag,                                                         M,                   200,                 100
 		TTC_300Cmag,                                                           M,                   200,                 100
 		TTC_338mag_10rnd,                                                      M,                   200,                 100
+        TTC_338mag_5rnd,                                                      M,                   200,                 100
 		TTC_M24mag_5rnd,                                                       M,                   200,                 100
 		TTC_SCARHMag,                                                          M,                   200,                 100
-		TTC_50Beo_mag,                                                         M,                   200,                 100
+        TTC_Gevar43_Magazine_10rnd,                                            M,                   200,                 100
+        TTC_50Beo_mag,                                                         M,                   200,                 100
 		TTC_DMR_556Stanag_30rnd,                                               M,                   200,                 100
 		TTC_DMR_556Stanag_30rnd_camo,                                          M,                   200,                 100
 		TTC_DMR_556Stanag_30rnd_Digitan,                                       M,                   200,                 100
@@ -1265,6 +1131,7 @@
 		TTC_G28_Optic,                                                         *,                   5000,                2000
 		TTC_G28_Optic_Black,                                                   *,                   5000,                2000
 		TTC_Aimpoint2000,                                                      *,                   5000,                2000
+		TTC_GEVAR43_silver,                                                    *,                   5000,                2000
 	<Category>Sebbes Rifles & SMGs
 		Sebbes_AK12,                                                           W,                   1500,                1000
 		Sebbes_HK416,                                                          W,                   1500,                1000
@@ -1330,6 +1197,7 @@
 		Sebbes_M40A1_Suppressor,                                               *,                   1000,                500
 		Sebbes_Covered_Suppressor_Green,                                       *,                   1000,                500
 		Sebbes_Covered_Suppressor_Gray,                                        *,                   1000,                500
+		Sebbes_IMIUZI_Suppressor,                                              *,                   1000,                500
 	<Category>Sebbes Attachments
 		Sebbes_CTR_Stock,                                                      *,                   500,                 250
 		Sebbes_CTR_Stock_camo,                                                 *,                   500,                 250
@@ -1362,7 +1230,111 @@
 		Mag_PKM_Box200Rnd,                                                     M,                   550,                 225
 		Mag_PKM_Box200Rnd,                                                     M,                   550,                 225
 		Mag_IMIUZI_30Rnd,                                                      M,                   750,                 250
-<Trader>Weapon Supplies // ID=3
+	<Category>Tactical Flavas Weapons
+		TF_AN94,                                                               W,                   20000,               7500
+		TF_Anzio20,                                                            W,                   20000,               7500
+		TF_FiveSeven,                                                          W,                   20000,               7500
+		TF_M14_DMR,                                                            W,                   20000,               7500
+		TF_M14_EBR,                                                            W,                   20000,               7500
+		TF_M14_STD,                                                            W,                   20000,               7500
+		TF_M1A_Black,                                                          W,                   20000,               7500
+		TF_M1A_OD,                                                             W,                   20000,               7500
+		TF_M1A_Tan,                                                            W,                   20000,               7500
+		TF_MAR10,                                                              W,                   20000,               7500
+		TF_SCAR_20_FDE,                                                        W,                   20000,               7500
+		TF_SCAR_20_Black,                                                      W,                   20000,               7500
+		TF_SCAR_20_Shd,                                                        W,                   20000,               7500
+		TF_SCAR_L_FDE,                                                         W,                   20000,               7500
+		TF_SCAR_L_Black,                                                       W,                   20000,               7500
+		TF_SCAR_L_CQC_FDE,                                                     W,                   20000,               7500
+		TF_SCAR_L_CQC_Black,                                                   W,                   20000,               7500
+		TF_SCAR_H_FDE,                                                         W,                   20000,               7500
+		TF_SCAR_H_Black,                                                       W,                   20000,               7500
+		TF_SCAR_H_CQC_FDE,                                                     W,                   20000,               7500
+		TF_SCAR_H_CQC_Black,                                                   W,                   20000,               7500
+		TF_OTs_12_Tiss,                                                        W,                   20000,               7500
+		TF_OTs_14_Groza,                                                       W,                   20000,               7500
+		TF_MakarovPB,                                                          W,                   20000,               7500
+		TF_M79,                                                                W,                   40000,               7500
+	<Category>Tactical Flavas Mags
+		TF_Mag_OTs_14_Groza_20Rnd,                                             M,                   250,                 100
+		TF_Mag_SCAR_H_20Rnd_Black,                                             M,                   250,                 100
+		TF_Mag_SCAR_H_20Rnd_FDE,                                               M,                   250,                 100
+		TF_Mag_SCAR_H_20Rnd_Shd,                                               M,                   250,                 100
+		TF_Mag_SCAR_H_25Rnd_Black,                                             M,                   250,                 100
+		TF_Mag_SCAR_H_25Rnd_FDE,                                               M,                   250,                 100
+		TF_Mag_SCAR_H_30Rnd_Black,                                             M,                   250,                 100
+		TF_Mag_SCAR_H_30Rnd_FDE,                                               M,                   250,                 100
+		TF_Mag_SCAR_H_PMAG25Rnd_Black,                                         M,                   250,                 100
+		TF_Mag_SCAR_H_Drum50Rnd,                                               M,                   250,                 100
+		TF_Mag_FAL_Drum50Rnd_Black,                                            M,                   250,                 100
+		TF_Mag_MAR10_10Rnd,                                                    M,                   250,                 100
+		TF_Mag_Anzio20_3Rnd,                                                   M,                   250,                 100
+		TF_Mag_M14_20Rnd,                                                      M,                   250,                 100
+		TF_Mag_M14_10Rnd,                                                      M,                   250,                 100
+		TF_Mag_FiveSeven_20Rnd,                                                M,                   250,                 100
+		TF_Mag_AK74_60Rnd,                                                     M,                   250,                 100
+		TF_Mag_AK74_45Rnd,                                                     M,                   250,                 100
+	<Category>Tactical Flavas Ammo
+		TF_Ammo_20mm,                                                          *,                   20,                  10
+		TF_Ammo_20mm_HE,                                                       *,                   20,                  10
+		TF_Ammo_57,                                                            *,                   20,                  10
+		TF_Ammo_40mm_HEDP,                                                     *,                   20,                  10
+		TF_Ammo_338LM,                                                         *,                   20,                  10
+	<Category>Tactical Flavas Other
+		TF_Atlas_Bipod,                                                        *,                   250,                 125
+		TF_Harris_Bipod,                                                       *,                   250,                 125
+		TF_M14_Adapter,                                                        *,                   250,                 125
+		TF_RifleSling_Black,                                                   *,                   250,                 125
+		TF_RifleSling_Brown,                                                   *,                   250,                 125
+		TF_RifleSling_OD,                                                      *,                   250,                 125
+		TF_NVGoggles_AVS9,                                                     *,                   250,                 125
+		TF_Foil_hat,                                                           *,                   250,                 125
+		TF_6B43PelvisArmor,                                                    *,                   250,                 125
+	<Category>Tactical Flavas Grenades
+		TF_EMPGrenade,                                                         *,                   2500,                1250
+		TF_PhosphorusGrenade,                                                  *,                   2500,                1250
+		TF_TeargasGrenade,                                                     *,                   2500,                1250
+		TF_ChemicalGrenade,                                                    *,                   2500,                1250
+	<Category>Tactical Flavas OPTICS
+		TF_ElcanSpecterDROptic_FDE,                                            *,                   250,                 125
+		TF_ElcanSpecterDROptic_Black,                                          *,                   250,                 125
+		TF_EOTechXPSOpticDown_Black,                                           *,                   250,                 125
+		TF_EOTechXPSOpticUp_Black,                                             *,                   250,                 125
+		TF_DeltaPointOptic_Black,                                              *,                   250,                 125
+		TF_HAMROptic_Black,                                                    *,                   250,                 125
+		TF_OTs_14_GrozaOptic,                                                  *,                   250,                 125
+	<Category>Tactical Flavas BUTTSTOCKS
+		TF_M4CraneBttstck,                                                     *,                   250,                 125
+		TF_SCAR_Mk20Bttstck_FDE,                                               *,                   250,                 125
+		TF_SCAR_Mk20Bttstck_Black,                                             *,                   250,                 125
+		TF_SCAR_Mk20Bttstck_Shd,                                               *,                   250,                 125
+		TF_SCAR_StndBttstck_FDE,                                               *,                   250,                 125
+		TF_SCAR_StndBttstck_Black,                                             *,                   250,                 125
+		TF_SCAR_VadapterBttstck,                                               *,                   250,                 125
+	<Category>Tactical Flavas GRIPS
+		TF_SAW_RIS_Grip_FDE,                                                   *,                   250,                 125
+		TF_SAW_RIS_Grip_Black,                                                 *,                   250,                 125
+		TF_AFG_RIS_Grip_FDE,                                                   *,                   250,                 125
+		TF_AFG_RIS_Grip_Black,                                                 *,                   250,                 125
+		TF_AFG_MLOCK_Grip_FDE,                                                 *,                   250,                 125
+		TF_AFG_MLOCK_Grip_Black,                                               *,                   250,                 125
+		TF_BCM_MLOCK_Grip_FDE,                                                 *,                   250,                 125
+		TF_BCM_MLOCK_Grip_Black,                                               *,                   250,                 125
+		TF_RVG_RIS_Grip_FDE,                                                   *,                   250,                 125
+		TF_RVG_RIS_Grip_Black,                                                 *,                   250,                 125
+	<Category>Tactical Flavas HANDGUARDS
+		TF_SCAR_ADDHndgrd,                                                     *,                   250,                 125
+		TF_SCAR_MREXHndgrd_FDE,                                                *,                   250,                 125
+		TF_SCAR_MREXHndgrd_Black,                                              *,                   250,                 125
+		TF_SCAR_StndHndgrd,                                                    *,                   250,                 125
+	<Category>Tactical Flavas MUZZLES
+		TF_SCAR_Suppressor_Black,                                              *,                   250,                 125
+		TF_MakarovPB_Suppressor,                                               *,                   250,                 125
+		TF_OTs_14_Groza_Suppressor,                                            *,                   250,                 125
+		TF_OTs_14_Groza_Barrel_Grip,                                           *,                   250,                 125
+		TF_MAR10_Suppressor,                                                   *,                   250,                 125
+<Trader>Mikes Ammo Dump // ID=3
 	<Category>Ammunition
 		Ammo_380,                                                              1,                   1,                   -1
 		Ammo_9x19,                                                             1,                   1,                   -1
@@ -1439,8 +1411,6 @@
 		Mag_SVD_10Rnd,                                                         M,                   250,                 125
 		Mag_308WinSnaploader_2Rnd,                                             M,                   250,                 125
 		Mag_CMAG_30Rnd_Black,                                                  M,                   5,                   1
-		Mag_Glock_30Rnd,                                                       M,                   500,                 250
-		Mag_Glock_50Rnd,                                                       M,                   1000,                500
 		Mag_gewehr43_10Rnd_mung,                                               *,                   400,                 200
 	<Category>Handguards
 		MP5_PlasticHndgrd,                                                     *,                   100,                 50
@@ -1466,39 +1436,12 @@
 		M4_CQBBttstck,                                                         *,                   150,                 75
 		M4_MPBttstck,                                                          *,                   150,                 75
 		mcmillan_buttstock,                                                    *,                   100,                 50
-		Ar15_Handguard,                                                        *,                   500,                 250
-		Ar15_Buttstock_Black,                                                  *,                   500,                 250
-		Ar15_Buttstock_Green,                                                  *,                   500,                 250
-		Ar15_Buttstock_Tan,                                                    *,                   500,                 250
-		Ar15_Buttstock_White,                                                  *,                   500,                 250
-		Ar15_Buttstock_Atacs_AU,                                               *,                   500,                 250
-		Ar15_Buttstock_Atacs_FG,                                               *,                   500,                 250
-		Ar15_Buttstock_Atacs_IX,                                               *,                   500,                 250
-		M4_OEBttstck_Tan,                                                      *,                   500,                 250
-		M4_OEBttstck_White,                                                    *,                   500,                 250
-		M4_MPBttstck_Tan,                                                      *,                   500,                 250
-		M4_MPBttstck_White,                                                    *,                   500,                 250
-		M4_CQBBttstck_Tan,                                                     *,                   500,                 250
-		M4_CQBBttstck_White,                                                   *,                   500,                 250
-		M4_PlasticHndgrd_Tan,                                                  *,                   500,                 250
-		M4_PlasticHndgrd_White,                                                *,                   500,                 250
-		M4_RISHndgrd_Tan,                                                      *,                   500,                 250
-		M4_RISHndgrd_White,                                                    *,                   500,                 250
-		M4_MPHndgrd_Tan,                                                       *,                   500,                 250
-		M4_MPHndgrd_White,                                                     *,                   500,                 250
-		M4_MPHndgrd_Wood,                                                      *,                   500,                 250
-		M4_CQBBttstck_Wood,                                                    *,                   500,                 250
-		MLOK_Buttstock_Black,                                                  *,                   500,                 250
-		MLOK_Buttstock_Green,                                                  *,                   500,                 250
-		MLOK_Buttstock_Tan,                                                    *,                   500,                 250
-		MLOK_Buttstock_White,                                                  *,                   500,                 250
 		zenitco_pt3_buttstock,                                                 *,                   200,                 100
 		MassAR15AdjBttstck,                                                    *,                   750,                 500
 	<Category>Optics
 		M4_CarryHandleOptic,                                                   *,                   150,                 60
 		BUISOptic,                                                             *,                   150,                 60
 		FNP45_MRDSOptic,                                                       *,                   250,                 100
-		ACOGOptic,                                                             *,                   300,                 120
 		M68Optic,                                                              *,                   500,                 200
 		M4_T3NRDSOptic,                                                        *,                   500,                 200
 		KobraOptic,                                                            *,                   600,                 250
@@ -1561,21 +1504,8 @@
 		Leupold_ACOG_mung,                                                     *,                   3500,                1500
 		Thermal_Optic,                                                         *,                   10000,               5000
 		Thermal_RangeFinder,                                                   *,                   10000,               5000
-		M4_T3NRDSOptic_Green,                                                  *,                   1000,                500
-		M4_T3NRDSOptic_Tan,                                                    *,                   1000,                500
-		M4_T3NRDSOptic_White,                                                  *,                   1000,                500
-		EotechOptic_Black,                                                     *,                   1000,                500
-		EotechOptic_Green,                                                     *,                   1000,                500
-		EotechOptic_Tan,                                                       *,                   1000,                500
-		EotechOptic_White,                                                     *,                   1000,                500
-		M68Optic_Black,                                                        *,                   1000,                500
-		M68Optic_Green,                                                        *,                   1000,                500
-		M68Optic_Tan,                                                          *,                   1000,                500
-		M68Optic_White,                                                        *,                   1000,                500
-		ACOGOptic_Green,                                                       *,                   1000,                500
-		ACOGOptic_Tan,                                                         *,                   1000,                500
-		MassScoutLRS,                                                          *,                   1000,                500
 		Leupold_mung,                                                          *,                   1500,                750
+		Mass1P69,                                                              *,                   1500,                750
 	<Category>Supressors
 		PistolSuppressor,                                                      *,                   150,                 75
 		AK_Suppressor,                                                         *,                   250,                 125
@@ -1596,20 +1526,6 @@
 		SKS_Bayonet,                                                           *,                   100,                 60
 	<Category>Flashlights
 		Universallight,                                                        *,                   120,                 60
-		M4_UniversalLasersight_Black,                                          *,                   1500,                750
-		M4_UniversalLasersight_Green,                                          *,                   1500,                750
-		M4_UniversalLasersight_Tan,                                            *,                   1500,                750
-		M4_UniversalLasersight_White,                                          *,                   1500,                750
-		M4_UniversalLasersight_Atacs_AU,                                       *,                   1500,                750
-		M4_UniversalLasersight_Atacs_FG,                                       *,                   1500,                750
-		M4_UniversalLasersight_Atacs_IX,                                       *,                   1500,                750
-		M4_RIS_Cover_Black,                                                    *,                   1000,                500
-		M4_RIS_Cover_Green,                                                    *,                   1000,                500
-		M4_RIS_Cover_Tan,                                                      *,                   1000,                500
-		M4_RIS_Cover_White,                                                    *,                   1000,                500
-		M4_RIS_Cover_Atacs_AU,                                                 *,                   1000,                500
-		M4_RIS_Cover_Atacs_FG,                                                 *,                   1000,                500
-		M4_RIS_Cover_Atacs_IX,                                                 *,                   1000,                500
 	<Category>Rifle Holsters
 		rifleholster_black_mung,                                               *,                   300,                 150
 		rifleholster_tan_mung,                                                 *,                   300,                 150
@@ -1744,44 +1660,7 @@
 		MSFC_RO_Pistol_Suppressor_Green,                                       *,                   1000,                500
 		MSFC_RO_Pistol_Suppressor_Desert,                                      *,                   1000,                500
 		MSFC_RO_Pistol_Suppressor_White,                                       *,                   1000,                500
-	<Category>Mass's ManyItemOverhaul Ammo
-//		Ammo_12GaBB,                                                           20,                  1000,                500
-//		AmmoBox_12gaBB,                                                        *,                   1000,                500
-		MassAmmoBox_556x45_10Rnd,                                              *,                   1000,                500
-		Ammo_338,                                                              20,                  1000,                500
-		AmmoBox_338,                                                           *,                   1000,                500
-		Ammo_408Chey,                                                          20,                  1000,                500
-		AmmoBox_408Chey,                                                       *,                   1000,                500
-	<Category>Mass's ManyItemOverhaul Magazine
-		MassG18Mag,                                                            *,                   1000,                500
-		Massppshdrum,                                                          *,                   1000,                500
-		Massppshbox,                                                           *,                   1000,                500
-		Mass357M1911Mag,                                                       *,                   1000,                500
-		Scout556mag,                                                           *,                   1000,                500
-		Mag_CMAG_10Rnd_Black,                                                  *,                   1000,                500
-		Mass9x39Palm,                                                          *,                   1000,                500
-		Mass762Stanag,                                                         *,                   1000,                500
-		Mass308STANAG,                                                         *,                   1000,                500
-		MassSVTmag,                                                            *,                   1000,                500
-		kivaarimag,                                                            *,                   1000,                500
-		Massm300mag,                                                           *,                   1000,                500
-	<Category>Mass's ManyItemOverhaul 1
-		MassStockPouch,                                                        *,                   1000,                500
-		MassSVTMount,                                                          *,                   1000,                500
-		MassBinocs,                                                            *,                   1000,                500
-		MassScoutLRS,                                                          *,                   1000,                500
-		MassHolo,                                                              *,                   1000,                500
-		MassHolo2,                                                             *,                   1000,                500
-		MassPKA,                                                               *,                   1000,                500
-		MassScope,                                                             *,                   1000,                500
-		MassScoutSuppressor,                                                   *,                   1000,                500
-		shotgun_Suppressor,                                                    *,                   1000,                500
-		MassSuppressor308,                                                     *,                   1000,                500
-		MassMuzzle762,                                                         *,                   1000,                500
-		MassMuzzle556,                                                         *,                   1000,                500
-		MassMuzzle338,                                                         *,                   1000,                500
-		MassMuzzlePistol,                                                      *,                   1000,                500
-<Trader>Clothing Trader // ID=4
+<Trader>Mikes Hellfinger // ID=4
 	<Category>Munghards Itempack
 		clownmask_mung,                                                        *,                   100,                 50
 		strawhat_mung,                                                         *,                   100,                 50
@@ -2870,13 +2749,54 @@
 		Hikingbagmung_black,                                                   *,                   600,                 300
 		Hikingbagmung_camo,                                                    *,                   600,                 300
 		Hikingbagmung_pink,                                                    *,                   600,                 300
+		Hikingbagmung_snow,                                                    *,                   600,                 300
 		simplebackpack_blue_mung,                                              *,                   800,                 400
 		simplebackpack_camoblack_mung,                                         *,                   800,                 400
 		simplebackpack_green_mung,                                             *,                   800,                 400
 		simplebackpack_redpink_mung,                                           *,                   800,                 400
 		simplebackpack_redyellow_mung,                                         *,                   800,                 400
 		oxygentankrig_mung,                                                    *,                   500,                 250
-	<Category>MVS Pouches & Chestrigs
+	<Category>Tactical Flavas HELMETS&COVERS
+		TF_6B47Helmet,                                                         *,                   1000,                500
+		TF_6B47HelmetCover_EMR,                                                *,                   1000,                500
+		TF_LSHZHelmet_OD,                                                      *,                   1000,                500
+		TF_MICH2000Helmet,                                                     *,                   1000,                500
+		TF_MICH2000Helmet_Khaku,                                               *,                   1000,                500
+		TF_MICH2000Helmet_Black,                                               *,                   1000,                500
+		TF_MICH2000HelmetCover_Woodland,                                       *,                   1000,                500
+		TF_WeldingMask_Tagilla,                                                *,                   1000,                500
+		TF_WeldingMask,                                                        *,                   1000,                500
+	<Category>Tactical Flavas VESTS
+		TF_PlateCarrierVest_EMR,                                               *,                   1000,                500
+		TF_6sh112_EMR,                                                         *,                   1000,                500
+		TF_6B23_112Vest_GFlora,                                                *,                   1000,                500
+		TF_6B23_112Vest_EMR,                                                   *,                   1000,                500
+		TF_6B23Vest_GFlora,                                                    *,                   1000,                500
+		TF_6B23Vest_EMR,                                                       *,                   1000,                500
+		TF_6B43Vest_EMR,                                                       *,                   1000,                500
+		TF_IMTVVest,                                                           *,                   1000,                500
+	<Category>Tactical Flavas POUCHES
+		TF_PlateCarrierPouches_EMR,                                            *,                   100,                 50
+		TF_PlateCarrierHolster_EMR,                                            *,                   100,                 50
+		TF_6B43MagPouch,                                                       *,                   100,                 50
+		TF_6B43GrenPouch,                                                      *,                   100,                 50
+		TF_DumpMagPouch,                                                       *,                   100,                 50
+		TF_3GrenPouch,                                                         *,                   100,                 50
+		TF_2GrenPouch,                                                         *,                   100,                 50
+		TF_LMGPouch,                                                           *,                   100,                 50
+		TF_LMG_M4Pouch,                                                        *,                   100,                 50
+		TF_Mag2Pouch,                                                          *,                   100,                 50
+		TF_Mag3Pouch,                                                          *,                   100,                 50
+		TF_MedPouch1,                                                          *,                   100,                 50
+		TF_MedPouch2,                                                          *,                   100,                 50
+		TF_MedPouch3,                                                          *,                   100,                 50
+	<Category>Tactical Flavas BAGS
+		TF_CamelBakBag_Black,                                                  *,                   1000,                500
+		TF_CamelBakBag_Brown,                                                  *,                   1000,                500
+		TF_CamelBakBag_EMR,                                                    *,                   1000,                500
+		TF_CamelBakBag_OD,                                                     *,                   1000,                500
+		TF_CamelBakBag_Tan,                                                    *,                   1000,                500
+	<Category>Modular Vest System Reworked
 		MVS_Combat_Vest_OD,                                                    *,                   100,                 50
 		MVS_Combat_Vest_Tan,                                                   *,                   100,                 50
 		MVS_Combat_Vest_Black,                                                 *,                   100,                 50
@@ -2901,6 +2821,7 @@
 		MVS_Combat_Vest_Heavy_Multicam,                                        *,                   500,                 250
 		MVS_Combat_Vest_Heavy_Multicam_Tropic,                                 *,                   500,                 250
 		MVS_Combat_Vest_Heavy_Multicam_Black,                                  *,                   500,                 250
+	<Category>MVS Pouches
 		MVS_Heavy_Pouch_OD,                                                    *,                   200,                 100
 		MVS_Heavy_Pouch_Tan,                                                   *,                   200,                 100
 		MVS_Heavy_Pouch_Black,                                                 *,                   200,                 100
@@ -2966,7 +2887,6 @@
 		MVS_Belt_Multicam,                                                     *,                   100,                 50
 		MVS_Belt_Multicam_Tropic,                                              *,                   100,                 50
 		MVS_Belt_Multicam_Black,                                               *,                   100,                 50
-	<Category>MVS Holsters
 		MVS_Holster_OD,                                                        *,                   100,                 50
 		MVS_Holster_Tan,                                                       *,                   100,                 50
 		MVS_Holster_Black,                                                     *,                   100,                 50
@@ -2975,7 +2895,6 @@
 		MVS_Holster_Multicam,                                                  *,                   100,                 50
 		MVS_Holster_Multicam_Tropic,                                           *,                   100,                 50
 		MVS_Holster_Multicam_Black,                                            *,                   100,                 50
-	<Category>MVS Sheaths
 		MVS_Sheath_OD,                                                         *,                   100,                 50
 		MVS_Sheath_Tan,                                                        *,                   100,                 50
 		MVS_Sheath_Black,                                                      *,                   100,                 50
@@ -2984,7 +2903,6 @@
 		MVS_Sheath_Multicam,                                                   *,                   100,                 50
 		MVS_Sheath_Multicam_Tropic,                                            *,                   100,                 50
 		MVS_Sheath_Multicam_Black,                                             *,                   100,                 50
-	<Category>MVS Molle Panels
 		MVS_Molle_Panel_OD,                                                    *,                   100,                 50
 		MVS_Molle_Panel_Black,                                                 *,                   100,                 50
 		MVS_Molle_Panel_Tan,                                                   *,                   100,                 50
@@ -2993,7 +2911,7 @@
 		MVS_Molle_Panel_Multicam,                                              *,                   100,                 50
 		MVS_Molle_Panel_Multicam_Tropic,                                       *,                   100,                 50
 		MVS_Molle_Panel_Multicam_Black,                                        *,                   100,                 50
-	<Category>MVS Packs
+	<Category>MVS Bags
 		MVS_Pack_OD,                                                           *,                   100,                 50
 		MVS_Pack_Tan,                                                          *,                   100,                 50
 		MVS_Pack_Black,                                                        *,                   100,                 50
@@ -3010,7 +2928,6 @@
 		MVS_Assault_Pack_Multicam,                                             *,                   100,                 50
 		MVS_Assault_Pack_Multicam_Tropic,                                      *,                   100,                 50
 		MVS_Assault_Pack_Multicam_Black,                                       *,                   100,                 50
-	<Category>MVS Radios Packs
 		MVS_Radio,                                                             *,                   100,                 50
 		MVS_Radio_Pack_OD,                                                     *,                   100,                 50
 		MVS_Radio_Pack_Tan,                                                    *,                   100,                 50
@@ -3020,7 +2937,6 @@
 		MVS_Radio_Pack_Multicam,                                               *,                   100,                 50
 		MVS_Radio_Pack_Multicam_Tropic,                                        *,                   100,                 50
 		MVS_Radio_Pack_Multicam_Black,                                         *,                   100,                 50
-	<Category>MVS Rucksacks
 		MVS_Rucksack_OD,                                                       *,                   100,                 50
 		MVS_Rucksack_Tan,                                                      *,                   100,                 50
 		MVS_Rucksack_Black,                                                    *,                   100,                 50
@@ -3029,7 +2945,6 @@
 		MVS_Rucksack_Multicam,                                                 *,                   100,                 50
 		MVS_Rucksack_Multicam_Tropic,                                          *,                   100,                 50
 		MVS_Rucksack_Multicam_Black,                                           *,                   100,                 50
-	<Category>MVS Compacts
 		MVS_Compact_1_OD,                                                      *,                   100,                 50
 		MVS_Compact_1_Tan,                                                     *,                   100,                 50
 		MVS_Compact_1_Black,                                                   *,                   100,                 50
@@ -3046,7 +2961,6 @@
 		MVS_Compact_2_Multicam,                                                *,                   100,                 50
 		MVS_Compact_2_Multicam_Tropic,                                         *,                   100,                 50
 		MVS_Compact_2_Multicam_Black,                                          *,                   100,                 50
-	<Category>MVS Sling Packs
 		MVS_SlingPack_OD,                                                      *,                   100,                 50
 		MVS_SlingPack_Tan,                                                     *,                   100,                 50
 		MVS_SlingPack_Black,                                                   *,                   100,                 50
@@ -3055,9 +2969,8 @@
 		MVS_SlingPack_Multicam_Tropic,                                         *,                   100,                 50
 		MVS_SlingPack_ERDL,                                                    *,                   100,                 50
 		MVS_SlingPack_Snow,                                                    *,                   100,                 50
-	<Category>MVS Caps & Hats
+	<Category>MVS Hats And Helmets
 		MVS_Pakol_brown,                                                       *,                   100,                 50
-		MVS_Pakol_Comtac,                                                      *,                   100,                 50
 		MVS_Cap_OD,                                                            *,                   100,                 50
 		MVS_Cap_Tan,                                                           *,                   100,                 50
 		MVS_Cap_Black,                                                         *,                   100,                 50
@@ -3076,7 +2989,6 @@
 		MVS_BoonieHat_Multicam,                                                *,                   100,                 50
 		MVS_BoonieHat_Multicam_Tropic,                                         *,                   100,                 50
 		MVS_BoonieHat_Multicam_Black,                                          *,                   100,                 50
-	<Category>MVS Helments
 		MVS_Helmet_01_Tan,                                                     *,                   100,                 50
 		MVS_Helmet_01_Tan_Worn,                                                *,                   100,                 50
 		MVS_Helmet_01_OD,                                                      *,                   100,                 50
@@ -3127,7 +3039,7 @@
 		MVS_WarriorHelmet_Multicam,                                            *,                   1000,                500
 		MVS_WarriorHelmet_Multicam_Tropic,                                     *,                   1000,                500
 		MVS_WarriorHelmet_Multicam_Black,                                      *,                   1000,                500
-	<Category>MVS Pants and Jackets
+	<Category>MVS Uniforms
 		MVS_GorkaPants,                                                        *,                   100,                 50
 		MVS_GorkaPants_Snow,                                                   *,                   100,                 50
 		MVS_GorkaPants_Multicam,                                               *,                   100,                 50
@@ -3161,7 +3073,7 @@
 		MVS_CombatShirt_Multicam,                                              *,                   100,                 50
 		MVS_CombatShirt_Multicam_Tropic,                                       *,                   100,                 50
 		MVS_CombatShirt_Multicam_Black,                                        *,                   100,                 50
-	<Category>MVS Respirators
+	<Category>MVS Gas Masks
 		MVS_S10Respirator_OD,                                                  *,                   100,                 50
 		MVS_S10Respirator_Tan,                                                 *,                   100,                 50
 		MVS_S10Respirator_Black,                                               *,                   100,                 50
@@ -3175,12 +3087,11 @@
 		MVS_PMK2Respirator_Tan,                                                *,                   100,                 50
 		MVS_PMK2Respirator_OD,                                                 *,                   100,                 50
 		MVS_PMK2Respirator_Snow,                                               *,                   100,                 50
-	<Category>MVS Head Covers
+	<Category>MVS Shrouds And Facemasks
 		MVS_Shroud_OD,                                                         *,                   100,                 50
 		MVS_Shroud_Tan,                                                        *,                   100,                 50
 		MVS_Shroud_Black,                                                      *,                   100,                 50
 		MVS_Balaclava_Wraith,                                                  *,                   100,                 50
-		MVS_Balaclava_Wraith_Comtacs,                                          *,                   100,                 50
 		MVS_Balaclava_OD,                                                      *,                   100,                 50
 		MVS_Balaclava_Tan,                                                     *,                   100,                 50
 		MVS_Balaclava_Black,                                                   *,                   100,                 50
@@ -3243,7 +3154,7 @@
 		MVS_Patch_33,                                                          *,                   50,                  25
 		MVS_Patch_34,                                                          *,                   50,                  25
 		MVS_Patch_35,                                                          *,                   50,                  25
-	<Category>MVS Flags
+	<Category>MVS Country Flags
 		MVS_CountryFlag_Afghanistan,                                           *,                   50,                  25
 		MVS_CountryFlag_Albania,                                               *,                   50,                  25
 		MVS_CountryFlag_Algeria,                                               *,                   50,                  25
@@ -4005,6 +3916,58 @@
 		MSFC_NVG,                                                              *,                   4500,                2250
 		MSFC_NVG_One,                                                          *,                   4500,                2250
 		MSFC_NVG_GPNVG18,                                                      *,                   4500,                2250
+	<Category>SQUAD MSF-C (Velcro Patch)
+		MSFC_Velcro_Patch_Flag,                                                *,                   100,                 50
+		MSFC_Velcro_Patch_MSFC,                                                *,                   100,                 50
+		MSFC_Velcro_Patch_RU,                                                  *,                   100,                 50
+		MSFC_Velcro_Patch_BY,                                                  *,                   100,                 50
+		MSFC_Velcro_Patch_UA,                                                  *,                   100,                 50
+		MSFC_Velcro_Patch_DE,                                                  *,                   100,                 50
+		MSFC_Velcro_Patch_US,                                                  *,                   100,                 50
+		MSFC_Velcro_Patch_Chernarus,                                           *,                   100,                 50
+		MSFC_Velcro_Patch_FSB,                                                 *,                   100,                 50
+		MSFC_Velcro_Patch_MAMA_IM_SPEC,                                        *,                   100,                 50
+		MSFC_Velcro_Patch_MEDIC_EN,                                            *,                   100,                 50
+		MSFC_Velcro_Patch_MEDIC_RU,                                            *,                   100,                 50
+		MSFC_Velcro_Patch_MSFC_TEXT,                                           *,                   100,                 50
+		MSFC_Velcro_Patch_POEHAVSHY,                                           *,                   100,                 50
+		MSFC_Velcro_Patch_SBCH,                                                *,                   100,                 50
+		MSFC_Velcro_Patch_SOFA_ARMY_RF,                                        *,                   100,                 50
+		MSFC_Velcro_Patch_BENDER,                                              *,                   100,                 50
+		MSFC_Velcro_Patch_Afghanistan,                                         *,                   100,                 50
+		MSFC_Velcro_Patch_Australia,                                           *,                   100,                 50
+		MSFC_Velcro_Patch_Austria,                                             *,                   100,                 50
+		MSFC_Velcro_Patch_Belgium,                                             *,                   100,                 50
+		MSFC_Velcro_Patch_Canada,                                              *,                   100,                 50
+		MSFC_Velcro_Patch_Croatia,                                             *,                   100,                 50
+		MSFC_Velcro_Patch_Czech,                                               *,                   100,                 50
+		MSFC_Velcro_Patch_DANGER,                                              *,                   100,                 50
+		MSFC_Velcro_Patch_Denmark,                                             *,                   100,                 50
+		MSFC_Velcro_Patch_Estonia,                                             *,                   100,                 50
+		MSFC_Velcro_Patch_Finland,                                             *,                   100,                 50
+		MSFC_Velcro_Patch_France,                                              *,                   100,                 50
+		MSFC_Velcro_Patch_Greece,                                              *,                   100,                 50
+		MSFC_Velcro_Patch_Hungary,                                             *,                   100,                 50
+		MSFC_Velcro_Patch_Irland,                                              *,                   100,                 50
+		MSFC_Velcro_Patch_Island,                                              *,                   100,                 50
+		MSFC_Velcro_Patch_Israel,                                              *,                   100,                 50
+		MSFC_Velcro_Patch_Italy,                                               *,                   100,                 50
+		MSFC_Velcro_Patch_Japan,                                               *,                   100,                 50
+		MSFC_Velcro_Patch_Netherlands,                                         *,                   100,                 50
+		MSFC_Velcro_Patch_Norway,                                              *,                   100,                 50
+		MSFC_Velcro_Patch_Poland,                                              *,                   100,                 50
+		MSFC_Velcro_Patch_Portugal,                                            *,                   100,                 50
+		MSFC_Velcro_Patch_Puerto,                                              *,                   100,                 50
+		MSFC_Velcro_Patch_SA,                                                  *,                   100,                 50
+		MSFC_Velcro_Patch_Scotland,                                            *,                   100,                 50
+		MSFC_Velcro_Patch_Spain,                                               *,                   100,                 50
+		MSFC_Velcro_Patch_Sweden,                                              *,                   100,                 50
+		MSFC_Velcro_Patch_Switzerland,                                         *,                   100,                 50
+		MSFC_Velcro_Patch_Thailand,                                            *,                   100,                 50
+		MSFC_Velcro_Patch_Turkey,                                              *,                   100,                 50
+		MSFC_Velcro_Patch_UK,                                                  *,                   100,                 50
+		MSFC_Velcro_Patch_UN,                                                  *,                   100,                 50
+		MSFC_Velcro_Patch_715,                                                 *,                   100,                 50
 //	<Category>Handmade
 //		LeatherGloves_Beige,                                                   *,                   0,                   0
 //		LeatherGloves_Black,                                                   *,                   0,                   0
@@ -4039,239 +4002,7 @@
 //		LeatherSack_Black,                                                     *,                   0,                   0
 //		LeatherSack_Brown,                                                     *,                   0,                   0
 //		LeatherSack_Natural,                                                   *,                   0,                   0
-	<Category>Mass's ManyItemOverhaul Clothes
-		MassNBC_Bag,                                                           *,                   1000,                500
-		MassNBCJacketYellow,                                                   *,                   1000,                500
-		MassNBCbootsYellow,                                                    *,                   1000,                500
-		MassNBCglovesBlue,                                                     *,                   1000,                500
-		MassNBCpantsYellow,                                                    *,                   1000,                500
-		MassNBChoodYellow,                                                     *,                   1000,                500
-		MassGorkaInvertWinterTop,                                              *,                   1000,                500
-		MassWinterHunterTop,                                                   *,                   1000,                500
-		MassWinterCUUJacket,                                                   *,                   1000,                500
-		MassWinterCUUPants,                                                    *,                   1000,                500
-		MassWinterBDUJacket,                                                   *,                   1000,                500
-		MassWinterBDUPants,                                                    *,                   1000,                500
-		MassGorkaInvertWinterPants,                                            *,                   1000,                500
-		MassWinterHuntingHood,                                                 *,                   1000,                500
-		MassWinterHunterPants,                                                 *,                   1000,                500
-		MassczechWinter,                                                       *,                   1000,                500
-		MassSM90Top,                                                           *,                   1000,                500
-		MassSM90Pants,                                                         *,                   1000,                500
-		MassSM90WTop,                                                          *,                   1000,                500
-		MassSM90WPants,                                                        *,                   1000,                500
-		MassGDShirt,                                                           *,                   1000,                500
-		Massww2SShelmet,                                                       *,                   1000,                500
-		Massshenron,                                                           *,                   1000,                500
-		Masswoodlandcamosweater,                                               *,                   1000,                500
-		MassCamoHoodie,                                                        *,                   1000,                500
-		MassCUUquiltedJacket,                                                  *,                   1000,                500
-		Massurbancamom65,                                                      *,                   1000,                500
-		MassBlackGorkabottom,                                                  *,                   1000,                500
-		MassBlackGorkatop,                                                     *,                   1000,                500
-		MassGorkaInvertWoodlandTop,                                            *,                   1000,                500
-		MassGorkaInvertWoodlandPants,                                          *,                   1000,                500
-		MassGorkaInvertFlecktarnTop,                                           *,                   1000,                500
-		MassGorkaInvertFlecktarnPants,                                         *,                   1000,                500
-		MassUSww2top,                                                          *,                   1000,                500
-		MassGokuShirt,                                                         *,                   1000,                500
-		MassTropicamTop,                                                       *,                   1000,                500
-		MassMandraketop,                                                       *,                   1000,                500
-		MassTUhikingjacket,                                                    *,                   1000,                500
-		MassOrelTopgreen,                                                      *,                   1000,                500
-		MassBlackJacket,                                                       *,                   1000,                500
-		MassBeigeJacket,                                                       *,                   1000,                500
-		MassTropicamPants,                                                     *,                   1000,                500
-		Masswoodlandcargopants,                                                *,                   1000,                500
-		Massurbancamocargopants,                                               *,                   1000,                500
-		Massjeanshorts,                                                        *,                   1000,                500
-		MassMandrakebottom,                                                    *,                   1000,                500
-		Massorelpantsgreen,                                                    *,                   1000,                500
-		MassBlackYellowMB,                                                     *,                   1000,                500
-		Massczech,                                                             *,                   1000,                500
-		Massurbancamohat,                                                      *,                   1000,                500
-		MasscamoBooniehat,                                                     *,                   1000,                500
-		MassBeigeUshanka,                                                      *,                   1000,                500
-		Massblackgp5,                                                          *,                   1000,                500
-		Massmichblack,                                                         *,                   1000,                500
-		MassHuntingCowboyhat,                                                  *,                   1000,                500
-		MassSSww2Camotop,                                                      *,                   1000,                500
-		MassDetectiveCoat,                                                     *,                   1000,                500
-		MassDetectiveCoat_Black,                                               *,                   1000,                500
-		MassSSww2CamoBreeches,                                                 *,                   1000,                500
-		MassSSww2Camopants,                                                    *,                   1000,                500
-		Mass_Sneakers,                                                         *,                   1000,                500
-		MassFedora_Black,                                                      *,                   1000,                500
-		MassFedora_White,                                                      *,                   1000,                500
-		MassFedora_Pink,                                                       *,                   1000,                500
-		MassFedora_Yellow,                                                     *,                   1000,                500
-		MassFedora_Red,                                                        *,                   1000,                500
-		MassFedora_Blue,                                                       *,                   1000,                500
-		MassFedora_Grey,                                                       *,                   1000,                500
-		MassFedora_Brown,                                                      *,                   1000,                500
-		MassFedora_Beige,                                                      *,                   1000,                500
-		MassArmband_TU,                                                        *,                   1000,                500
-		MassArmband_NCR,                                                       *,                   1000,                500
-		MassArmband_snowBDU,                                                   *,                   1000,                500
-		MassArmband_PartizanM,                                                 *,                   1000,                500
-		MassArmband_Mandrake,                                                  *,                   1000,                500
-		MassArmband_Woodland,                                                  *,                   1000,                500
-		MassArmband_Urban,                                                     *,                   1000,                500
-		MassArmband_Orel,                                                      *,                   1000,                500
-		MassArmband_BWS,                                                       *,                   1000,                500
-		MassArmband_BT,                                                        *,                   1000,                500
-		MassArmbandDouble_White,                                               *,                   1000,                500
-		MassArmbandDouble_Orange,                                              *,                   1000,                500
-		MassArmbandDouble_Red,                                                 *,                   1000,                500
-		MassArmbandDouble_Green,                                               *,                   1000,                500
-		MassArmbandDouble_Pink,                                                *,                   1000,                500
-		MassArmbandDouble_Blue,                                                *,                   1000,                500
-		MassArmbandDouble_Black,                                               *,                   1000,                500
-		MassArmbandDouble_Smiley,                                              *,                   1000,                500
-		MassArmbandDouble_NCR,                                                 *,                   1000,                500
-		MassArmbandDouble_TU,                                                  *,                   1000,                500
-		MassArmbandDouble_snowBDU,                                             *,                   1000,                500
-		MassArmbandDouble_PartizanM,                                           *,                   1000,                500
-		MassArmbandDouble_Mandrake,                                            *,                   1000,                500
-		MassArmbandDouble_Woodland,                                            *,                   1000,                500
-		MassArmbandDouble_Urban,                                               *,                   1000,                500
-		MassArmbandDouble_Orel,                                                *,                   1000,                500
-		MassArmbandDouble_BWS,                                                 *,                   1000,                500
-		MassArmbandDouble_BT,                                                  *,                   1000,                500
-	<Category>Mass's ManyItemOverhaul Bags
-		MassSurvivorBag,                                                       *,                   1000,                500
-		MassSurvivorBag_Green,                                                 *,                   1000,                500
-		MassSurvivorBag_Black,                                                 *,                   1000,                500
-		MassSurvivorBag_Tan,                                                   *,                   1000,                500
-		MassSurvivorBag_Winter,                                                *,                   1000,                500
-		MassRuckBagDesert,                                                     *,                   1000,                500
-		MassRuckBagBlack,                                                      *,                   1000,                500
-		MassRuckBagGorka,                                                      *,                   1000,                500
-		MassRuckBagGreen,                                                      *,                   1000,                500
-		MassSlingBag,                                                          *,                   1000,                500
-		MassSlingBagDesert,                                                    *,                   1000,                500
-		MassSlingBagGorka,                                                     *,                   1000,                500
-		MassMolleBagBlack,                                                     *,                   1000,                500
-		MassMolleBagDesert,                                                    *,                   1000,                500
-		MassMolleBagGorka,                                                     *,                   1000,                500
-		Massbag,                                                               *,                   1000,                500
-		Massbag2,                                                              *,                   1000,                500
-		Massbag3,                                                              *,                   1000,                500
-		Massbag4,                                                              *,                   1000,                500
-		Massmedbag,                                                            *,                   1000,                500
-		Massmedbag_blue,                                                       *,                   1000,                500
-		Massmedbag_green,                                                      *,                   1000,                500
-		MassSmershblack,                                                       *,                   1000,                500
-		MassImprovisedBag_Black,                                               *,                   1000,                500
-		MassImprovisedBag_Blue,                                                *,                   1000,                500
-		MassImprovisedBag_Green,                                               *,                   1000,                500
-		MassImprovisedBag_Orange,                                              *,                   1000,                500
-		MassImprovisedBag_Pink,                                                *,                   1000,                500
-		MassImprovisedBag_Red,                                                 *,                   1000,                500
-		MassImprovisedBag_Yellow,                                              *,                   1000,                500
-		MassImprovisedBag_Woodland,                                            *,                   1000,                500
-		MassImprovisedBag_Partizan,                                            *,                   1000,                500
-		MassImprovisedBag_Urban,                                               *,                   1000,                500
-		MassRainCoatcourier_Black,                                             *,                   1000,                500
-		MassRainCoatcourier_Blue,                                              *,                   1000,                500
-		MassRainCoatcourier_Green,                                             *,                   1000,                500
-		MassRainCoatcourier_Orange,                                            *,                   1000,                500
-		MassRainCoatcourier_Pink,                                              *,                   1000,                500
-		MassRainCoatcourier_Red,                                               *,                   1000,                500
-		MassRainCoatcourier_Yellow,                                            *,                   1000,                500
-		MassRainCoatcourier_Woodland,                                          *,                   1000,                500
-		MassRainCoatcourier_PartizanM,                                         *,                   1000,                500
-		MassRainCoatcourier_Urban,                                             *,                   1000,                500
-		MassMedical_Bag,                                                       *,                   1000,                500
-		MassMedical_Bag_Blue,                                                  *,                   1000,                500
-		MassMedical_Bag_Green,                                                 *,                   1000,                500
-		MassWinterTortilla,                                                    *,                   1000,                500
-		MasscamoTaloon,                                                        *,                   1000,                500
-		MasscamoTaloon1,                                                       *,                   1000,                500
-		Massbrownhuntingbp,                                                    *,                   1000,                500
-		Massblackhuntingbp,                                                    *,                   1000,                500
-		MassWinterHuntingbp,                                                   *,                   1000,                500
-		MassSmersh,                                                            *,                   1000,                500
-		MassSmershwinter,                                                      *,                   1000,                500
-		MassCoyoteBPUrban,                                                     *,                   1000,                500
-		MassCanvasBag,                                                         *,                   1000,                500
-	<Category>Mass's ManyItemOverhaul Ghillies (Bags possible)
-		MassGhillieSuitWoodland,                                               *,                   1000,                500
-		MassGhillieSuitMossy,                                                  *,                   1000,                500
-		MassGhillieSuitSnow,                                                   *,                   1000,                500
-		MassGhillieTopWoodland,                                                *,                   1000,                500
-		MassGhillieTopMossy,                                                   *,                   1000,                500
-		MassGhillieTopSnow,                                                    *,                   1000,                500
-		MassGhillieHood_Woodland,                                              *,                   1000,                500
-		MassGhillieHood_Snowy,                                                 *,                   1000,                500
-		MassGhillieHoodMossy,                                                  *,                   1000,                500
-		MassGhillieSuitBoxWoodland,                                            *,                   1000,                500
-		MassGhillieSuitBoxMossy,                                               *,                   1000,                500
-		MassGhillieSuitBoxWinter,                                              *,                   1000,                500
-		MassGhillieTopBoxWoodland,                                             *,                   1000,                500
-		MassGhillieTopBoxWinter,                                               *,                   1000,                500
-		MassGhillieTopBoxMossy,                                                *,                   1000,                500
-		MassWinterGhillieWrap,                                                 *,                   1000,                500
-	<Category>Mass's ManyItemOverhaul Vest/Belts/Pouches
-		MassCBhelmet,                                                          *,                   1000,                500
-		MassCBhelmet_Green,                                                    *,                   1000,                500
-		MassBallisticShield,                                                   *,                   1000,                500
-		MassAR500,                                                             1,                   1000,                500
-		MassAR500pair,                                                         2,                   1000,                500
-		MassRatnik,                                                            *,                   4000,                400
-		MassRatnik_Black,                                                      *,                   4000,                400
-		MassRatnik_Tan,                                                        *,                   4000,                400
-		MassLightRatnik,                                                       *,                   8000,                800
-		MassLightRatnik_Desert,                                                *,                   8000,                800
-		MassLightRatnik_Black,                                                 *,                   8000,                800
-		MassLightRatnik_Olive,                                                 *,                   8000,                800
-		MassLargeSmersh,                                                       *,                   1000,                500
-		MassLargeSmersh_Black,                                                 *,                   1000,                500
-		MassLargeSmersh_Tan,                                                   *,                   1000,                500
-		MassHeavyPlateVest_ODG,                                                *,                   1000,                500
-		MassHeavyPlateVest_Winter,                                             *,                   1000,                500
-		MassHeavyPlateVest_Black,                                              *,                   1000,                500
-		MassHeavyPlateVest_PartizanM,                                          *,                   1000,                500
-		MassHeavyPlateVest_Beige,                                              *,                   1000,                500
-		MassPlateCarrier_PartizanM,                                            *,                   1000,                500
-		MassPlateCarrier_Black,                                                *,                   1000,                500
-		MassPlateCarrier_Winter,                                               *,                   1000,                500
-		MassPlateCarrier_ODG,                                                  *,                   1000,                500
-		MassLargePlateCarrierPouches,                                          *,                   1000,                500
-		MassLargePlateCarrierPouches_Black,                                    *,                   1000,                500
-		MassLargePlateCarrierPouches_Tan,                                      *,                   1000,                500
-		MassPlateCarrierPouches_Black,                                         *,                   1000,                500
-		MassPlateCarrierPouches_PartizanM,                                     *,                   1000,                500
-		MassPlateCarrierPouches_Winter,                                        *,                   1000,                500
-		MassPlateCarrierPouches_ODG,                                           *,                   1000,                500
-		MassPlateCarrierHolster_Black,                                         *,                   1000,                500
-		MassPlateCarrierHolster_PartizanM,                                     *,                   1000,                500
-		MassPlateCarrierHolster_Winter,                                        *,                   1000,                500
-		MassPlateCarrierHolster_ODG,                                           *,                   1000,                500
-		MassMolleBeltSnow,                                                     *,                   1000,                500
-		MassMolleBeltODG,                                                      *,                   1000,                500
-		MassMolleBelt,                                                         *,                   1000,                500
-		MassMolleBeltBlack,                                                    *,                   1000,                500
-		MassMolleBeltWD,                                                       *,                   1000,                500
-		MassTacticalBagBlack,                                                  *,                   1000,                500
-		MassTacticalBag,                                                       *,                   1000,                500
-		MassTacticalBagWD,                                                     *,                   1000,                500
-		Massmagpouches,                                                        *,                   1000,                500
-		MassLargeMollePouch,                                                   *,                   1000,                500
-		MassLargeMollePouchBlack,                                              *,                   1000,                500
-		MassLargeMollePouchGorka,                                              *,                   1000,                500
-		MassLargeMollePouchGreen,                                              *,                   1000,                500
-		MassSmershvestWW2complete,                                             *,                   1000,                500
-		MassSmershvestblackcomplete,                                           *,                   1000,                500
-		Mass_WW2Vest,                                                          *,                   1000,                500
-		Mass_TradeVest,                                                        *,                   1000,                500
-		MassToolbelt,                                                          *,                   1000,                500
-		Mass_PressVestBlack,                                                   *,                   1000,                500
-		Masswoodlandcamovest,                                                  *,                   1000,                500
-		MassSmershvestcomplete,                                                *,                   1000,                500
-		MassSmershvestWintercomplete,                                          *,                   1000,                500
-		MassUKAssVestWinter,                                                   *,                   1000,                500
-<Trader>Vehicles Trader // ID=5
+<Trader>Jas Crash'n'Cars // ID=5
 	<Category>Vehicles
 		OffroadHatchback,                                                      VNK,                 14000,               8000				// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
 		OffroadHatchback_Blue,                                                 VNK,                 14000,               8000
@@ -4288,18 +4019,6 @@
 		Truck_01_Covered,                                                      VNK,                 50000,               30000
 		Truck_01_Covered_Blue,                                                 VNK,                 50000,               30000
 		Truck_01_Covered_Orange,                                               VNK,                 50000,               30000
-		rag_hummer_Armored,                                                    VNK,                 400000,              150000
-		rag_hummer_green_Armored,                                              VNK,                 400000,              150000
-		rag_hummer_tan_Armored,                                                VNK,                 400000,              150000
-		rag_hummer_woodland_Armored,                                           VNK,                 400000,              150000
-		rag_hummer_pink_Armored,                                               VNK,                 400000,              150000
-		rag_hummer_winter_Armored,                                             VNK,                 400000,              150000
-		rag_hummer_anarchy_Armored,                                            VNK,                 450000,              150000
-		rag_landrover_110,                                                     VNK,                 400000,              150000
-		rag_landrover_110_olive,                                               VNK,                 400000,              150000
-		rag_landrover_110_grey,                                                VNK,                 400000,              150000
-		rag_landrover_110_red,                                                 VNK,                 400000,              150000
-		rag_landrover_110_un,                                                  VNK,                 400000,              150000
 		CrSk_Land_Rover_Defender_110,                                          VNK,                 250000,              100000
 		CrSk_Land_Rover_Defender_110_Green,                                    VNK,                 250000,              100000
 		CrSk_Land_Rover_Defender_110_UN,                                       VNK,                 250000,              100000
@@ -4458,84 +4177,6 @@
 		Truck_01_Door_2_1_Orange,                                              *,                   500,                 180
 		Truck_01_Wheel,                                                        *,                   600,                 120
 		Truck_01_WheelDouble,                                                  *,                   1000,                200
-		rag_hummer_Door_1,                                                     *,                   2500,                1000
-		rag_hummer_Door_green_1,                                               *,                   2500,                1000
-		rag_hummer_Door_tan_1,                                                 *,                   2500,                1000
-		rag_hummer_Door_woodland_1,                                            *,                   2500,                1000
-		rag_hummer_Door_pink_1,                                                *,                   2500,                1000
-		rag_hummer_Door_anarchy_1,                                             *,                   2500,                1000
-		rag_hummer_Door_winter_1,                                              *,                   2500,                1000
-		rag_hummer_Door_2,                                                     *,                   2500,                1000
-		rag_hummer_Door_green_2,                                               *,                   2500,                1000
-		rag_hummer_Door_tan_2,                                                 *,                   2500,                1000
-		rag_hummer_Door_woodland_2,                                            *,                   2500,                1000
-		rag_hummer_Door_pink_2,                                                *,                   2500,                1000
-		rag_hummer_Door_anarchy_2,                                             *,                   2500,                1000
-		rag_hummer_Door_winter_2,                                              *,                   2500,                1000
-		rag_hummer_Door_3,                                                     *,                   2500,                1000
-		rag_hummer_Door_green_3,                                               *,                   2500,                1000
-		rag_hummer_Door_tan_3,                                                 *,                   2500,                1000
-		rag_hummer_Door_woodland_3,                                            *,                   2500,                1000
-		rag_hummer_Door_pink_3,                                                *,                   2500,                1000
-		rag_hummer_Door_anarchy_3,                                             *,                   2500,                1000
-		rag_hummer_Door_winter_3,                                              *,                   2500,                1000
-		rag_hummer_Door_4,                                                     *,                   2500,                1000
-		rag_hummer_Door_green_4,                                               *,                   2500,                1000
-		rag_hummer_Door_tan_4,                                                 *,                   2500,                1000
-		rag_hummer_Door_woodland_4,                                            *,                   2500,                1000
-		rag_hummer_Door_pink_4,                                                *,                   2500,                1000
-		rag_hummer_Door_anarchy_4,                                             *,                   2500,                1000
-		rag_hummer_Door_winter_4,                                              *,                   2500,                1000
-		rag_hummer_Hood,                                                       *,                   2500,                1000
-		rag_hummer_Hood_green,                                                 *,                   2500,                1000
-		rag_hummer_Hood_tan,                                                   *,                   2500,                1000
-		rag_hummer_Hood_woodland,                                              *,                   2500,                1000
-		rag_hummer_Hood_pink,                                                  *,                   2500,                1000
-		rag_hummer_Hood_anarchy,                                               *,                   2500,                1000
-		rag_hummer_Hood_winter,                                                *,                   2500,                1000
-		rag_hummer_Trunk,                                                      *,                   2500,                1000
-		rag_hummer_Trunk_green,                                                *,                   2500,                1000
-		rag_hummer_Trunk_tan,                                                  *,                   2500,                1000
-		rag_hummer_Trunk_woodland,                                             *,                   2500,                1000
-		rag_hummer_Trunk_pink,                                                 *,                   2500,                1000
-		rag_hummer_Trunk_anarchy,                                              *,                   2500,                1000
-		rag_hummer_Trunk_winter,                                               *,                   2500,                1000
-		rag_hummer_wheel,                                                      *,                   2500,                1000
-		rag_landrover_110_driverdoor,                                          *,                   2500,                1000
-		rag_landrover_110_codriverdoor,                                        *,                   2500,                1000
-		rag_landrover_110_hood,                                                *,                   2500,                1000
-		rag_landrover_110_cargo1,                                              *,                   2500,                1000
-		rag_landrover_110_cargo2,                                              *,                   2500,                1000
-		rag_landrover_110_cargo3,                                              *,                   2500,                1000
-		rag_landrover_110_driverdoor_olive,                                    *,                   2500,                1000
-		rag_landrover_110_codriverdoor_olive,                                  *,                   2500,                1000
-		rag_landrover_110_hood_olive,                                          *,                   2500,                1000
-		rag_landrover_110_cargo1_olive,                                        *,                   2500,                1000
-		rag_landrover_110_cargo2_olive,                                        *,                   2500,                1000
-		rag_landrover_110_cargo3_olive,                                        *,                   2500,                1000
-		rag_landrover_110_driverdoor_grey,                                     *,                   2500,                1000
-		rag_landrover_110_codriverdoor_grey,                                   *,                   2500,                1000
-		rag_landrover_110_hood_grey,                                           *,                   2500,                1000
-		rag_landrover_110_cargo1_grey,                                         *,                   2500,                1000
-		rag_landrover_110_cargo2_grey,                                         *,                   2500,                1000
-		rag_landrover_110_cargo3_grey,                                         *,                   2500,                1000
-		rag_landrover_110_driverdoor_red,                                      *,                   2500,                1000
-		rag_landrover_110_codriverdoor_red,                                    *,                   2500,                1000
-		rag_landrover_110_hood_red,                                            *,                   2500,                1000
-		rag_landrover_110_cargo1_red,                                          *,                   2500,                1000
-		rag_landrover_110_cargo2_red,                                          *,                   2500,                1000
-		rag_landrover_110_cargo3_red,                                          *,                   2500,                1000
-		rag_landrover_110_driverdoor_un,                                       *,                   2500,                1000
-		rag_landrover_110_codriverdoor_un,                                     *,                   2500,                1000
-		rag_landrover_110_hood_un,                                             *,                   2500,                1000
-		rag_landrover_110_cargo1_un,                                           *,                   2500,                1000
-		rag_landrover_110_cargo2_un,                                           *,                   2500,                1000
-		rag_landrover_110_cargo3_un,                                           *,                   2500,                1000
-		rag_landrover_110_wheel,                                               *,                   2500,                1000
-		rag_landrover_110_wheel_olive,                                         *,                   2500,                1000
-		rag_landrover_110_wheel_grey,                                          *,                   2500,                1000
-		rag_landrover_110_wheel_red,                                           *,                   2500,                1000
-		rag_landrover_110_wheel_un,                                            *,                   2500,                1000
 		Defender110_koleso,                                                    *,                   1000,                500
 		Defender110_dver_1_1,                                                  *,                   2000,                750
 		Defender110_dver_2_1,                                                  *,                   2000,                750
@@ -4555,6 +4196,86 @@
 		Defender110_dver_2_2_UN,                                               *,                   2000,                750
 		Defender110_kapot_UN,                                                  *,                   1000,                500
 		Defender110_bagazhnik_UN,                                              *,                   1000,                500
+	<Category>Bastard_cj7
+		Bastard_cj7_stock,                                                     VNK,                 100000,              25000
+		Bastard_cj7_white,                                                     VNK,                 100000,              25000
+		Bastard_cj7_green,                                                     VNK,                 100000,              25000
+		Bastard_cj7_black,                                                     VNK,                 100000,              25000
+		Bastard_cj7_red,                                                       VNK,                 100000,              25000
+		Bastard_cj7_tan,                                                       VNK,                 100000,              25000
+	<Category>Bastard_cj7 parts
+		Cj7wheel_5x165,                                                        *,                   500,                 180
+		Bastard_cj7_driverdoor_stock,                                          *,                   500,                 180
+		Bastard_cj7_codriverdoor_stock,                                        *,                   500,                 180
+		Bastard_cj7_trunkdoor_stock,                                           *,                   500,                 180
+		Bastard_cj7_hooddoor_stock,                                            *,                   500,                 180
+		Bastard_cj7_driverdoor_white,                                          *,                   500,                 180
+		Bastard_cj7_codriverdoor_white,                                        *,                   500,                 180
+		Bastard_cj7_trunkdoor_white,                                           *,                   500,                 180
+		Bastard_cj7_hooddoor_white,                                            *,                   500,                 180
+		Bastard_cj7_driverdoor_green,                                          *,                   500,                 180
+		Bastard_cj7_codriverdoor_green,                                        *,                   500,                 180
+		Bastard_cj7_trunkdoor_green,                                           *,                   500,                 180
+		Bastard_cj7_hooddoor_green,                                            *,                   500,                 180
+		Bastard_cj7_driverdoor_black,                                          *,                   500,                 180
+		Bastard_cj7_codriverdoor_black,                                        *,                   500,                 180
+		Bastard_cj7_trunkdoor_black,                                           *,                   500,                 180
+		Bastard_cj7_hooddoor_black,                                            *,                   500,                 180
+		Bastard_cj7_driverdoor_red,                                            *,                   500,                 180
+		Bastard_cj7_codriverdoor_red,                                          *,                   500,                 180
+		Bastard_cj7_trunkdoor_red,                                             *,                   500,                 180
+		Bastard_cj7_hooddoor_red,                                              *,                   500,                 180
+		Bastard_cj7_driverdoor_tan,                                            *,                   500,                 180
+		Bastard_cj7_codriverdoor_tan,                                          *,                   500,                 180
+		Bastard_cj7_trunkdoor_tan,                                             *,                   500,                 180
+		Bastard_cj7_hooddoor_tan,                                              *,                   500,                 180
+	<Category> M-ATV
+		Dmns_MRAP, 						VNK, 	35000, 	7500
+		Dmns_MRAP_OD, 					VNK, 	35000, 	7500
+		Dmns_MRAP_Urban, 				VNK, 	35000, 	7500
+		Dmns_MRAP_SecOne, 				VNK, 	35000, 	7500
+	<Category> Humvee
+		Dmns_HUMVEE, 					VNK, 	27500, 	7500	
+	<Category> Trucks		
+		Dmns_URAL,						VNK, 	20000, 	4500
+		Dmns_KAMAZ,						VNK, 	25000, 	5000
+	<Category> M-ATV Parts
+		MRAPDriverDoor, 			*, 6000, 1500
+		MRAPCoDriverDoor, 			*, 6000, 1500
+		MRAPCargo1Door, 			*, 6000, 1500
+		MRAPCargo2Door, 			*, 6000, 1500
+		MRAP_wheel, 				*, 4000, 750
+	<Category> M-ATV OD Parts
+		MRAPDriverDoor_OD, 			*, 6000, 1500
+		MRAPCoDriverDoor_OD, 		*, 6000, 1500
+		MRAPCargo1Door_OD, 			*, 6000, 1500
+		MRAPCargo2Door_OD, 			*, 6000, 1500
+		MRAP_wheel, 				*, 4000, 750
+	<Category> M-ATV Urban Parts
+		MRAPDriverDoor_Urban,		*, 6000, 1500
+		MRAPCoDriverDoor_Urban, 	*, 6000, 1500
+		MRAPCargo1Door_Urban, 		*, 6000, 1500
+		MRAPCargo2Door_Urban, 		*, 6000, 1500
+		MRAP_wheel, 				*, 4000, 750
+	<Category> M-ATV Sec-One Parts
+		MRAPDriverDoor_SecOne, 		*, 6000, 1500
+		MRAPCoDriverDoor_SecOne,	*, 6000, 1500
+		MRAPCargo1Door_SecOne, 		*, 6000, 1500
+		MRAPCargo2Door_SecOne, 		*, 6000, 1500
+		MRAP_wheel, 				*, 4000, 750
+	<Category> Humvee Parts	
+		HUMVEEDriverDoor, 			*, 6000, 1500
+		HUMVEECoDriverDoor, 		*, 6000, 1500
+		HUMVEECargo1Door, 			*, 6000, 1500
+		HUMVEECargo2Door, 			*, 6000, 1500
+		HUMVEECargo3Door, 			*, 1500, 750
+		HUMVEECargo4Door, 			*, 1500, 750
+		HUMVEE_wheel, 				*, 4000, 750
+	<Category> KAMAZ Parts	
+		KAMAZDriverDoor, 			*, 6000, 1500
+		KAMAZCoDriverDoor, 			*, 6000, 1500
+		KAMAZCargo2Door, 			*, 6000, 1500
+		KAMAZ_wheel, 				*, 4000, 750
 	<Category>Keys
 		MCK_CarKey_Base,                                                       *,                   5000,                -1
 		MCK_CarKey_Blue,                                                       *,                   5000,                -1
@@ -4584,37 +4305,49 @@
 		MCK_CarKeyTag_Yellow,                                                  *,                   500,                 -1
 		VehicleKeyDuplicate,                                                   K,                   -1,                  -1				// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
 		VehicleKeyLost,                                                        KL,                  -1,                  -1				// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
-<Trader>Helicopter Trader // ID=6
-	<Category>Helicopters
-		Helilittle_bird_RF,                                                    VNK,                 20000,               10000
-		HelicopterRF_camo,                                                     VNK,                 20000,               10000
-		HeliSIB_UH1D,                                                          VNK,                 40000,               20000
-		HeliSIB_UH1D_navy,                                                     VNK,                 40000,               20000
-		HeliSIB_UH1D_iron,                                                     VNK,                 40000,               20000
-		HeliSIB_UH1D_airforce,                                                 VNK,                 40000,               20000
-		HeliSIB_UH1D_Camo,                                                     VNK,                 40000,               20000
-		HeliSIB_UH1D_taxi,                                                     VNK,                 45000,               22500
-		Helipolice_SIB4,                                                       VNK,                 50000,               20000
-		Helipolice_swat_SIB5,                                                  VNK,                 50000,               20000
-		Helipolice_flames,                                                     VNK,                 55000,               27500
-		Helipolice_green,                                                      VNK,                 55000,               27500
-		Helipolice_raid,                                                       VNK,                 55000,               27500
-		Helipolice_urban,                                                      VNK,                 55000,               27500
-		Heliblack_hawk_SIB,                                                    VNK,                 55500,               27550
-		Heliblack_hawk_SIB_camo,                                               VNK,                 55500,               27550
-		Heliblack_hawk_SIB_camo2,                                              VNK,                 55500,               27550
-		Heliblack_hawk_SIB_BlueCamo,                                           VNK,                 55500,               27550
-		Helichinook_RF,                                                        VNK,                 60000,               30000
-		Helichinook_RF_civ,                                                    VNK,                 60000,               30000
-		Helichinook_RF_Black,                                                  VNK,                 60000,               30000
-		Helichinook_RF_bloody,                                                 VNK,                 60000,               30000
-		Helichinook_RF_USA,                                                    VNK,                 60000,               30000
-		Heli_apache,                                                           VNK,                 90000,               45000
-		Heli_apache_camo,                                                      VNK,                 90000,               45000
-		Heli_apache_camo_desert,                                               VNK,                 90000,               45000
-		Helicopter_apache_green,                                               VNK,                 90000,               45000
-		Helicopter_apache_black,                                               VNK,                 90000,               45000
-		HeliSIB_Mi35,                                                          VNK,                 95000,               47500
+<Trader> Bear's Topgun Crashes // ID=6                          
+    <Category> Helicopters                           
+        RFFSHeli_Bo105m,                                                       VNK,                 100000,               50000
+		RFFSHeli_Bo105m_blackcamo,            								   VNK,    				100000,        		  50000
+        RFFSHeli_LittleBird,                                                   VNK,                 200000,               100000
+        RFFSHeli_LittleBird_Camo,                                              VNK,                 200000,               100000
+        RFFSHeli_LittleBird_Desert,                                            VNK,                 200000,               100000
+        RFFSHeli_Mi2_Hornet,                                                   VNK,                 200000,               100000
+        RFFSHeli_Mi2_Military,                                                 VNK,                 200000,               100000
+        RFFSHeli_Mi2,                                                          VNK,                 200000,               100000
+        RFFSHeli_Ka26,                                                         VNK,                 150000,               75000
+        RFFSHeli_Bell429,                                                      VNK,                 150000,               75000
+        RFFSHeli_Bell429_Medic,                                                VNK,                 150000,               75000
+        RFFSHeli_Bell429_Police,                                               VNK,                 150000,               75000
+		RFFSHeli_Apache,                									 VNK,    				400000,        		  250000
+        RFFSHeli_Apache_Winter,                								 VNK,    				400000,        		  250000
+        RFFSHeli_Apache_Desert,                								 VNK,    				400000,        		  250000
+		RFFSHeli_R22,														 VNK,					150000,				  100000
+		RFFSHeli_R22_Red,													 VNK,					150000,				  100000
+		RFFSHeli_R22_Black,													 VNK,					150000,				  100000
+		RFFSHeli_Blackhawk,                									 VNK,    				250000,        		  125000
+        RFFSHeli_Blackhawk_Cargo,                							 VNK,    				250000,        		  125000
+        RFFSHeli_Blackhawk_Woodland,                						 VNK,    				250000,        		  125000
+        RFFSHeli_CH53e,                										 VNK,    				650000,        		  350000
+    <Category> Helicopter Parts
+        RFFSHeli_hydraulic_fluid,     *,    1000,        500
+        RFFSHeli_hydraulic_hoses,     *,    1000,        500
+        RFFSHeli_wiring_harness,      *,    1000,        500
+        RFFSHeli_igniter_plug,        *,    1000,        500
+        RFFSHeli_aviation_battery,    *,    15000,        7500
+        RFFSHeli_aviation_toolbox,    *,    15000,        7500  
+        RFFSHeli_flight_case,		*,		250000,			125000
+		RFFSHeli_flight_case_red,		*,  700000,			350000
+		RFFSHeli_flight_case_blue,		*,  500000,			250000
+		RFFSHeli_batterycharger,		*,	15000,			7500
+    <Category> Helicopter Gear
+		RFFSHeli_PilotHelmet,		*,		10000,			5000
+		RFFSHeli_PilotHelmet_Black,		*,		10000,			5000
+		RFFSHeli_PilotHelmet_Desert,		*,		10000,			5000
+		RFFSHeli_PilotGloves,		*,		10000,			5000
+		RFFSHeli_PilotShirt,		*,		10000,			5000
+		RFFSHeli_PilotPants,		*,		10000,			5000
+		RFFSHeli_PilotVest,		    *,		10000,			5000
 	<Category>Keys
 		MCK_CarKey_Base,                                                       *,                   5000,                -1
 		MCK_CarKey_Blue,                                                       *,                   5000,                -1

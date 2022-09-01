@@ -1,0 +1,35 @@
+{
+    "m_ClanID": "hamOH2JuvYiXRD96",
+    "m_OwnersPlainID": "76561199029194599",
+    "m_ClanName": "GregsPlace",
+    "m_Prefix": "8008",
+    "m_BankAmount": 0,
+    "m_Members": [
+        {
+            "m_plainID": "76561199029194599",
+            "m_playername": "Old Gregg",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        },
+        {
+            "m_plainID": "76561199206737252",
+            "m_playername": "juicy",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 0,
+                "m_CanKick": 0,
+                "m_CanEdit": 0
+            }
+        }
+    ],
+    "m_ClanLogs": [
+        "Old Gregg deposited: 78928",
+        "Old Gregg withdrawed: 78928"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "m_ClanID": "iOoxSv8xxWKdgS8W",
+    "m_OwnersPlainID": "76561198208128771",
+    "m_ClanName": "VoteForCastro",
+    "m_Prefix": "VFC",
+    "m_BankAmount": 1000,
+    "m_Members": [
+        {
+            "m_plainID": "76561198208128771",
+            "m_playername": "TuttiFukinFrutti",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        },
+        {
+            "m_plainID": "76561198981522662",
+            "m_playername": "Toasty",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        }
+    ],
+    "m_ClanLogs": [
+        "Toasty deposited: 1000"
+    ]
+}

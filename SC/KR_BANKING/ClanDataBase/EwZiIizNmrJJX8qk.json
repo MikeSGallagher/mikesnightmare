@@ -1,0 +1,47 @@
+{
+    "m_ClanID": "EwZiIizNmrJJX8qk",
+    "m_OwnersPlainID": "76561198175205169",
+    "m_ClanName": "Austria Dudes",
+    "m_Prefix": "AUTD",
+    "m_BankAmount": 114370,
+    "m_Members": [
+        {
+            "m_plainID": "76561198175205169",
+            "m_playername": "Rhynix",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        },
+        {
+            "m_plainID": "76561199220395508",
+            "m_playername": "Schorschi",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 0,
+                "m_CanEdit": 0
+            }
+        }
+    ],
+    "m_ClanLogs": [
+        "Rhynix deposited: 60000",
+        "Schorschi deposited: 6000",
+        "Schorschi deposited: 6000",
+        "Schorschi deposited: 6000",
+        "Schorschi deposited: 6000",
+        "Schorschi deposited: 6000",
+        "Schorschi deposited: 6000",
+        "Schorschi deposited: 6000",
+        "Schorschi deposited: 6000",
+        "Schorschi deposited: 6000",
+        "Schorschi deposited: 6000",
+        "Schorschi deposited: 5000",
+        "Schorschi deposited: 9370",
+        "Rhynix withdrawed: 20000"
+    ]
+}

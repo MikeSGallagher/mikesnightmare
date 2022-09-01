@@ -1,0 +1,23 @@
+{
+    "m_ClanID": "ImPmavd661aHRP8P",
+    "m_OwnersPlainID": "76561198884650637",
+    "m_ClanName": "TruGrind",
+    "m_Prefix": "TruG",
+    "m_BankAmount": 96492,
+    "m_Members": [
+        {
+            "m_plainID": "76561198884650637",
+            "m_playername": "Jsucks",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        }
+    ],
+    "m_ClanLogs": [
+        "Jsucks deposited: 96492"
+    ]
+}

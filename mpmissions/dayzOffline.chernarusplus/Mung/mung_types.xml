@@ -785,10 +785,10 @@
         <usage name="Village"/>
     </type>
     <type name="dynamitestick_Mung">
-        <nominal>30</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

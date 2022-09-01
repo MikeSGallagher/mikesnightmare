@@ -177,7 +177,7 @@ ref autoptr TFloatArray data_HordeStatic335 = { 335,		5,		7,				20,		525,		0,		1
 ref autoptr TFloatArray data_HordeStatic336 = { 336,		6,		8,				20,		11862,		0,		12560,		0,		0,			0,			100,		110,					0,				0,				0,				0,				0,				100 }; 		//Field hospital - Krasno Airstrip 
 
 // STATIC SPAWN DATA //	New					// NUMCONFIG   NBRmini NBRmaxi     AREA-RADIUS  COORDX	 COORDY 	COORDZ	FloorNumb FloorHeight	Spawned		SpawnDist	ChoseZconfiguration		NumOfCHEST	CHESTcoordX		CHESTcoordY		CHESTcoordZ		ReactivationDelay	SpawningOptions//
-ref autoptr TFloatArray data_HordeStatic337 = { 0,			0,		0,				0,		0,			0,		0,			0,		0,			0,			0,			0,						0,				0,				0,				0,				0,				100 }; 		// Not_used_yet
+ref autoptr TFloatArray data_HordeStatic337 = { 337,		10,		15,				60,		4763, 		0, 		2293,		0,		0,			0,			100,		101,					0,				0,				0,				0,				0,				100 }; 		// Not_used_yet
 ref autoptr TFloatArray data_HordeStatic338 = { 0,			0,		0,				0,		0,			0,		0,			0,		0,			0,			0,			0,						0,				0,				0,				0,				0,				100 }; 		// Not_used_yet
 ref autoptr TFloatArray data_HordeStatic339 = { 0,			0,		0,				0,		0,			0,		0,			0,		0,			0,			0,			0,						0,				0,				0,				0,				0,				100 }; 		// Not_used_yet
 ref autoptr TFloatArray data_HordeStatic340 = { 0,			0,		0,				0,		0,			0,		0,			0,		0,			0,			0,			0,						0,				0,				0,				0,				0,				100 }; 		// Not_used_yet

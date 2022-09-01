@@ -1,8 +1,8 @@
 {
     "ModVersion": "2.11",
     "MenuDelay": 1.0,
-    "startCurrency": 0,
-    "maxCurrency": 100000000,
+    "startCurrency": 250000,
+    "maxCurrency": 500000000,
     "IsClanAccountActive": 1,
     "CostsToCreateClan": 5000,
     "CostsToInviteAnPlayer": 1000,
@@ -17,7 +17,7 @@
     "TimeInSecToRobATM": 120,
     "RobMessagesActive": 1,
     "PayCheckValue": 1000,
-    "PayCheckTickTime": 15,
+    "PayCheckTickTime": 0,
     "IsPayCheckMessageActive": 1,
     "CanAddPayCheckInSafezone": 1,
     "PayCheckMessage": "%Amount% added to your bank account! stay active to earn more money!",
@@ -37,7 +37,7 @@
     },
     "m_DiscordWebhook": {
         "m_UseWebhook": 1,
-        "m_WebhookURL": "https://discord.com/api/webhooks/879769309927313458/KDF49oZzR3VQxevTynksxFowX_LFxYKpwbPIe84N4CAa4-Bi9KyXVIcecLtElzH6eVBM",
+        "m_WebhookURL": "https://discord.com/api/webhooks/925608969509163028/rWbSkj54A07RLY9FFnxKM0H7XzdDAj4KT0va4tqaVtgQTYSVPmWF75YdecIw_GiSCUGr",
         "m_LogDepositToDiscord": 1,
         "m_LogWithdrawToDiscord": 1,
         "m_LogClanDepositToDiscord": 1,
@@ -45,8 +45,8 @@
         "m_LogClanCreateToDiscord": 1,
         "m_LogClanInviteMemberToDiscord": 1,
         "m_LogClanRemoveMemberToDiscord": 1,
-        "m_LogClanUpdatePermissionToDiscord": 1,
-        "m_LogClanKickMemberToDiscord": 1,
+        "m_LogClanUpdatePermissionToDiscord": 0,
+        "m_LogClanKickMemberToDiscord": 0,
         "m_AdminLogUpdateServerConfig": 1,
         "m_AdminLogUpdatePlayerData": 1,
         "m_AdminLogUpdateClanData": 1,
@@ -127,6 +127,36 @@
             ],
             "CanBeRobbed": 0,
             "RobMessage": "ATM Gets Robbed near Chernogorsk from Player: %PlayerName%"
+        },
+        {
+            "ATMSName": "KR_ATMGreen",
+            "Position": [
+                8568.7041015625,
+                104.01243591308594,
+                12741.123046875
+            ],
+            "Direction": [
+                -115.36984252929688,
+                -0.0,
+                -0.0
+            ],
+            "CanBeRobbed": 0,
+            "RobMessage": "ATM Gets Robbed near Novaya Petrovka from Player: %PlayerName%"
+        },
+        {
+            "ATMSName": "KR_ATMRusty",
+            "Position": [
+                5010.896484375,
+                339.012451171875,
+                9749.64453125
+            ],
+            "Direction": [
+                -90.67987060546875,
+                -0.0,
+                -0.0
+            ],
+            "CanBeRobbed": 0,
+            "RobMessage": "ATM Gets Robbed near Novaya Petrovka from Player: %PlayerName%"
         }
     ],
     "BankingCurrency": [

@@ -1,0 +1,607 @@
+<types>
+<!-- begin Dmns -->
+<!--MRAP-->
+	<type name="Dmns_MRAP">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="MRAPDriverDoor">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MRAPCoDriverDoor">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MRAPCargo1Door">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MRAPCargo2Door">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+<!--MRAP OD-->
+	<type name="Dmns_MRAP_OD">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="MRAPDriverDoor_OD">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MRAPCoDriverDoor_OD">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MRAPCargo1Door_OD">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MRAPCargo2Door_OD">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+<!--MRAP URBAN-->
+	<type name="Dmns_MRAP_Urban">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="MRAPDriverDoor_Urban">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MRAPCoDriverDoor_Urban">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MRAPCargo1Door_Urban">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MRAPCargo2Door_Urban">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+<!--MRAP SecOne-->
+	<type name="Dmns_MRAP_SecOne">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="MRAPDriverDoor_SecOne">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MRAPCoDriverDoor_SecOne">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MRAPCargo1Door_SecOne">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MRAPCargo2Door_SecOne">
+		<nominal>2</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MRAP_wheel">
+		<nominal>10</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>6</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+<!--Humvee-->
+	<type name="Dmns_HUMVEE">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="HUMVEEDriverDoor">
+		<nominal>4</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="HUMVEECoDriverDoor">
+		<nominal>4</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="HUMVEECargo1Door">
+		<nominal>4</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="HUMVEECargo2Door">
+		<nominal>4</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="HUMVEECargo3Door">
+		<nominal>3</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="HUMVEECargo4Door">
+		<nominal>3</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="HUMVEE_wheel">
+		<nominal>10</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>6</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+<!--MTVR-->
+	<type name="Dmns_MTVR">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="MTVRDriverDoor">
+		<nominal>4</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MTVRCoDriverDoor">
+		<nominal>4</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MTVRCargo1Door">
+		<nominal>3</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MTVRCargo2Door">
+		<nominal>3</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="MTVR_wheel">
+		<nominal>12</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>4</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+<!--Kamaz-->
+	<type name="Dmns_KAMAZ">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="KAMAZDriverDoor">
+		<nominal>4</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="KAMAZCoDriverDoor">
+		<nominal>4</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="KAMAZCargo1Door">
+		<nominal>3</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="KAMAZCargo2Door">
+		<nominal>3</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="KAMAZ_wheel">
+		<nominal>12</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>6</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+<!--Datsun-->
+	<type name="Dmns_DATSUN">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="DATSUNDriverDoor">
+		<nominal>5</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="DATSUNCoDriverDoor">
+		<nominal>5</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="DATSUN_wheel">
+		<nominal>16</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>10</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+<!--Ural-->
+	<type name="Dmns_URAL">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+	<type name="URALDriverDoor">
+		<nominal>4</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="URALCoDriverDoor">
+		<nominal>4</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="URALCargo1Door">
+		<nominal>3</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="URALCargo2Door">
+		<nominal>3</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+	<type name="URAL_wheel">
+		<nominal>10</nominal>
+		<lifetime>86400</lifetime>
+		<restock>1800</restock>
+		<min>5</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts" />
+		<usage name="Industrial" />
+	</type>
+</types>
+<!-- end Dmns -->

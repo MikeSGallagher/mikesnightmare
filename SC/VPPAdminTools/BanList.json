@@ -14,6 +14,21 @@
                 "Day": 0,
                 "Permanent": 1
             }
+        },
+        {
+            "playerName": "slapmysquid",
+            "Steam64Id": "76561199089323485",
+            "GUID": "6sfsRhRsteZFJ6g6hOnUte0zIk7ms2ae5ZbzWUBT8Gw=",
+            "banReason": "#VSTR_BAN_REASON Jas",
+            "issuedBy": "Jas|76561197964122063",
+            "expirationDate": {
+                "Hour": 22,
+                "Minute": 45,
+                "Year": 2022,
+                "Month": 3,
+                "Day": 23,
+                "Permanent": 1
+            }
         }
     ]
 }

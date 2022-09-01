@@ -1,0 +1,36 @@
+{
+    "m_ClanID": "BcmJ1fy2qJGcig1o",
+    "m_OwnersPlainID": "76561198045512864",
+    "m_ClanName": "Steinhanden",
+    "m_Prefix": "STHN",
+    "m_BankAmount": 200000,
+    "m_Members": [
+        {
+            "m_plainID": "76561198045512864",
+            "m_playername": "BrutalBrewer",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        },
+        {
+            "m_plainID": "76561198045624393",
+            "m_playername": "AutumnsFury",
+            "m_permissions": {
+                "m_CanWithdraw": 0,
+                "m_CanDeposit": 0,
+                "m_CanInvite": 0,
+                "m_CanKick": 0,
+                "m_CanEdit": 0
+            }
+        }
+    ],
+    "m_ClanLogs": [
+        "BrutalBrewer deposited: 200000",
+        "BrutalBrewer deposited: 0",
+        "BrutalBrewer deposited: 0"
+    ]
+}

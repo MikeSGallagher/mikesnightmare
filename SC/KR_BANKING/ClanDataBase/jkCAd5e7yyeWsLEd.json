@@ -1,0 +1,35 @@
+{
+    "m_ClanID": "jkCAd5e7yyeWsLEd",
+    "m_OwnersPlainID": "76561198055589947",
+    "m_ClanName": "DDD",
+    "m_Prefix": "DDD",
+    "m_BankAmount": 0,
+    "m_Members": [
+        {
+            "m_plainID": "76561198055589947",
+            "m_playername": "Crispy",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        },
+        {
+            "m_plainID": "76561197976915022",
+            "m_playername": "Giggles",
+            "m_permissions": {
+                "m_CanWithdraw": 0,
+                "m_CanDeposit": 0,
+                "m_CanInvite": 0,
+                "m_CanKick": 0,
+                "m_CanEdit": 0
+            }
+        }
+    ],
+    "m_ClanLogs": [
+        "Crispy deposited: 142910",
+        "Crispy withdrawed: 142910"
+    ]
+}

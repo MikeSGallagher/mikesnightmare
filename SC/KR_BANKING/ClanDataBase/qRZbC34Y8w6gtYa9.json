@@ -1,0 +1,44 @@
+{
+    "m_ClanID": "qRZbC34Y8w6gtYa9",
+    "m_OwnersPlainID": "76561198285653109",
+    "m_ClanName": "GlobalIntellCenter",
+    "m_Prefix": "GIC",
+    "m_BankAmount": 176890,
+    "m_Members": [
+        {
+            "m_plainID": "76561198285653109",
+            "m_playername": "JollyB",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        },
+        {
+            "m_plainID": "76561198288601151",
+            "m_playername": "peboeka",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        }
+    ],
+    "m_ClanLogs": [
+        "peboeka deposited: 98419",
+        "JollyB deposited: 101581",
+        "JollyB withdrawed: 40000",
+        "JollyB deposited: 19222",
+        "JollyB deposited: 411",
+        "peboeka deposited: 4010",
+        "JollyB deposited: 34",
+        "JollyB withdrawed: 500",
+        "peboeka withdrawed: 5000",
+        "JollyB withdrawed: 8177",
+        "peboeka deposited: 6890"
+    ]
+}

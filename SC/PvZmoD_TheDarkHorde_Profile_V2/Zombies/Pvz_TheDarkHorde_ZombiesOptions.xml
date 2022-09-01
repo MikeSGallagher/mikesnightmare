@@ -47,10 +47,13 @@
 	<type name="Master_Follow_The_Horde_And_Despawn">		
 		<Distance_To_Teleport_Master_When_Horde_Is_Calm		Mini="10"	Maxi="10"/>	<!-- [Integer 10 to infinite] (meters) -->
 		<Distance_To_Teleport_Master_When_Horde_Is_Not_Calm	Mini="40"	Maxi="50"/> <!-- [Integer 10 to infinite] (meters) -->
-		<Master_Despawn_Time_After_Master_Have_Been_Killed	Value="300"/>			<!-- [Integer 0 to infinite] (seconds) -->
+		<Master_Despawn_Time_After_Master_Have_Been_Killed	Value="900"/>			<!-- [Integer 0 to infinite] (seconds) -->
 	</type>
    
+   
 	<type name="NewFeatures">  
+		<Master_Size_Ratio							Day="1.5" 	Night="1.5"/> 	<!-- [Decimal - Theoretically: 0 to infinite - Recommended 0.5 to 1.5] (new feature, you should move it in "Master_Behaviours" section)  -->
+ 
 	</type>
 </types>
 

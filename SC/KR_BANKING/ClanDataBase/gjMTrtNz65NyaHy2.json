@@ -1,0 +1,35 @@
+{
+    "m_ClanID": "gjMTrtNz65NyaHy2",
+    "m_OwnersPlainID": "76561197961406737",
+    "m_ClanName": "DEEZ",
+    "m_Prefix": "DEEZ",
+    "m_BankAmount": 200000,
+    "m_Members": [
+        {
+            "m_plainID": "76561197961406737",
+            "m_playername": "Elementscout",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        },
+        {
+            "m_plainID": "76561197984467081",
+            "m_playername": "meeks",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        }
+    ],
+    "m_ClanLogs": [
+        "Elementscout deposited: 200000",
+        "Elementscout deposited: 0"
+    ]
+}

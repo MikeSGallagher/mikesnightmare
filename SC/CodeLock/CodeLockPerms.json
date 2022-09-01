@@ -6,5 +6,61 @@
             "CanChangePasscodes": "true",
             "CanRemoveLocks": "true"
         }
+    },
+    {
+        "playerId": "76561198240053012",
+        "playerPerms": {
+            "CanOpenLocks": "true",
+            "CanChangePasscodes": "true",
+            "CanRemoveLocks": "true"
+        }
+    },
+    {
+        "playerId": "76561198015543936",
+        "playerPerms": {
+            "CanOpenLocks": "true",
+            "CanChangePasscodes": "true",
+            "CanRemoveLocks": "true"
+        }
+    },
+    {
+        "playerId": "76561198157575784",
+        "playerPerms": {
+            "CanOpenLocks": "true",
+            "CanChangePasscodes": "true",
+            "CanRemoveLocks": "true"
+        }
+    },
+    {
+        "playerId": "76561198410981317",
+        "playerPerms": {
+            "CanOpenLocks": "true",
+            "CanChangePasscodes": "true",
+            "CanRemoveLocks": "true"
+        }
+    },
+    {
+        "playerId": "76561198998448433",
+        "playerPerms": {
+            "CanOpenLocks": "true",
+            "CanChangePasscodes": "true",
+            "CanRemoveLocks": "true"
+        }
+    },
+    {
+        "playerId": "76561198020214042",
+        "playerPerms": {
+            "CanOpenLocks": "true",
+            "CanChangePasscodes": "true",
+            "CanRemoveLocks": "true"
+        }
+    },
+    {
+        "playerId": "76561197964122063",
+        "playerPerms": {
+            "CanOpenLocks": "true",
+            "CanChangePasscodes": "true",
+            "CanRemoveLocks": "true"
+        }
     }
 ]

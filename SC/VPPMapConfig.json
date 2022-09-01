@@ -1,71 +1,119 @@
 {
-    "M_STATIC_MARKER_ARRAY": [
-        {
-            "M_MARKER_NAME": "Green Moutnain Trader",
-            "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
-            "M_COLOR": [
-                0.0,
-                204.0,
-                0.0
-            ],
-            "M_POSITION": [
-                3718.05,
-                0.0,
-                6000.3
-            ],
-            "M_ISACTIVE": 1,
-            "M_IS_3D_ACTIVE": 1
-        },
-        {
-            "M_MARKER_NAME": "Kumyrna Trader",
-            "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
-            "M_COLOR": [
-                0.0,
-                204.0,
-                0.0
-            ],
-            "M_POSITION": [
-                8355.22,
-                0.0,
-                5985.68
-            ],
-            "M_ISACTIVE": 1,
-            "M_IS_3D_ACTIVE": 1
-        },
-		{
-            "M_MARKER_NAME": "Helicopter Trader Balota Airfield",
-            "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
-            "M_COLOR": [
-                0.0,
-                204.0,
-                0.0
-            ],
-            "M_POSITION": [
-                5054.33 ,
-                0.0,
-                2348.27
-            ],
-            "M_ISACTIVE": 1,
-            "M_IS_3D_ACTIVE": 1
-        },
-		{
-            "M_MARKER_NAME": "South East Coast Trader",
-            "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
-            "M_COLOR": [
-                0.0,
-                204.0,
-                0.0
-            ],
-            "M_POSITION": [
-                10341.6 ,
-                0.0,
-                1723.41
-            ],
-            "M_ISACTIVE": 1,
-            "M_IS_3D_ACTIVE": 1
-        }
-    ],
-    "m_CanUse3DMarkers": 1,
-    "m_OwnPositionMarkerDisabled": 0,
-    "m_ForceMapItemOnly": 0
+  "M_STATIC_MARKER_ARRAY": [
+    {
+      "M_MARKER_NAME": "Green Moutain Trader",
+      "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
+      "M_COLOR": [
+        0,
+        204,
+        0
+      ],
+      "M_POSITION": [
+        3718.05,
+        100,
+        6000.3
+      ],
+      "M_ISACTIVE": 1,
+      "M_IS_3D_ACTIVE": 1
+    },
+    {
+      "M_MARKER_NAME": "Kumyrna Trader",
+      "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
+      "M_COLOR": [
+        0,
+        204,
+        0
+      ],
+      "M_POSITION": [
+        8355.22,
+        100,
+        5985.68
+      ],
+      "M_ISACTIVE": 1,
+      "M_IS_3D_ACTIVE": 1
+    },
+    {
+      "M_MARKER_NAME": "Helicopter Trader NWAF",
+      "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
+      "M_COLOR": [
+        0,
+        204,
+        0
+      ],
+      "M_POSITION": [
+        5019.88,
+        100,
+        9738.01
+      ],
+      "M_ISACTIVE": 1,
+      "M_IS_3D_ACTIVE": 1
+    },
+    {
+      "M_MARKER_NAME": "Severograd Trader",
+      "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
+      "M_COLOR": [
+        0,
+        204,
+        0
+      ],
+      "M_POSITION": [
+        8562.7,
+        100,
+        12744.6
+      ],
+      "M_ISACTIVE": 1,
+      "M_IS_3D_ACTIVE": 1
+    },
+    {
+      "M_MARKER_NAME": "South East Coast Trader",
+      "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
+      "M_COLOR": [
+        0,
+        204,
+        0
+      ],
+      "M_POSITION": [
+        10341.6,
+        100,
+        1723.41
+      ],
+      "M_ISACTIVE": 1,
+      "M_IS_3D_ACTIVE": 1
+    },
+    {
+      "M_MARKER_NAME": "Abandoned Military Outpost",
+      "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
+      "M_COLOR": [
+        0,
+        204,
+        0
+      ],
+      "M_POSITION": [
+        127.7,
+        100,
+        6663.44
+      ],
+      "M_ISACTIVE": 1,
+      "M_IS_3D_ACTIVE": 1
+    },
+    {
+      "M_MARKER_NAME": "Jas Lakeside house",
+      "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
+      "M_COLOR": [
+        0,
+        204,
+        0
+      ],
+      "M_POSITION": [
+        4698.46,
+        100,
+        13304.69
+      ],
+      "M_ISACTIVE": 1,
+      "M_IS_3D_ACTIVE": 1
+    }
+  ],
+  "m_CanUse3DMarkers": 1,
+  "m_OwnPositionMarkerDisabled": 0,
+  "m_ForceMapItemOnly": 0
 }

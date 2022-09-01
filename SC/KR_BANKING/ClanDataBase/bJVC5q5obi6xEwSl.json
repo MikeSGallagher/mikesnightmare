@@ -1,0 +1,24 @@
+{
+    "m_ClanID": "bJVC5q5obi6xEwSl",
+    "m_OwnersPlainID": "76561198090920240",
+    "m_ClanName": "The Monkey Men",
+    "m_Prefix": "TMM",
+    "m_BankAmount": 5000,
+    "m_Members": [
+        {
+            "m_plainID": "76561198090920240",
+            "m_playername": "TKM1",
+            "m_permissions": {
+                "m_CanWithdraw": 1,
+                "m_CanDeposit": 1,
+                "m_CanInvite": 1,
+                "m_CanKick": 1,
+                "m_CanEdit": 1
+            }
+        }
+    ],
+    "m_ClanLogs": [
+        "TKM1 deposited: 500",
+        "TKM1 deposited: 4500"
+    ]
+}

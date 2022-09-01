@@ -5,7 +5,7 @@
 
 <types>
 	<type name="Global_Safe_Zones_Options">
-		<Global_Activation										Value = "0" />       	<!-- [Interger 0 or 1] -->
+		<Global_Activation										Value = "1" />       	<!-- [Interger 0 or 1] -->
         <Teleport_Distance_When_Entering_Safe_Zone				Value = "1000"/>       	<!-- [Integer 10 to Infinity] (meters) -->
         <Security_Distance_To_Players							Value = "500"/>       	<!-- [Integer 10 to Infinity] (meters) -->
         <Also_Count_Players_In_Safe_Zone_To_Trigger_Hunting_Mod	Value = "false"/>       <!-- [true or false] -->
@@ -16,7 +16,7 @@
 	<!-- =============== Save Zone Lists =================== -->
 	<!-- =================== Chernarus ===================== -->
 	<type name="Trader_GreenMountain">								<!-- [Text] -->
-		<Activated					Value = "0" />      			<!-- [Integer 0 or 1] -->
+		<Activated					Value = "1" />      			<!-- [Integer 0 or 1] -->
         <Corner_UpperLeft			Coordinates = "3495/6163"/>		<!-- [Integer/Integer] -->
         <Corner_LowerRight			Coordinates = "3987/5636"/>		<!-- [Integer/Integer] -->
 	</type>	

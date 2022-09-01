@@ -51,11 +51,11 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_BosTaurusF_Brown"/>
-            <child lootmax="0" lootmin="0" max="2" min="0" type="Animal_BosTaurusF_Spotted"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurusF_Brown"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurusF_Spotted"/>
             <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurusF_White"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_BosTaurus_Brown"/>
-            <child lootmax="0" lootmin="0" max="2" min="0" type="Animal_BosTaurus_Spotted"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurus_Brown"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurus_Spotted"/>
             <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurus_White"/>
         </children>
     </event>
@@ -707,10 +707,10 @@
         <flags deletable="1" init_random="1" remove_damaged="0"/>
         <position>fixed</position>
         <limit>parent</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="0" lootmin="0" max="4" min="2" type="ContaminatedArea_Dynamic"/>
-        </children>
+       </children>
     </event>
     <event name="StaticFridgeTest">
         <nominal>0</nominal>
@@ -780,8 +780,24 @@
         <limit>child</limit>
         <active>0</active>
         <children>
-            <child lootmax="15" lootmin="10" max="3" min="1" type="SantasSleigh"/>
+            <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_SantasSleigh"/>
         </children>
+    </event>
+    <event name="StaticTrain">
+        <nominal>3</nominal>
+        <min>1</min>
+        <max>0</max>
+        <lifetime>5400</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedIndustrial</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children/>
     </event>
     <event name="TrajectoryApple">
         <nominal>140</nominal>
@@ -833,7 +849,6 @@
         <children>
             <child lootmax="0" lootmin="0" max="0" min="0" type="BoletusMushroom"/>
             <child lootmax="0" lootmin="0" max="0" min="0" type="MacrolepiotaMushroom"/>
-			<child lootmax="0" lootmin="0" max="0" min="0" type="PsilocybeMushroom"/>
         </children>
     </event>
     <event name="TrajectoryDeciduous">
@@ -851,7 +866,6 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="0" min="0" type="LactariusMushroom"/>
-			<child lootmax="0" lootmin="0" max="0" min="0" type="PsilocybeMushroom"/>
         </children>
     </event>
     <event name="TrajectoryHumus">
@@ -870,7 +884,6 @@
         <children>
             <child lootmax="0" lootmin="0" max="0" min="0" type="AgaricusMushroom"/>
             <child lootmax="0" lootmin="0" max="0" min="0" type="PleurotusMushroom"/>
-			<child lootmax="0" lootmin="0" max="0" min="0" type="PsilocybeMushroom"/>
         </children>
     </event>
     <event name="TrajectoryPear">
@@ -1036,24 +1049,4 @@
             <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Orange"/>
         </children>
     </event>
-	<event name="VehicleLandRoverDefender">
-		<waves>0</waves>
-		<nominal>25</nominal>
-		<min>20</min>
-		<max>25</max>
-		<lifetime>300</lifetime>
-		<restock>0</restock>
-		<saferadius>500</saferadius>
-		<distanceradius>500</distanceradius>
-		<cleanupradius>200</cleanupradius>a
-		<flags deletable="0" init_random="0" remove_damaged="1"/>
-		<position>fixed</position>
-		<limit>mixed</limit>
-		<active>1</active>
-		<children>
-			<child lootmax="0" lootmin="0" max="15" min="10" type="CrSk_Land_Rover_Defender_110"/>
-			<child lootmax="0" lootmin="0" max="15" min="10" type="CrSk_Land_Rover_Defender_110_Green"/>
-			<child lootmax="0" lootmin="0" max="15" min="10" type="CrSk_Land_Rover_Defender_110_UN"/>
-		</children>
-	</event>
 </events>

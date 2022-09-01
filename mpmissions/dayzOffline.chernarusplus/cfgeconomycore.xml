@@ -39,11 +39,14 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
     </ce>
 	<ce folder="MVS">
         <file name="mvs_types.xml" type="types" />
-		<file name="cfgspawnabletypes.xml" type="spawnabletypes" />
+		<file name="mvs_cfgspawnabletypes.xml" type="spawnabletypes" />
     </ce>
 	<ce folder="Codelock">
         <file name="codelock_types.xml" type="types" />
     </ce>
+	<ce folder="CarCover">
+        <file name="types.xml" type="types" />
+    </ce>  
 	<ce folder="Morty_ce">
 		<file name="Morty_types.xml" type="types" />
 		<file name="Morty_cfgspawnabletypes.xml" type="spawnabletypes" />
@@ -51,10 +54,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="Sebbes_ce">
 		<file name="Sebbes_Types.xml" type="types" />
 		<file name="Sebbes_Spawnabletypes.xml" type="spawnabletypes" />
-	</ce>
-	<ce folder="Mass">
-		<file name="mass_types.xml" type="types" />
-		<file name="mass_cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 	<ce folder="Clouds">
         <file name="cloud_types.xml" type="types" />
@@ -89,37 +88,25 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="BBP">
         <file name="bbp_types.xml" type="types" />
     </ce>
-	<ce folder="SB">
-		<file name="sb_types.xml" type="types" />
-    </ce>
 	<ce folder="MuchDeco">
         <file name="much_types.xml" type="types" />
-    </ce>
-	<ce folder="CP">
-        <file name="cannabisplus_types.xml" type="types" />
-    </ce>
-	<ce folder="DrugsPlus">
-        <file name="drugsplus_types.xml" type="types" />
     </ce>
 	<ce folder="AWS">
         <file name="aws_types.xml" type="types" />
     </ce>
-	<ce folder="RagHummer">
-        <file name="rag_types.xml" type="types" />
-    </ce>
 	<ce folder="MCK">
         <file name="mck_types.xml" type="types" />
     </ce>
-	<ce folder="FreeHeli">
-        <file name="types_by_Stephane.xml" type="types" />
+	<ce folder="RedFalcon">
+        <file name="red_types.xml" type="types" />
+		<file name="cfgspawnabletypes.xml" type="spawnabletypes" />
     </ce>
 	<ce folder="Def110">
 		<file name="def_types.xml" type="types" />
 		<file name="def_cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
-	<ce folder="Rag110">
-		<file name="rag_types.xml" type="types" />
-		<file name="rag_cfgspawnabletypes.xml" type="spawnabletypes" />
+	<ce folder="Cj7">
+		<file name="Cj7_types.xml" type="types" />
 	</ce>
 	<ce folder="CJAR15">
 		<file name="cj15_types.xml" type="types" />
@@ -131,5 +118,16 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	</ce>
 	<ce folder="CabinZ">
 		<file name="cabinz_types.xml" type="types" />
+	</ce>
+	<ce folder="TacFlav">
+		<file name="TacticalFlava_types.xml" type="types" />
+		<file name="TacticalFlava_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+	<ce folder="Dmns">
+		<file name="Type.xml" type="types" />
+		<file name="SpawnableTypes.xml" type="spawnabletypes" />
+	</ce>
+	<ce folder="MassFood">
+		<file name="MassFood.xml" type="types" />
 	</ce>
 </economycore>

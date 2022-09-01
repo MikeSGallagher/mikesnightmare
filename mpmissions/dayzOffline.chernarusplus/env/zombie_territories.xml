@@ -791,4 +791,7 @@
         <zone name="InfectedVillage" smin="0" smax="0" dmin="6" dmax="8" x="11358.8" z="12541.3" r="50"/>
         <zone name="InfectedVillage" smin="0" smax="0" dmin="4" dmax="6" x="5806.5" z="4069.5" r="60"/>
     </territory>
+  <territory color="1124502272">
+        <zone name="InfectedArmy" smin="1" smax="2" dmin="8" dmax="18" x="122.3" z="6675.5" r="50"/>
+    </territory>
 </territory-type>

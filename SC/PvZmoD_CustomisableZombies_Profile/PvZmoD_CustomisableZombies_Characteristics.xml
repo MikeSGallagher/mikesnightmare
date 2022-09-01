@@ -1500,7 +1500,7 @@
 	<!-- Use "58" "59" and "61" values of the Dark Horde json file to set health points instead -->
 	<!-- Or use vanilla zombies to remplace masters and night creatures in the Pvz_TheDarkHorde_ZombiesList.c file -->
 	<type name="ZmbM_DH_Master_Day">
-        <Health_Points				Day="400" 	Night="400"/> 	<!--  Strong Lvl 5  -->
+        <Health_Points				Day="6000" 	Night="9000"/> 	<!--  Strong Lvl 5  -->
         <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
         <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
         <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
@@ -1527,7 +1527,7 @@
  		<Numb_Of_Hit_To_Break_Doors	Day="1"		Night="1"/>
     </type>
 	<type name="ZmbM_DH_Master_Night">							<!--  This class is use if go through walls option of Dark Horde mod is Activated  -->
-        <Health_Points				Day="400" 	Night="400"/> 	<!--  Strong Lvl 5  -->
+        <Health_Points				Day="6000" 	Night="9000"/> 	<!--  Strong Lvl 5  -->
         <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
         <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
         <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>
@@ -1555,7 +1555,7 @@
     </type>
 	
 	<type name="ZmbM_DH_Master_Night_NotThroughWalls">			<!--  This class is use if go through walls option of Dark Horde mod is Deactivated  -->
-        <Health_Points				Day="400" 	Night="400"/> 	<!--  Strong Lvl 5  -->
+        <Health_Points				Day="6000" 	Night="9000"/> 	<!--  Strong Lvl 5  -->
         <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
         <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
         <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/>

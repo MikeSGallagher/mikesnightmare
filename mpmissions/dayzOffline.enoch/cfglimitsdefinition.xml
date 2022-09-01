@@ -30,11 +30,13 @@
         <usage name="School"/>
         <usage name="Prison"/>
         <usage name="SeasonalEvent"/>
-		<usage name="ContaminatedArea"/>
+        <usage name="ContaminatedArea"/>
+        <usage name="Special"/>
     </usageflags>
     <valueflags>
         <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+        <value name="Unique"/>
     </valueflags>
 </lists>

@@ -3,16 +3,16 @@
 
 <!-- Restart message -->
 <message>
-<repeat>60</repeat>
+<repeat>30</repeat>
 <deadline>240</deadline>
 <shutdown>1</shutdown>
-<text>WARNING! #name will shutdown in #tmin minutes.</text>
+<text>WARNING! #name will Restart in #tmin minutes.</text>
 </message>
 
 <!-- Welcome message -->
 <message>
-<delay>5</delay>
-<repeat>0</repeat>
+<delay>3</delay>
+<repeat>60</repeat>
 <onConnect>1</onConnect>
 <text>Welcome to #name, have fun!</text>
 </message>
@@ -22,7 +22,7 @@
 <delay>10</delay>
 <repeat>30</repeat>
 <onConnect>1</onConnect>
-<text>Please read and follow our server rules!</text>
+<text>Press the Pause/Break button to read and follow our server rules!</text>
 </message>
 
 <!-- Repeating message #2 -->
@@ -30,7 +30,7 @@
 <delay>15</delay>
 <repeat>45</repeat>
 <onConnect>1</onConnect>
-<text>Have fun playing on our server.</text>
+<text>you can support us by a small donation to keep the server growing Thank You!</text>
 </message>
 
 <!-- Repeating message #3 -->
@@ -39,6 +39,14 @@
 <repeat>60</repeat>
 <onConnect>1</onConnect>
 <text>Be sure to join our discord!</text>
+</message>
+
+<!-- Repeating message #4 -->
+<message>
+<delay>25</delay>
+<repeat>55</repeat>
+<onConnect>1</onConnect>
+<text>This Server is PVE/NO BASE RAIDING</text>
 </message>
 
 </messages>

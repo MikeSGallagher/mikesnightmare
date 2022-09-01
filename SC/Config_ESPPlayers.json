@@ -1,0 +1,15 @@
+{
+    "Activate_Vioce_Icons": 0,
+    "Activate_KeyBind": 0,
+    "MenuKeyBind": "KC_K",
+    "Radius_ESPViev": 70.0999984741211,
+    "Color_RGB": [
+        255.0,
+        255.0,
+        255.0
+    ],
+    "TextIsBold": 1,
+    "TextIsItalic": 1,
+    "TextSize": 16,
+    "ShowDistanceToPlayer": 0
+}
