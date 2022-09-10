@@ -2756,7 +2756,7 @@
 		simplebackpack_redpink_mung,                                           *,                   800,                 400
 		simplebackpack_redyellow_mung,                                         *,                   800,                 400
 		oxygentankrig_mung,                                                    *,                   500,                 250
-<Category> WindstridesClothingPack
+<Category>WindstridesClothingPack
 PMK_5A_Gas_Mask, *, 2000, 450
 HumanSkull, *, -1, -1
 SkullMask, *, 700, 50
