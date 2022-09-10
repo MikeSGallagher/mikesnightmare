@@ -130,4 +130,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="MassFood">
 		<file name="MassFood.xml" type="types" />
 	</ce>
+	<ce folder="WSC">
+		<file name="wsc_types.xml" type="types" />
+	</ce>
 </economycore>
